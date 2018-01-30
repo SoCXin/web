@@ -1,5 +1,6 @@
 FROM centos:centos7
-MAINTAINER qitas <qitas@qitas.cn>
+MAINTAINER qitas <qitas@hotmail.com>
+ADD ./MariaDB.repo /etc/yum.repos.d/
 RUN yum -y update; yum clean all
 RUN yum -y install epel-release; yum clean all
 RUN yum -y install mariadb mariadb-server mariadb-client nginx php-fpm php-cli php-mysql php-gd php-imap php-ldap php-odbc php-pear php-xml php-xmlrpc php-magickwand php-magpierss php-mbstring php-mcrypt php-mssql php-shout php-snmp php-soap php-tidy php-apc pwgen python-setuptools curl git tar; yum clean all
