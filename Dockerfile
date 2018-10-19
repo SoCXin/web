@@ -1,4 +1,3 @@
-
 FROM wordpress:latest
 
 LABEL author="qitas"
