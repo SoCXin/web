@@ -1,12 +1,16 @@
-﻿# docker wordpress
+﻿# # [CMS](https://github.com/Qitas/CMS) 
 
 ### 简介
 
-通过容器的方式，部署wordpress博客系统，完成相应的初始化。
+通过容器的方式，部署wordpress系统，自动完成相应的初始化
 
 ---
 
 ## 组成
+
+####  wordpress 4.9.8
+
+- 内容主体
 
 ####  build.sh
 
@@ -27,12 +31,6 @@
 ####  DB
 
 - 关联数据库
-
----
-
-## 说明
-
-2018-10-19: 添加wordpress文件
 
 ---
 
