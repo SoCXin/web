@@ -1,0 +1,44 @@
+title: OS-Q Docs
+subtitle: "OS-Q Documentation."
+description: "OS-Q Documentation."
+author: OS-Q
+language:
+  - en
+timezone: PRC
+
+url: https://docs.OS-Q.com
+root: /
+permalink: news/:year/:month/:day/:title/
+archive_dir: news
+code_dir: downloads/code
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+post_asset_folder: true
+per_page: 0
+
+skip_render: vendor/**
+
+theme: navy
+deploy:
+  type: git
+  repo: git@github.com:OS-Q/OS-Q.github.io.git
+  branch: master
+
+highlight:
+  enable: true
+  line_number: false
+
+#disqus_shortname: hexojs
+google_analytics: UA-110196417-1
+#fb_admins: 100000247608790
+#algolia:
+#  en:
+#    api_key: c3d5d4c995b5e0c2ffb5623900279a66
+#    index_name: hexo
+#  zh-tw:
+#    api_key: c83d2ec3440f40aec6d0e695ecec7ef3
+#    index_name: hexo_zh-tw
+#  zh-cn:
+#    api_key: cdea7d4e47d84f6145b77e7f68689f35
+#    index_name: hexo_zh-cn
+twitter: khadas_official
+github: OS-Q/khadas_docs
