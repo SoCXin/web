@@ -10,8 +10,8 @@ ssh-add ~/.ssh/id_rsa
 # Copy SSH config
 cp .travis/ssh_config ~/.ssh/config
 # Set Git config
-git config --global user.name "OS-Q Bot"
-git config --global user.email hello@OS-Q.com
+git config --global user.name qitas
+git config --global user.email qitas@qitas.cn
 # Clone the repository
 git clone git@github.com:OS-Q/OS-Q.github.io.git .deploy_git
 # Deploy to GitHub
