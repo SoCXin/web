@@ -83,8 +83,8 @@ sdcc -D__SDCC__ -I./ -I/usr/share/sdcc/include -mstm8 --out-fmt-ihx -c tim2.c
 tim2.c:53: warning 116: right shifting more than size of object changed to zero
 sdcc -D__SDCC__ -I./ -I/usr/share/sdcc/include -mstm8 --out-fmt-ihx -c i2c.c
 sdcc -D__SDCC__ -I./ -I/usr/share/sdcc/include -mstm8 --out-fmt-ihx -c adc.c
-sdcc -mstm8 --out-fmt-ihx -lstm8 uart.rel clk.rel flash.rel gpio.rel int.rel main.rel tim4.rel tim1.rel tim2.rel i2c.rel adc.rel -o Khadas.ihx
-packihx Khadas.ihx > Khadas.hex
+sdcc -mstm8 --out-fmt-ihx -lstm8 uart.rel clk.rel flash.rel gpio.rel int.rel main.rel tim4.rel tim1.rel tim2.rel i2c.rel adc.rel -o khadas.ihx
+packihx khadas.ihx > khadas.hex
 packihx: read 250 lines, wrote 491: OK.
 ```
 
@@ -95,11 +95,11 @@ stm8flash -cstlinkv2 -pstm8s003?3 -s eeprom -w eeprom.hex
 Determine EEPROM area
 Writing Intel hex file 128 bytes at 0x4000... OK
 Bytes written: 128
-stm8flash -cstlinkv2 -pstm8s003?3 -s flash -w Khadas.ihx
+stm8flash -cstlinkv2 -pstm8s003?3 -s flash -w khadas.ihx
 Determine FLASH area
 Writing Intel hex file 8003 bytes at 0x8000... OK
 Bytes written: 8003
 ```
 
 ### See Also
-[MCU code](https://github.com/Khadas/vim2-mcu)
+[MCU code](https://github.com/khadas/vim2-mcu)

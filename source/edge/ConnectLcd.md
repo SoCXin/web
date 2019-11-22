@@ -6,11 +6,11 @@ title: Connect to TS050 Touchscreen
 ![Edge_Captain_TS050_Battery_Case](/images/edge/Cpt-v12_TS050_For_Display.jpg)
 
 * Download and unpack this [Android 9.0 MIPI Firmware](https://mega.nz/#!7vZD0I6D!sYrXemihQWok-L9tjq-N-6xE4rcAmMId75nfr3QQhO8), made by GoEnjoy.
-* Then install the [RockChip USB Drivers](https://dl.Khadas.com/Tools/DriverAssitant_v4.6.zip), and plug in your Edge / Edge-V into your PC via USB-C cable.
-* Reflash the firmware using these [USB Upgrade Instructions](https://docs.Khadas.com/edge/UpgradeViaUSBCable.html), and reboot your Edge.
+* Then install the [RockChip USB Drivers](https://dl.khadas.com/Tools/DriverAssitant_v4.6.zip), and plug in your Edge / Edge-V into your PC via USB-C cable.
+* Reflash the firmware using these [USB Upgrade Instructions](https://docs.khadas.com/edge/UpgradeViaUSBCable.html), and reboot your Edge.
 * If you run into trouble, first press "Switch", then "EraseFlash", then "Upgrade", in that order.
 
-![RK_Upgrade_Tool](https://docs.Khadas.com/images/edge/AndroldTool_firmware.png)
+![RK_Upgrade_Tool](https://docs.khadas.com/images/edge/AndroldTool_firmware.png)
 
 
 # 2. Brief Introduction
@@ -29,7 +29,7 @@ Captain has two LCD screen interfaces：EDP + MIPI. The position of the interfac
 
 # 3. (HDMI + DP) Screen Config
 ##  3.1 Configure **DTS**
-rk3399-Khadas-edge.dtsi,  for example: HDMI (Main Display) + DP (Secondary Display)
+rk3399-khadas-edge.dtsi,  for example: HDMI (Main Display) + DP (Secondary Display)
 ### 3.1.1 Enable Corresponding Display Device Nodes
 ```sh
 &hdmi {
@@ -133,7 +133,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # 4. (MIPI + HDMI) Screen Config
 ![TS050 and Edge-V](/images/edge/edge_v_ts050.jpg)
 ##  4.1 Configuring **DTS**
-rk3399-Khadas-edge-mipi-android.dtsi, for example: MIPI (Main Display) + HDMI (Secondary Display).
+rk3399-khadas-edge-mipi-android.dtsi, for example: MIPI (Main Display) + HDMI (Secondary Display).
 ### 4.1.1 Enable Corresponding Display Device Nodes
 ```sh
 &hdmi {
@@ -351,7 +351,7 @@ HDMI or DP + MIPI: This means compatible with HDMI(Main Display) + MIPI (Seconda
 ##  5.1 Configuring **DTS**
 ### android 9.0 Config
 See DTS below for more details on the previous two chapters:
-rk3399-Khadas-edge-android.dts
+rk3399-khadas-edge-android.dts
 
 ##  5.2 Main and Secondary Display Config
 ### android 9.0 Config

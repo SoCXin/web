@@ -15,7 +15,7 @@ Why do we need a "Bootable SD-Card"?
 **Note: The operation of VIM1, VIM2 and VIM3 is almost the same, so this document will take VIM1 as an example.**
 
 ### Getting Started
-Download U-Boot ([VIM1](https://dl.Khadas.com/Firmware/VIM1/U-boot/)/[VIM2](https://dl.Khadas.com/Firmware/VIM2/U-boot/)/[VIM3](https://dl.Khadas.com/Firmware/VIM3/U-boot/)) or build U-Boot to get the bootloader blob for your SD-Card.
+Download U-Boot ([VIM1](https://dl.khadas.com/Firmware/VIM1/U-boot/)/[VIM2](https://dl.khadas.com/Firmware/VIM2/U-boot/)/[VIM3](https://dl.khadas.com/Firmware/VIM3/U-boot/)) or build U-Boot to get the bootloader blob for your SD-Card.
 No matter which method you choose, you need to keep in mind that there are different bootloader blobs for different boot disks/media:
 
 * U-Boot blob `u-boot.bin.sd.bin` is built for SD-Cards

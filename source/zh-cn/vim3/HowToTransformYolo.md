@@ -14,8 +14,8 @@ title: yolov3模型转换
 > 3. `--weight-input` weights文件位置
 例如:
 > `NAME=yolov3`
-> `--net-input /home/Khadas/Pictures/VOCdevkit/yolov3-train/yolov3-voc.cfg \`
-> `--weight-input /home/Khadas/Pictures/VOCdevkit/yolov3-train/backup/yolov3-voc_final.weights \`
+> `--net-input /home/khadas/Pictures/VOCdevkit/yolov3-train/yolov3-voc.cfg \`
+> `--weight-input /home/khadas/Pictures/VOCdevkit/yolov3-train/backup/yolov3-voc_final.weights \`
 
 ### 1_quantize_model.sh
 

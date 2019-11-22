@@ -5,14 +5,14 @@ title: Upgrade Via a USB-C Cable
 
 ## Upgrade On Windows
 ### Perparation
-* Dowload the [USB Upgrade Tool](https://dl.Khadas.com/Tools/USB_Burning_Tool_v2.1.7.3_zh.zip) and extarct it.
+* Dowload the [USB Upgrade Tool](https://dl.khadas.com/Tools/USB_Burning_Tool_v2.1.7.3_zh.zip) and extarct it.
 * Run `setup_v2.x.x.exe` to install the tool for upgrading your VIMs:
 	![Image of USB_Upgrade_tool_setup_v217](/images/vim1/usb_upgrade_tool_setup_v217.png)
 
 ### Upgrade steps
 Make soure that you have install the correct USB upgrade Tool, then follow the steps below to upgrade:
 
-1. Open `USB_Burning_tool_v2.x.x.exe`, click "File-->Import Image" to choose an [image](https://dl.Khadas.com/Firmware/) for your VIMs.
+1. Open `USB_Burning_tool_v2.x.x.exe`, click "File-->Import Image" to choose an [image](https://dl.khadas.com/Firmware/) for your VIMs.
 2. Connect your VIMs to your PC with a USB-C data cable (VIMs will power on automatically).
 3. Place your VIMs into "Upgrade Mode":
 	* Long press the `Power` key without releasing it.
@@ -34,9 +34,9 @@ Make soure that you have install the correct USB upgrade Tool, then follow the s
 $sudo apt-get install libusb-dev git parted
 ```
 ### Dowmload Burning Tool
-Image burning tool for Ubuntu is in this repository [utils](https://github.com/Khadas/utils).
+Image burning tool for Ubuntu is in this repository [utils](https://github.com/khadas/utils).
 ```
-$git clone https://github.com/Khadas/utils
+$git clone https://github.com/khadas/utils
 ```
 Or just pull it (if you have already cloned this repository).
 ```
@@ -127,7 +127,7 @@ Do you want to reset the board? y/n [n]? y
 Resetting board [OK]
 
 ```
-For more information please refer to [docs](https://github.com/Khadas/utils/tree/master/aml-flash-tool/docs).
+For more information please refer to [docs](https://github.com/khadas/utils/tree/master/aml-flash-tool/docs).
 
 ### Uninstall Burning Tool
 ```

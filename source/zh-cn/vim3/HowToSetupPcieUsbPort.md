@@ -64,7 +64,7 @@ You'll need to navigate to "Device Preferences" using an IR remote, mouse or att
 * 查看当前模式：
 
 ```
-Khadas@Khadas:~$ cat /sys/class/mcu/usb_pcie_switch_mode
+khadas@Khadas:~$ cat /sys/class/mcu/usb_pcie_switch_mode
 1
 ```
 
@@ -74,19 +74,19 @@ Khadas@Khadas:~$ cat /sys/class/mcu/usb_pcie_switch_mode
 * 设置模式为`USB 3.0`：
 
 ```
-Khadas@Khadas:~$ echo 0 > /sys/class/mcu/usb_pcie_switch_mode
+khadas@Khadas:~$ echo 0 > /sys/class/mcu/usb_pcie_switch_mode
 ```
 
 * 设置模式为`PCIe`：
 
 ```
-Khadas@Khadas:~$ echo 1 > /sys/class/mcu/usb_pcie_switch_mode
+khadas@Khadas:~$ echo 1 > /sys/class/mcu/usb_pcie_switch_mode
 ```
 
 **设置完后一定要给系统断电，以保证配置生效：**
 
 ```
-Khadas@Khadas:~$ echo 1 > /sys/class/mcu/poweroff 
+khadas@Khadas:~$ echo 1 > /sys/class/mcu/poweroff 
 ```
 
 然后可以按电源键开机。

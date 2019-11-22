@@ -4,7 +4,7 @@ title: 从SPI Flash启动系统
 Khadas Edge包含一个16 MiB的SPI Flash， 可以用于启动系统。这篇文章介绍如何从SPI Flash启动系统。
 
 ### 编译SPI Flash Uboot
-SPI flash u-boot和eMMC/SD的不同。建议使用[Fenix脚本](https://github.com/Khadas/fenix)来编译u-boot，非常方便。
+SPI flash u-boot和eMMC/SD的不同。建议使用[Fenix脚本](https://github.com/khadas/fenix)来编译u-boot，非常方便。
 
 **假设你已经安装了基本的编译环境，如果没有，请参考[Fenix使用说明](/zh-cn/edge/FenixScript.html)。**
 

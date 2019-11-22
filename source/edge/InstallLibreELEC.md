@@ -44,7 +44,7 @@ $ sudo umount /dev/sdb1
 
 **Use `dd` to write the disk image into SD/USB card:**
 ```sh
-sudo dd if=LibreELEC-RK3399.arm-9.0-devel-20181219114346-cc816a4-Khadas-edge.img of=/dev/sdb bs=4M && sync
+sudo dd if=LibreELEC-RK3399.arm-9.0-devel-20181219114346-cc816a4-khadas-edge.img of=/dev/sdb bs=4M && sync
 ```
 *Notice: The `sync` flag is to ensure that all changes are synced to the SD card before removing it.*
 

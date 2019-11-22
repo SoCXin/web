@@ -7,13 +7,13 @@ RPi.GPIO 是一个树莓派上用来控制GPIO引脚的Python库。是在wirping
 ### 开始使用RPi.GPIO
 #### 确认RPi.GPIO是否已经正确安装
 这里有两个地方需要确认，
-* 在默认的Python2上,你需要通过命令 `cat /usr/local/lib/python2.7/dist-packages/RPi.GPIO-0.6.3.post1.egg-info | grep "Khadas"`确认是否安装上了。如果正常，你会看到下面这句。
+* 在默认的Python2上,你需要通过命令 `cat /usr/local/lib/python2.7/dist-packages/RPi.GPIO-0.6.3.post1.egg-info | grep "KHADAS"`确认是否安装上了。如果正常，你会看到下面这句。
 ```
-Description: This package provides a class to control the GPIO on a Raspberry Pi or Khadas.
+Description: This package provides a class to control the GPIO on a Raspberry Pi or KHADAS.
 ```
-* 在Python3上, 同样通过命令 `cat /usr/local/lib/python3.6/dist-packages/RPi.GPIO-0.6.3.post1.egg-info |  grep "Khadas"`确认,正常情况下同样会看到这一句。
+* 在Python3上, 同样通过命令 `cat /usr/local/lib/python3.6/dist-packages/RPi.GPIO-0.6.3.post1.egg-info |  grep "KHADAS"`确认,正常情况下同样会看到这一句。
 ```
-Description: This package provides a class to control the GPIO on a Raspberry Pi or Khadas.
+Description: This package provides a class to control the GPIO on a Raspberry Pi or KHADAS.
 ```
 #### 如何通过编写一个Python程序控制GPIO。
 

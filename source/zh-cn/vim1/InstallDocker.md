@@ -8,53 +8,53 @@ title: 安装Docker
 
 ### 安装必要的软件包
 ```
-Khadas@Khadas:~$ sudo apt-get update
-Khadas@Khadas:~$ sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
-Khadas@Khadas:~$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+khadas@Khadas:~$ sudo apt-get update
+khadas@Khadas:~$ sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+khadas@Khadas:~$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 ### 添加Docker源
 ```
-Khadas@Khadas:~$ sudo add-apt-repository \
+khadas@Khadas:~$ sudo add-apt-repository \
 			"deb [arch=arm64] https://download.docker.com/linux/ubuntu \
 			$(lsb_release -cs) \
 			stable"
 ```
 ### 安装Docker
 ```
-Khadas@Khadas:~$ sudo apt-get update
+khadas@Khadas:~$ sudo apt-get update
 ```
 Ubuntu 16.04:
 ```
-Khadas@Khadas:~$ sudo apt-get install docker-ce=18.03.1~ce-0~ubuntu
+khadas@Khadas:~$ sudo apt-get install docker-ce=18.03.1~ce-0~ubuntu
 ```
 
 Ubuntu 18.04:
 ```
-Khadas@Khadas:~# sudo apt-get install docker-ce=18.03.1~ce~3-0~ubuntu
+khadas@Khadas:~# sudo apt-get install docker-ce=18.03.1~ce~3-0~ubuntu
 ```
 
 ### 运行Docker
 ```
-Khadas@Khadas:~$ sudo systemctl enable docker
-Khadas@Khadas:~$ sudo systemctl start docker
+khadas@Khadas:~$ sudo systemctl enable docker
+khadas@Khadas:~$ sudo systemctl start docker
 ```
 
 ### 添加Docker组
 ```
-Khadas@Khadas:~$ sudo groupadd docker
-Khadas@Khadas:~$ sudo usermod -aG docker $USER
+khadas@Khadas:~$ sudo groupadd docker
+khadas@Khadas:~$ sudo usermod -aG docker $USER
 ```
 
 *NOTE: You need to logout or reboot your system.*
 
 ### 检查Docker
 ```
-Khadas@Khadas:~$ docker run hello-world
+khadas@Khadas:~$ docker run hello-world
 ```
 
 如果看到如下输出说明Docker安装成功。
 ```
-Khadas@Khadas:~$ docker run hello-world
+khadas@Khadas:~$ docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
 255483503861: Pull complete 

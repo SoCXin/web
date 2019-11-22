@@ -5,8 +5,8 @@ title: How To Upgrade Firmware
 
 **Preparation:**
 
-* Download the [USB Upgrade Tool](https://dl.Khadas.com/Firmware/ToneBoard/Driver/%5bOnly%20for%20some%20OS%20Upgrade%20XMOS%5d-XMOS-TUSBAudio-EVAL-V4.11.0-Setup.zip) and extract it.
-* Download the firmware `.bin` files from [this directory](https://dl.Khadas.com/Firmware/ToneBoard/) and extract them. 
+* Download the [USB Upgrade Tool](https://dl.khadas.com/Firmware/ToneBoard/Driver/%5bOnly%20for%20some%20OS%20Upgrade%20XMOS%5d-XMOS-TUSBAudio-EVAL-V4.11.0-Setup.zip) and extract it.
+* Download the firmware `.bin` files from [this directory](https://dl.khadas.com/Firmware/ToneBoard/) and extract them. 
 * Connect your Tone Board to your PC using a USB-C data cable.
 
 ![Tone Board With USB-C Cable](/images/toneboard/tb_fw_01.jpg)
@@ -43,7 +43,7 @@ title: How To Upgrade Firmware
 
 ![Tone Board USB Upgrade Tool Finished And Exit](/images/toneboard/tb_fw_09.jpg)
 
-* Uninstall the [EVAL driver](https://dl.Khadas.com/Firmware/ToneBoard/Driver/%5bOnly%20for%20some%20OS%20Upgrade%20XMOS%5d-XMOS-TUSBAudio-EVAL-V4.11.0-Setup.zip) that you used for upgrading firmware, and re-install the [v224 driver](https://dl.Khadas.com/Firmware/ToneBoard/Driver/Thesycon-Stereo-USB-Audio-Driver-V224.rar).
+* Uninstall the [EVAL driver](https://dl.khadas.com/Firmware/ToneBoard/Driver/%5bOnly%20for%20some%20OS%20Upgrade%20XMOS%5d-XMOS-TUSBAudio-EVAL-V4.11.0-Setup.zip) that you used for upgrading firmware, and re-install the [v224 driver](https://dl.khadas.com/Firmware/ToneBoard/Driver/Thesycon-Stereo-USB-Audio-Driver-V224.rar).
 
 * Alternatively, if you're on Windows 10, uninstall all Khadas-supplied drivers and use the native [Win10 UAC2 driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/usb-2-0-audio-drivers) supplied with the OS.
 
@@ -58,10 +58,10 @@ $ sudo apt-get install git libusb-1.0-0 libusb-1.0-0-dev
 
 **Download Burning Tool:**
 
-ToneBoard DFU burning tool on Ubuntu is in [utils](https://github.com/Khadas/utils) repository.
+ToneBoard DFU burning tool on Ubuntu is in [utils](https://github.com/khadas/utils) repository.
 
 ```
-$ git clone https://github.com/Khadas/utils
+$ git clone https://github.com/khadas/utils
 ```
 
 Or just pull it (if you have already cloned this repository).
@@ -97,7 +97,7 @@ Done!
 
 ** Upgrading: **
 
-* Download the firmware files from [this directory](https://dl.Khadas.com/Firmware/ToneBoard/) and extract them to somewhere like your `Home` folder.
+* Download the firmware files from [this directory](https://dl.khadas.com/Firmware/ToneBoard/) and extract them to somewhere like your `Home` folder.
 
 * Open a `Terminal` window, and `cd` into your `Home` folder.
 
@@ -197,7 +197,7 @@ xmosdfu.cpp:417:3: warning: bool literal returned from 'main' [-Wmain]
      * If successful, Terminal will be silent.
 
 **Upgrading:**
-* Download a firmware file from [https://dl.Khadas.com/Firmware/ToneBoard/](https://dl.Khadas.com/Firmware/ToneBoard/), then extract the `.zip` file.
+* Download a firmware file from [https://dl.khadas.com/Firmware/ToneBoard/](https://dl.khadas.com/Firmware/ToneBoard/), then extract the `.zip` file.
 * Connect your Tone Board to your Macbook / iMac via a USB-C data cable.
 * Return to Terminal and type `./xmosdfu --download`, followed by `space`, and drag the `firmware.bin` you just downloaded, from the Finder into Terminal. Then hit `Enter`.
 * If successful, you should see the following Terminal output:
@@ -229,6 +229,6 @@ Abort trap: 6
 
 # See Also:
 
-* [Tone Board Beginners FAQ](https://docs.Khadas.com/toneboard/index.html)
-* [Tone Board User Manual](https://docs.Khadas.com/toneboard/UserManual.html)
-* [Tone Board Firmware Images](https://dl.Khadas.com/Firmware/ToneBoard/)
+* [Tone Board Beginners FAQ](https://docs.khadas.com/toneboard/index.html)
+* [Tone Board User Manual](https://docs.khadas.com/toneboard/UserManual.html)
+* [Tone Board Firmware Images](https://dl.khadas.com/Firmware/ToneBoard/)

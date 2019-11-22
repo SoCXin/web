@@ -2,13 +2,13 @@ title: Upgrade Using a USB-C Cable
 ---
 ## Upgrade Using Windows
 ### Preparations
-* Download the [USB driver](https://dl.Khadas.com/Tools/DriverAssitant_v4.6.zip) and extract it.
+* Download the [USB driver](https://dl.khadas.com/Tools/DriverAssitant_v4.6.zip) and extract it.
 * Run `DriverInstall.exe` to install USB drivers.
   * Click the `Uninstall` button to uninstall old drivers
   ![DriverInstall uninstall](/images/edge/DriverInstall_uninstall.png)
   * Click the `Install` button to install drivers
   ![DriverInstall install](/images/edge/DriverInstall_install.png)
-* Download the [Android Tool](https://dl.Khadas.com/Tools/AndroidTool_Release_en_v2.65.zip) and extract it.
+* Download the [Android Tool](https://dl.khadas.com/Tools/AndroidTool_Release_en_v2.65.zip) and extract it.
 * `AndroidTool.exe` is the burning tool, you don't need to install it.
 
 ### Upgrading Steps
@@ -38,9 +38,9 @@ Now all you need to do is to click the `Upgrade` button of the tool and wait for
 $ sudo apt-get install libusb-dev git parted
 ```
 ### Get Burning Tool
-Image Burning Tool on Ubuntu is in this repository [Utils](https://github.com/Khadas/utils).
+Image Burning Tool on Ubuntu is in this repository [Utils](https://github.com/khadas/utils).
 ```
-$ git clone https://github.com/Khadas/utils
+$ git clone https://github.com/khadas/utils
 ```
 Or just pull it if you have already cloned this repository.
 ```

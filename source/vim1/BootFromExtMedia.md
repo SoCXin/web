@@ -2,17 +2,17 @@ title: Boot Images from External Media
 ---
 
 There are several images that are designed to run from a SD Card or Thumbdrive (U-Disk) and are compatible with VIMs. For example:
-* [Armbian with Debian / Ubuntu](http://forum.Khadas.com/t/armbian-kodi-ubuntu-debian-for-sd-usb-emmc/825)
-* [AltLinux](https://forum.Khadas.com/t/altlinux-sd-usb-emmc/1653)
-* [ArchLinux](https://forum.Khadas.com/t/archlinux-kodi-sd-usb-emmc/1152)
+* [Armbian with Debian / Ubuntu](http://forum.khadas.com/t/armbian-kodi-ubuntu-debian-for-sd-usb-emmc/825)
+* [AltLinux](https://forum.khadas.com/t/altlinux-sd-usb-emmc/1653)
+* [ArchLinux](https://forum.khadas.com/t/archlinux-kodi-sd-usb-emmc/1152)
 * [CoreELEC](https://coreelec.org/)
-* [LibreELEC](https://libreelec.tv/downloads_new/Khadas-vim/)
-* [Manjaro](https://forum.Khadas.com/t/manjaro-linux-desktop-environment-for-vim1-vim3/3945)
-* [Volumio](https://forum.Khadas.com/t/volumio-for-Khadas/1437)
+* [LibreELEC](https://libreelec.tv/downloads_new/khadas-vim/)
+* [Manjaro](https://forum.khadas.com/t/manjaro-linux-desktop-environment-for-vim1-vim3/3945)
+* [Volumio](https://forum.khadas.com/t/volumio-for-khadas/1437)
 * Khadas SD images
-  * [VIM1](https://dl.Khadas.com/Firmware/VIM1/Ubuntu/SD_USB/)
-  * [VIM2](https://dl.Khadas.com/Firmware/VIM2/Ubuntu/SD_USB/)
-  * [VIM3](https://dl.Khadas.com/Firmware/VIM3/Ubuntu/SD_USB/)
+  * [VIM1](https://dl.khadas.com/Firmware/VIM1/Ubuntu/SD_USB/)
+  * [VIM2](https://dl.khadas.com/Firmware/VIM2/Ubuntu/SD_USB/)
+  * [VIM3](https://dl.khadas.com/Firmware/VIM3/Ubuntu/SD_USB/)
 
 This tutorial is about how to boot these images.
 
@@ -39,10 +39,10 @@ You need to select the appropriate DTB file.
 * Navigate to your SD card's / Thumbdrive's `BOOT` partition, and open the folder labelled `dtb`.
 
 * Find the correct .dtb filename in the folder `/dtb`. Examples:
-  * VIM1: `/dtb/meson-gxl-s905x-Khadas-vim.dtb`
-  * VIM2: `/dtb/meson-gxm-Khadas-vim2.dtb`
-  * VIM3: `/dtb/meson-g12b-a311d-Khadas-vim3.dtb`
-  * VIM3L: `/dtb/meson-sm1-Khadas-vim3l.dtb`
+  * VIM1: `/dtb/meson-gxl-s905x-khadas-vim.dtb`
+  * VIM2: `/dtb/meson-gxm-khadas-vim2.dtb`
+  * VIM3: `/dtb/meson-g12b-a311d-khadas-vim3.dtb`
+  * VIM3L: `/dtb/meson-sm1-khadas-vim3l.dtb`
 * Edit `FDT` in `/extlinux/extlinux.conf` and `dtb_name=` in `uEnv.ini` with the correct dtb filename.
 
 #### For CoreELEC
@@ -53,8 +53,8 @@ You need to select the appropriate DTB file.
 
 #### For Volumio
 * Find the appropriate `.dtb` file in `BOOT` partition `dtb` folder:
-  * VIM1: Copy `kvim.dtb`, `kvim_linux.dtb` or `meson-gxl-s905x-Khadas-vim.dtb` to `BOOT` partition, and rename it to `dtb.img`.
-  * VIM2: Copy `kvim2.dtb`, `kvim2_linux.dtb` or `meson-gxm-Khadas-vim2.dtb` to `BOOT` partition, and rename it to `dtb.img`.
+  * VIM1: Copy `kvim.dtb`, `kvim_linux.dtb` or `meson-gxl-s905x-khadas-vim.dtb` to `BOOT` partition, and rename it to `dtb.img`.
+  * VIM2: Copy `kvim2.dtb`, `kvim2_linux.dtb` or `meson-gxm-khadas-vim2.dtb` to `BOOT` partition, and rename it to `dtb.img`.
   * VIM3: Copy `kvim3_linux.dtb` or `kvim3l_linux.dtb` to `BOOT` partition, and rename it to `dtb.img`.
 
 
@@ -72,4 +72,4 @@ There are several ways to boot (activate multi-boot) from the SD card / Thumbdri
 **WARNING: Don't use your PC as the USB-Host to supply the electrical power, otherwise it will fail to activate Multi-Boot!**
 
 ### NOTICE
-* If any other OS than Android, Armbian or LibreELEC has been installed to eMMC and you want to install either Armbian or LibreELEC to eMMC, the eMMC has to be completely wiped with `dd` before latest Android is burned to eMMC by following [Upgrade Via a USB-C Cable](https://docs.Khadas.com/vim1/UpgradeViaUSBCable.html).
+* If any other OS than Android, Armbian or LibreELEC has been installed to eMMC and you want to install either Armbian or LibreELEC to eMMC, the eMMC has to be completely wiped with `dd` before latest Android is burned to eMMC by following [Upgrade Via a USB-C Cable](https://docs.khadas.com/vim1/UpgradeViaUSBCable.html).

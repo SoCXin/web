@@ -35,7 +35,7 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
   <script src="/vendor/semantic/dist/semantic.min.js"></script>
- <!-- Hotjar Tracking Code for https://docs.Khadas.com -->
+ <!-- Hotjar Tracking Code for https://docs.khadas.com -->
   <script>
       (function(h,o,t,j,a,r){
           h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};

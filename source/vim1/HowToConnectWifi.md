@@ -24,7 +24,7 @@ To avoid storing human readable passwords there is an handy tool coming with wpa
 Use `wpa_passphrase your_ssid your_password` to create a 256-bit PSK passphrase from your_ssid and your_password.
 
 ```bash
-Khadas@Khadas:~$ wpa_passphrase your_ssid your_password
+khadas@Khadas:~$ wpa_passphrase your_ssid your_password
 network={
   ssid="your_ssid"  
   #psk="your_password"

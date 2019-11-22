@@ -48,40 +48,40 @@ If you get the following errors when you import TensorFlow, you should update `l
 ```
 >>> import tensorflow as tf
 Traceback (most recent call last):
-  File "/home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow.py", line 58, in <module>
+  File "/home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow.py", line 58, in <module>
     from tensorflow.python.pywrap_tensorflow_internal import *
-  File "/home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 28, in <module>
+  File "/home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 28, in <module>
     _pywrap_tensorflow_internal = swig_import_helper()
-  File "/home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 24, in swig_import_helper
+  File "/home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 24, in swig_import_helper
     _mod = imp.load_module('_pywrap_tensorflow_internal', fp, pathname, description)
   File "/usr/lib/python3.5/imp.py", line 242, in load_module
     return load_dynamic(name, filename, file)
   File "/usr/lib/python3.5/imp.py", line 342, in load_dynamic
     return _load(spec)
-ImportError: /usr/lib/aarch64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/_pywrap_tensorflow_internal.so)
+ImportError: /usr/lib/aarch64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/_pywrap_tensorflow_internal.so)
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/home/Khadas/.local/lib/python3.5/site-packages/tensorflow/__init__.py", line 24, in <module>
+  File "/home/khadas/.local/lib/python3.5/site-packages/tensorflow/__init__.py", line 24, in <module>
     from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
-  File "/home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/__init__.py", line 49, in <module>
+  File "/home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/__init__.py", line 49, in <module>
     from tensorflow.python import pywrap_tensorflow
-  File "/home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow.py", line 74, in <module>
+  File "/home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow.py", line 74, in <module>
     raise ImportError(msg)
 ImportError: Traceback (most recent call last):
-  File "/home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow.py", line 58, in <module>
+  File "/home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow.py", line 58, in <module>
     from tensorflow.python.pywrap_tensorflow_internal import *
-  File "/home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 28, in <module>
+  File "/home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 28, in <module>
     _pywrap_tensorflow_internal = swig_import_helper()
-  File "/home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 24, in swig_import_helper
+  File "/home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/pywrap_tensorflow_internal.py", line 24, in swig_import_helper
     _mod = imp.load_module('_pywrap_tensorflow_internal', fp, pathname, description)
   File "/usr/lib/python3.5/imp.py", line 242, in load_module
     return load_dynamic(name, filename, file)
   File "/usr/lib/python3.5/imp.py", line 342, in load_dynamic
     return _load(spec)
-ImportError: /usr/lib/aarch64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/Khadas/.local/lib/python3.5/site-packages/tensorflow/python/_pywrap_tensorflow_internal.so)
+ImportError: /usr/lib/aarch64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/khadas/.local/lib/python3.5/site-packages/tensorflow/python/_pywrap_tensorflow_internal.so)
 
 
 Failed to load the native TensorFlow runtime.

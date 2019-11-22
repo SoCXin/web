@@ -46,7 +46,7 @@ $ make -jN otapackage
 
 在某些情况下你可能需要单独编译linux内核，按如下步骤单独编译linux内核。
 ```sh
-$ source device/Khadas/kvim2/mkern.sh
+$ source device/khadas/kvim2/mkern.sh
 ```
 
 ### 参考

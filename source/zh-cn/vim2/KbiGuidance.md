@@ -121,7 +121,7 @@ VIM2配置有eMMC和SPI存储器，可以通过KBI设置从哪里启动系统。
 ```
 kvim2# kbi bootmode w spi
 ```
-*关于SPI FLASH启动请参考如何从SPI Flash启动([VIM2](http://forum.Khadas.com/t/how-to-boot-from-spi-flash/1354)/[VIM3](/zh-cn/vim3/BootFromSpiFlash.html)/[Edge](/zh-cn/edge/BootFromSpiFlash.html))*。
+*关于SPI FLASH启动请参考如何从SPI Flash启动([VIM2](http://forum.khadas.com/t/how-to-boot-from-spi-flash/1354)/[VIM3](/zh-cn/vim3/BootFromSpiFlash.html)/[Edge](/zh-cn/edge/BootFromSpiFlash.html))*。
 
 设置默认从eMMC启动系统：
 ```
@@ -167,7 +167,7 @@ set_wol: 0
 
 ### 更多
 [如何使用WOL](/zh-cn/vim2/HowtoUseWol.html)。
-[Edge-V MCU寄存器说明](https://dl.Khadas.com/Hardware/Edge/MCU/Edge-V_MCU_REG_ZH.pdf)
-[VIM2 MCU寄存器说明](https://dl.Khadas.com/Hardware/VIM2/MCU/VIM2_MCU_REG_ZH.pdf)
-[VIM3 MCU寄存器说明](https://dl.Khadas.com/Hardware/VIM3/MCU/VIM3_MCU_REG_ZH.pdf)
+[Edge-V MCU寄存器说明](https://dl.khadas.com/Hardware/Edge/MCU/Edge-V_MCU_REG_ZH.pdf)
+[VIM2 MCU寄存器说明](https://dl.khadas.com/Hardware/VIM2/MCU/VIM2_MCU_REG_ZH.pdf)
+[VIM3 MCU寄存器说明](https://dl.khadas.com/Hardware/VIM3/MCU/VIM3_MCU_REG_ZH.pdf)
 

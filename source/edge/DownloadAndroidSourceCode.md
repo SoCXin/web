@@ -1,7 +1,7 @@
 title: Download The Android Source Code
 ---
 
-The Android Source Tree of our Khadas Edge are hosted on [Github](https://www.github.com/Khadas). There are many different repositories.
+The Android Source Tree of our Khadas Edge are hosted on [Github](https://www.github.com/khadas). There are many different repositories.
 
 Walk through the steps below to download the Source Code. 
 
@@ -16,11 +16,11 @@ $ cd WORKING_DIRECTORY
 
 **android 7.1:**
 ```sh
-$repo init -u https://github.com/Khadas/android_manifest.git -b Khadas-edge-nougat
+$repo init -u https://github.com/khadas/android_manifest.git -b khadas-edge-nougat
 ```
 **android 9.0:**
 ```sh
-$repo init -u https://github.com/Khadas/android_manifest.git -b Khadas-edge-pie
+$repo init -u https://github.com/khadas/android_manifest.git -b khadas-edge-pie
 ```
 
 3) Run `repo sync` to pull down the Android Source Tree:

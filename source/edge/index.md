@@ -7,27 +7,27 @@ title: Edge Beginners Guide
 Front (Blue)|Component|
 ---|:---
 1|USB 3.0
-2|[USB-C (3.0 & D.P)](https://docs.Khadas.com/edge/UpgradeViaUSBCable.html)
+2|[USB-C (3.0 & D.P)](https://docs.khadas.com/edge/UpgradeViaUSBCable.html)
 3|HDMI 2.0
-4|[USB-C (P.D)](https://docs.Khadas.com/edge/EdgeCaptainPowerPriority.html)
+4|[USB-C (P.D)](https://docs.khadas.com/edge/EdgeCaptainPowerPriority.html)
 5|USB 2.0
-6|[Fan (PWM)](https://docs.Khadas.com/edge/HowToSetupFan.html)
+6|[Fan (PWM)](https://docs.khadas.com/edge/HowToSetupFan.html)
 7|Reset Button
-8|[Function Button](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
+8|[Function Button](https://docs.khadas.com/edge/HowtoBootIntoUpgradeMode.html)
 9|Power Button
-A|[314-Pin Gold Fingers](https://www.Khadas.com/product-page/captain-carrier-board)
-B|I-Pex [Wi-Fi](https://docs.Khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.Khadas.com/edge/HowToSetupBluetooth.html) Connector
-C|I-Pex [Wi-Fi](https://docs.Khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.Khadas.com/edge/HowToSetupBluetooth.html) Connector
+A|[314-Pin Gold Fingers](https://www.khadas.com/product-page/captain-carrier-board)
+B|I-Pex [Wi-Fi](https://docs.khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.khadas.com/edge/HowToSetupBluetooth.html) Connector
+C|I-Pex [Wi-Fi](https://docs.khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.khadas.com/edge/HowToSetupBluetooth.html) Connector
 
 Back (Red)|Component|
 ---|:---
 1|Li-Po Battery Connector
-2|Secondary [Wi-Fi](https://docs.Khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.Khadas.com/edge/HowToSetupBluetooth.html) Pad
-3|Secondary [Wi-Fi](https://docs.Khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.Khadas.com/edge/HowToSetupBluetooth.html) Pad
-4|[M2x4 Mounting Point](https://www.Khadas.com/product-page/edge-heatsink)
+2|Secondary [Wi-Fi](https://docs.khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.khadas.com/edge/HowToSetupBluetooth.html) Pad
+3|Secondary [Wi-Fi](https://docs.khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.khadas.com/edge/HowToSetupBluetooth.html) Pad
+4|[M2x4 Mounting Point](https://www.khadas.com/product-page/edge-heatsink)
 5|FPC Connector B
-6|[FPC Connector A](https://www.Khadas.com/product-page/edge-io)
-7|[M-Register](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
+6|[FPC Connector A](https://www.khadas.com/product-page/edge-io)
+7|[M-Register](https://docs.khadas.com/edge/HowtoBootIntoUpgradeMode.html)
 
 # Edge-V
 ![image](/images/edge/docs_edge_v_labels.jpg)
@@ -35,35 +35,35 @@ Back (Red)|Component|
 Front (Blue)|Component|
 ---|:---
 1|USB 3.0 (Blue)
-2|[Gigabit Ethernet (WOL)](https://docs.Khadas.com/edge/HowtoUseWol.html)
+2|[Gigabit Ethernet (WOL)](https://docs.khadas.com/edge/HowtoUseWol.html)
 3|HDMI 2.0
-4|[USB-C (3.0 & D.P)](https://docs.Khadas.com/edge/UpgradeViaUSBCable.html)
+4|[USB-C (3.0 & D.P)](https://docs.khadas.com/edge/UpgradeViaUSBCable.html)
 5|USB 2.0 (Black)
-6|[Fan (PWM)](https://docs.Khadas.com/edge/HowToSetupFan.html)
+6|[Fan (PWM)](https://docs.khadas.com/edge/HowToSetupFan.html)
 7|Reset Button
-8|[Function Button](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
+8|[Function Button](https://docs.khadas.com/edge/HowtoBootIntoUpgradeMode.html)
 9|Power Button
 A|RTC Battery Header
-B|[40-Pin GPIO](https://docs.Khadas.com/edge/EdgeVGPIOPinout.html)
+B|[40-Pin GPIO](https://docs.khadas.com/edge/EdgeVGPIOPinout.html)
 C|Gesture Sensor
-D|[2-Channel Infrared Receiver](https://www.Khadas.com/product-page/ir-remote)
+D|[2-Channel Infrared Receiver](https://www.khadas.com/product-page/ir-remote)
 E|LED Indicators
-F|I-Pex [Wi-Fi](https://docs.Khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.Khadas.com/edge/HowToSetupBluetooth.html) Connector
-G|I-Pex [Wi-Fi](https://docs.Khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.Khadas.com/edge/HowToSetupBluetooth.html) Connector
+F|I-Pex [Wi-Fi](https://docs.khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.khadas.com/edge/HowToSetupBluetooth.html) Connector
+G|I-Pex [Wi-Fi](https://docs.khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.khadas.com/edge/HowToSetupBluetooth.html) Connector
 
 Back (Red)|Component|
 ---|:---
-1|[Li-Po Battery Connector](https://www.Khadas.com/product-page/juice-board)
+1|[Li-Po Battery Connector](https://www.khadas.com/product-page/juice-board)
 2|USB-C (P.D)
-3|[Micro-SD Card Slot](https://docs.Khadas.com/edge/UpgradeViaTFBurningCard.html)
-4|[M.2 Socket (PCI-E 2.1)](https://www.Khadas.com/product-page/m2x-extension-board)
+3|[Micro-SD Card Slot](https://docs.khadas.com/edge/UpgradeViaTFBurningCard.html)
+4|[M.2 Socket (PCI-E 2.1)](https://www.khadas.com/product-page/m2x-extension-board)
 5|E-DP Display
-6|[M2x4 Mounting Point](https://www.Khadas.com/product-page/new-vim-heatsink-ii)
-7|[Touch Panel](https://docs.Khadas.com/edge/ConnectLcd.html)
-8|[MIPI-TX](https://docs.Khadas.com/edge/ConnectLcd.html)
+6|[M2x4 Mounting Point](https://www.khadas.com/product-page/new-vim-heatsink-ii)
+7|[Touch Panel](https://docs.khadas.com/edge/ConnectLcd.html)
+8|[MIPI-TX](https://docs.khadas.com/edge/ConnectLcd.html)
 9|MIPI-RX
 A|MIPI-RX/TX
-B|[M-Register](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
+B|[M-Register](https://docs.khadas.com/edge/HowtoBootIntoUpgradeMode.html)
 
 # Captain
 ![image](/images/edge/docs_captain_labels.jpg)
@@ -71,38 +71,38 @@ B|[M-Register](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
 Front (Blue)|Component|
 ---|:---
 1|RK3399 SoC Heat Spreader
-2|[Gigabit Ethernet](https://docs.Khadas.com/edge/HowtoUseWol.html)
-3|[40-Pin GPIO](https://docs.Khadas.com/edge/CaptainGPIOPinout.html)
+2|[Gigabit Ethernet](https://docs.khadas.com/edge/HowtoUseWol.html)
+3|[40-Pin GPIO](https://docs.khadas.com/edge/CaptainGPIOPinout.html)
 4|RTC battery header
 5|Reset Button
-6|[12V DC Barrel Jack](https://docs.Khadas.com/edge/EdgeCaptainPowerPriority.html)
-7|[Micro-SD Card Slot](https://docs.Khadas.com/edge/UpgradeViaTFBurningCard.html)
+6|[12V DC Barrel Jack](https://docs.khadas.com/edge/EdgeCaptainPowerPriority.html)
+7|[Micro-SD Card Slot](https://docs.khadas.com/edge/UpgradeViaTFBurningCard.html)
 8|Buzzer
 9|Gesture Sensor
-A|[IR Receiver](https://www.Khadas.com/product-page/ir-remote)
-B|[Right Game Pad](https://www.Khadas.com/product-page/kap-case)
-C|[Left Game Pad](https://www.Khadas.com/product-page/kap-case)
+A|[IR Receiver](https://www.khadas.com/product-page/ir-remote)
+B|[Right Game Pad](https://www.khadas.com/product-page/kap-case)
+C|[Left Game Pad](https://www.khadas.com/product-page/kap-case)
 D|USIC
 E|E-DP Display
-F|[Touch Panel](https://docs.Khadas.com/edge/ConnectLcd.html)
-G|[MIPI-TX](https://docs.Khadas.com/edge/ConnectLcd.html)
+F|[Touch Panel](https://docs.khadas.com/edge/ConnectLcd.html)
+G|[MIPI-TX](https://docs.khadas.com/edge/ConnectLcd.html)
 H|MIPI-RX/TX
 I|MIPI-RX
-J|[3.5mm Audio Jack](https://www.Khadas.com/product-page/kap-case)
-K|[Function Button](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
+J|[3.5mm Audio Jack](https://www.khadas.com/product-page/kap-case)
+K|[Function Button](https://docs.khadas.com/edge/HowtoBootIntoUpgradeMode.html)
 L|Microphone
-M|[MXM3 Connector](https://www.Khadas.com/product-page/edge)
-N|[Wi-Fi](https://docs.Khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.Khadas.com/edge/HowToSetupBluetooth.html) Chip Antenna
-O|[Wi-Fi](https://docs.Khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.Khadas.com/edge/HowToSetupBluetooth.html) Chip Antenna
-P|[M3 Clearance Hole](https://www.Khadas.com/product-page/kap-case)
-Q|[M2 Threaded Stand-Off](https://www.Khadas.com/product-page/edge)
+M|[MXM3 Connector](https://www.khadas.com/product-page/edge)
+N|[Wi-Fi](https://docs.khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.khadas.com/edge/HowToSetupBluetooth.html) Chip Antenna
+O|[Wi-Fi](https://docs.khadas.com/edge/HowToConnectWifi.html) / [Bluetooth](https://docs.khadas.com/edge/HowToSetupBluetooth.html) Chip Antenna
+P|[M3 Clearance Hole](https://www.khadas.com/product-page/kap-case)
+Q|[M2 Threaded Stand-Off](https://www.khadas.com/product-page/edge)
 
 Back (Red)|Component|
 ---|:---
-1|[M.2 Socket (PCI-E 2.1)](https://docs.Khadas.com/edge/ListOfCompatibleNVMeSSDs.html)
+1|[M.2 Socket (PCI-E 2.1)](https://docs.khadas.com/edge/ListOfCompatibleNVMeSSDs.html)
 2|External Speaker & DMIC Input FPC Connector
-3|[M.2 2280 Stand-Off (M2 Threaded)](https://docs.Khadas.com/edge/ListOfCompatibleNVMeSSDs.html)
-4|[Lithium Polymer Battery Connector (2-Cell)](https://www.Khadas.com/product-page/lipo-battery)
+3|[M.2 2280 Stand-Off (M2 Threaded)](https://docs.khadas.com/edge/ListOfCompatibleNVMeSSDs.html)
+4|[Lithium Polymer Battery Connector (2-Cell)](https://www.khadas.com/product-page/lipo-battery)
 5|Right Function Button
 6|Left Function Button
 
@@ -111,11 +111,11 @@ Back (Red)|Component|
 
 Front (Yellow)|Component|
 ---|:---
-1|[314-Pin "Edge Connector"](https://www.Khadas.com/product-page/edge)
+1|[314-Pin "Edge Connector"](https://www.khadas.com/product-page/edge)
 2|RockChip RK3399 SoC
 3|M2x4 Screw
-4|[USB-C Power Delivery (5-20V)](https://docs.Khadas.com/edge/EdgeCaptainPowerPriority.html)
-5|[USB-C (3.0 + Display Port)](https://docs.Khadas.com/edge/UpgradeViaUSBCable.html)
+4|[USB-C Power Delivery (5-20V)](https://docs.khadas.com/edge/EdgeCaptainPowerPriority.html)
+5|[USB-C (3.0 + Display Port)](https://docs.khadas.com/edge/UpgradeViaUSBCable.html)
 6|USB 3.0
 7|USB 2.0
 9|HDMI 2.0
@@ -131,9 +131,9 @@ Although your Edge SBC is compatible with various types of power supplies, these
 **Tip:** These items are now available at Khadas Shop
 
 **Learn More:**
-* [Edge+Captain Power Priority](https://docs.Khadas.com/edge/EdgeCaptainPowerPriority.html)
-* [Khadas Edge Specifications](https://Khadas.com/edge)
-* [Khadas Edge Accessories](https://www.Khadas.com/edge-add-ons)
+* [Edge+Captain Power Priority](https://docs.khadas.com/edge/EdgeCaptainPowerPriority.html)
+* [Khadas Edge Specifications](https://khadas.com/edge)
+* [Khadas Edge Accessories](https://www.khadas.com/edge-add-ons)
 
 # Displays & User Input
 These items are useful when you need to connect your Edge SBC to an external display + keyboard mouse + remote control, for use as a desktop computer or media center. *Edge series SBCs have USB-C display-port capability, which allows them to connect directly to Type-C enabled 4K monitors, to exchange power, data, video, and audio over a single cable.*
@@ -144,8 +144,8 @@ These items are useful when you need to connect your Edge SBC to an external dis
 4. CEC-Compatible Remote Control
 
 **Learn More:**
-* [Khadas Shop - HDMI Cable](https://www.Khadas.com/product-page/hdmi-cable)
-* [Khadas Shop - Remote Control](https://www.Khadas.com/product-page/ir-remote)
+* [Khadas Shop - HDMI Cable](https://www.khadas.com/product-page/hdmi-cable)
+* [Khadas Shop - Remote Control](https://www.khadas.com/product-page/ir-remote)
 * [Amazon - LG 4K Monitor w/ USB Type-C](https://www.amazon.com/LG-27UD88-W-LED-Lit-Monitor-Type-C/dp/B01CDYB0QS/ref=sr_1_7?ie=UTF8&qid=1543993886&sr=8-7&keywords=usb-c+compatible+monitor)
 * [Amazon - Wireless Keyboard + Mouse](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Delectronics&field-keywords=wireless+keyboard+and+mouse&rh=n%3A172282%2Ck%3Awireless+keyboard+and+mouse)
 
@@ -160,10 +160,10 @@ These items are useful when you want to upgrade your Edge SBC's operating system
 4. 8GB or Larger, USB-Thumbdrive (U-Disk)
 
 **Learn More:**
-* [Booting Card Vs Burning Card](https://docs.Khadas.com/vim1/BootingCardVsBurningCard.html)
-* [Upgrade Using SD-Card](https://docs.Khadas.com/edge/UpgradeViaTFBurningCard.html)
-* [Boot From External Media](https://docs.Khadas.com/vim2/BootFromExtMedia.html)
-* [Enter Upgrade Mode](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
+* [Booting Card Vs Burning Card](https://docs.khadas.com/vim1/BootingCardVsBurningCard.html)
+* [Upgrade Using SD-Card](https://docs.khadas.com/edge/UpgradeViaTFBurningCard.html)
+* [Boot From External Media](https://docs.khadas.com/vim2/BootFromExtMedia.html)
+* [Enter Upgrade Mode](https://docs.khadas.com/edge/HowtoBootIntoUpgradeMode.html)
 
 **Tips:**
 * **eMMC image** should be burned directly to the eMMC using a USB-C data cable, from a Ubuntu or Windows Host. It must not be burned into an SD-Card. For Example: Android and Ubuntu distributions containing the `EMMC` mark.
@@ -178,12 +178,12 @@ You'll need these items if you want to use your laptop or desktop PC to upgrade 
 3. Laptop / Desktop PC
 
 **Learn More:**
-* [Upgrade Using USB-C Cable](https://docs.Khadas.com/edge/UpgradeViaUSBCable.html)
-* [Boot Into Upgrade Mode](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
+* [Upgrade Using USB-C Cable](https://docs.khadas.com/edge/UpgradeViaUSBCable.html)
+* [Boot Into Upgrade Mode](https://docs.khadas.com/edge/HowtoBootIntoUpgradeMode.html)
 
 **Firmware Images:**
-* [Android OS](https://docs.Khadas.com/edge/FirmwareAndroid.html)
-* [Ubuntu OS](https://docs.Khadas.com/edge/FirmwareUbuntu.html)
+* [Android OS](https://docs.khadas.com/edge/FirmwareAndroid.html)
+* [Ubuntu OS](https://docs.khadas.com/edge/FirmwareUbuntu.html)
 
 # Watching Movies, Expanding Internal eMMC Storage
 These items are useful if you wish to use your Edge-V or Edge+Captain SBC as a media center, for storing/downloading large movie files. A microSDXC UHS-I card is expensive, but its also fast enough for 4K video playback. An external NVMe M.2 socket SSD will also be large enough to contain your entire media library.
@@ -203,12 +203,12 @@ These items are useful if you wish to use your Edge-V or Edge+Captain SBC as a m
 3. USB Serial Debug Tool (For diagnosing software/hardware issues)
 
 **Learn More:**
-* [Terry's Smart Tweezers](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
-* [MRegister Upgrade Mode](https://docs.Khadas.com/edge/HowtoBootIntoUpgradeMode.html)
+* [Terry's Smart Tweezers](https://docs.khadas.com/edge/HowtoBootIntoUpgradeMode.html)
+* [MRegister Upgrade Mode](https://docs.khadas.com/edge/HowtoBootIntoUpgradeMode.html)
 * [Amazon - Metal Tweezers](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=metal+tweezers)
 * [Amazon - USB Serial Debug Tool](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=usb+serial+debug+tool&rh=i%3Aaps%2Ck%3Ausb+serial+debug+tool)
 
 # Edge Website
 For more information, please see our website, read more documentation, or visit our forum.
-* [Khadas Edge Homepage](https://www.Khadas.com/edge)
-* [Khadas Edge Forum](https://forum.Khadas.com/c/Khadas-Edge)
+* [Khadas Edge Homepage](https://www.khadas.com/edge)
+* [Khadas Edge Forum](https://forum.khadas.com/c/Khadas-Edge)

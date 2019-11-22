@@ -42,6 +42,6 @@ title: 如何设置风扇
 编辑完后记得保存文件并重启板子。
 
 ```
-Khadas@Khadas:~$ sync
-Khadas@Khadas:~$ sudo reboot
+khadas@Khadas:~$ sync
+khadas@Khadas:~$ sudo reboot
 ```

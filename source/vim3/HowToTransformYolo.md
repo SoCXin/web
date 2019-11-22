@@ -2,7 +2,7 @@ title: How To Transform Yolo Model
 ---
 
 The training completed model is based on the corresponding framework. Although most of the frameworks have C / C + + interfaces, even if these interfaces are used, only CPU or GPU can be used. If you want to use NPU acceleration, you need to convert the trained model into NPU accelerated model code through DDK. This document mainly introduces how to adapt our model on DDK.
-**Note**: The following examples take the trained object detection model of Khadas as an example.
+**Note**: The following examples take the trained object detection model of khadas as an example.
 
 ## How to use Trainsform tool
 
@@ -14,8 +14,8 @@ Parameter setting
 > 3. `--weight-input` is path to weights file
 example:
 > `NAME=yolov3`
-> `--net-input /home/Khadas/Pictures/VOCdevkit/yolov3-train/yolov3-voc.cfg \`
-> `--weight-input /home/Khadas/Pictures/VOCdevkit/yolov3-train/backup/yolov3-voc_final.weights \`
+> `--net-input /home/khadas/Pictures/VOCdevkit/yolov3-train/yolov3-voc.cfg \`
+> `--weight-input /home/khadas/Pictures/VOCdevkit/yolov3-train/backup/yolov3-voc_final.weights \`
 
 ### 1_quantize_model.sh
 

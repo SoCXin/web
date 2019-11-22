@@ -54,5 +54,5 @@ Device 9C:FB:D5:0D:91:47 9C-FB-D5-0D-91-47
 [bluetooth]# quit
 Agent unregistered
 [DEL] Controller 43:54:A2:00:1F:AC Khadas [default]
-Khadas@Khadas:~$
+khadas@Khadas:~$
 ```

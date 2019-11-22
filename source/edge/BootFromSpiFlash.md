@@ -4,7 +4,7 @@ title: Boot From SPI Flash
 Khadas Edge contains a 16 MB SPI-Flash that's used as boot storage; so you can image from it. This guide is about how to boot from the on-board SPI-Flash.
 
 ### Build U-boot For SPI-Flash
-The U-Boot for SPI-Flash is different from the eMMC/SD's U-Boot. We recommend using [Fenix Script](https://github.com/Khadas/fenix) to build U-Boot, as it's easy this way.
+The U-Boot for SPI-Flash is different from the eMMC/SD's U-Boot. We recommend using [Fenix Script](https://github.com/khadas/fenix) to build U-Boot, as it's easy this way.
 
 **This guide assumes that you have already setup a basic build environment. If not, please refer to [Fenix Usage](/edge/FenixScript.html).**
 

@@ -63,7 +63,7 @@ You'll need to navigate to "Device Preferences" using an IR remote, mouse or att
 * Check current port mode:
 
 ```
-Khadas@Khadas:~$ cat /sys/class/mcu/usb_pcie_switch_mode
+khadas@Khadas:~$ cat /sys/class/mcu/usb_pcie_switch_mode
 1
 ```
 
@@ -73,19 +73,19 @@ Khadas@Khadas:~$ cat /sys/class/mcu/usb_pcie_switch_mode
 * Change mode to `USB 3.0`:
 
 ```
-Khadas@Khadas:~$ echo 0 > /sys/class/mcu/usb_pcie_switch_mode
+khadas@Khadas:~$ echo 0 > /sys/class/mcu/usb_pcie_switch_mode
 ```
 
 * Change mode to `PCIe`:
 
 ```
-Khadas@Khadas:~$ echo 1 > /sys/class/mcu/usb_pcie_switch_mode
+khadas@Khadas:~$ echo 1 > /sys/class/mcu/usb_pcie_switch_mode
 ```
 
 **Poweroff the system to bring changes into effect:**
 
 ```
-Khadas@Khadas:~$ echo 1 > /sys/class/mcu/poweroff 
+khadas@Khadas:~$ echo 1 > /sys/class/mcu/poweroff 
 ```
 
 Then press the `POWER KEY` to boot the system.

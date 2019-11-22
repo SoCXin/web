@@ -16,22 +16,22 @@ title: 编译Amlogic平台u-boot开机logo
 
 检查BMP文件：
 ```
-$ file ~/Pictures/Khadas.bmp 
-/home/gouwa/Pictures/Khadas.bmp: data
+$ file ~/Pictures/khadas.bmp 
+/home/gouwa/Pictures/khadas.bmp: data
 $ 
 ```
-开机logo参考文件 [Khadas.bmp](http://www.mediafire.com/file/xoobk7gc3t5bo00/Khadas.bmp)。
+开机logo参考文件 [khadas.bmp](http://www.mediafire.com/file/xoobk7gc3t5bo00/khadas.bmp)。
 在这篇文章中，将会介绍两种不同的方法来编译开机logo。
 
 ### 单独编译开机logo
 1）下载工具
 ```
-$ git clone https://github.com/Khadas/utils.git
+$ git clone https://github.com/khadas/utils.git
 ```
 2）更新你想要编译的开机图片
 ```
 $ mkdir -p images/logo
-$ cp ~/Pictures/Khadas.bmp images/logo/bootup.bmp
+$ cp ~/Pictures/khadas.bmp images/logo/bootup.bmp
 ```
 3）编译开机logo
 ```
@@ -43,7 +43,7 @@ $
 ### 在安卓源码中编译开机logo
 1）更新你想要编译的开机图片
 ```
-$ cp ~/Pictures/Khadas.bmp device/Khadas/kvim/product/logo/bootup.bmp
+$ cp ~/Pictures/khadas.bmp device/khadas/kvim/product/logo/bootup.bmp
 ```
 2）编译开机logo
 ```
@@ -56,7 +56,7 @@ $ make logoimg
 ...
 
 generate out/target/product/kvim/upgrade/logo.img
-gzip -c device/Khadas/kvim/product/logo/bootup.bmp > out/target/product/kvim/upgrade/logo/bootup.bmp
+gzip -c device/khadas/kvim/product/logo/bootup.bmp > out/target/product/kvim/upgrade/logo/bootup.bmp
 dbg:item num 8
 dbg:pack item [bootup]
 dbg:pack item [upgrade_upgrading]
@@ -89,7 +89,7 @@ kvim# run init_display
 ### 扩展
 你会发现还有一些别的图片也会编译进`logo.img`
 ```
-$ ls device/Khadas/kvim/product/logo/
+$ ls device/khadas/kvim/product/logo/
 bootup.bmp       upgrade_error.bmp  upgrade_logo.bmp     upgrade_unfocus.bmp
 upgrade_bar.bmp  upgrade_fail.bmp   upgrade_success.bmp  upgrade_upgrading.bmp
 ```

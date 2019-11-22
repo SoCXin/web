@@ -54,7 +54,7 @@ $ docker run hello-world
 
 If you see the following messages, it means that Docker has been setup correctly:
 ```
-Khadas@Khadas:~$ docker run hello-world
+khadas@Khadas:~$ docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
 255483503861: Pull complete 

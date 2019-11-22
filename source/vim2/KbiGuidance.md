@@ -121,7 +121,7 @@ To set the default boot media as SPI flash:
 ```
 kvim2# kbi bootmode w spi
 ```
-*For more information about the SPI flash boot mode, see How to boot from SPI Flash([VIM2](http://forum.Khadas.com/t/how-to-boot-from-spi-flash/1354)/[VIM3](/vim3/BootFromSpiFlash.html)/[Edge](/edge/BootFromSpiFlash.html))*.
+*For more information about the SPI flash boot mode, see How to boot from SPI Flash([VIM2](http://forum.khadas.com/t/how-to-boot-from-spi-flash/1354)/[VIM3](/vim3/BootFromSpiFlash.html)/[Edge](/edge/BootFromSpiFlash.html))*.
 
 To set the default boot media as eMMC storage:
 ```
@@ -167,6 +167,6 @@ set_wol: 0
 ```
 ### See also
 [WOL setup and usage](/vim2/HowtoUseWol.html).
-[Edge-V MCU Register Map](https://dl.Khadas.com/Hardware/Edge/MCU/Edge-V_MCU_REG_EN.pdf)
-[VIM2 MCU Register Map](https://dl.Khadas.com/Hardware/VIM2/MCU/VIM2_MCU_REG_EN.pdf)
-[VIM3 MCU Register Map](https://dl.Khadas.com/Hardware/VIM3/MCU/VIM3_MCU_REG_EN.pdf)
+[Edge-V MCU Register Map](https://dl.khadas.com/Hardware/Edge/MCU/Edge-V_MCU_REG_EN.pdf)
+[VIM2 MCU Register Map](https://dl.khadas.com/Hardware/VIM2/MCU/VIM2_MCU_REG_EN.pdf)
+[VIM3 MCU Register Map](https://dl.khadas.com/Hardware/VIM3/MCU/VIM3_MCU_REG_EN.pdf)

@@ -10,9 +10,9 @@ ssh-add ~/.ssh/id_rsa
 # Copy SSH config
 cp .travis/ssh_config ~/.ssh/config
 # Set Git config
-git config --global user.name qitas
-git config --global user.email qitas@qitas.cn
+git config --global user.name "Khadas Bot"
+git config --global user.email hello@khadas.com
 # Clone the repository
-git clone git@github.com:Khadas/Khadas.github.io.git .deploy_git
+git clone git@github.com:khadas/khadas.github.io.git .deploy_git
 # Deploy to GitHub
 npm run deploy

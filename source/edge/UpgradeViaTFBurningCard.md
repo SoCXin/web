@@ -3,7 +3,7 @@ title: Upgrade Using A SD Card
 
 ### Preparation
 * Windows PC.
-* Download [SDDiskTool](https://dl.Khadas.com/Tools/SDDiskTool_en_v1.53.zip) and extract it.
+* Download [SDDiskTool](https://dl.khadas.com/Tools/SDDiskTool_en_v1.53.zip) and extract it.
 * SD-Card and an SD-Card Reader.
 * HDMI Monitor.
 

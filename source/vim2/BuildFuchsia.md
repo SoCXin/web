@@ -87,4 +87,4 @@ Reboot your VIM2 to enter `zedboot`.
 
 ### See Also
 [Google Fuchsia Docs](https://fuchsia.googlesource.com/docs/+/master/getting_started.md#Prerequisites)
-[Zircon on Khadas VIM2 Board](https://github.com/fuchsia-mirror/zircon/blob/master/docs/targets/Khadas-vim.md)
+[Zircon on Khadas VIM2 Board](https://github.com/fuchsia-mirror/zircon/blob/master/docs/targets/khadas-vim.md)

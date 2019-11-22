@@ -1,7 +1,7 @@
 title: Build Ubuntu/Debian Images
 ---
 
-You can use [Fenix](https://github.com/Khadas/fenix) (one-stop script) to build Ubuntu/Debian images.
+You can use [Fenix](https://github.com/khadas/fenix) (one-stop script) to build Ubuntu/Debian images.
 
 ### Setup Build Host
 ```
@@ -16,7 +16,7 @@ Clone Fenix repository to somewhere like: `~/project/`
 ```sh
 $ mkdir ~/project/
 $ cd ~/project/
-$ git clone https://github.com/Khadas/fenix
+$ git clone https://github.com/khadas/fenix
 ```
 
 ### Setup Build Environment
@@ -152,12 +152,12 @@ $ docker build -t fenix .
 
 Build Image in Docker:
 ```
-$ docker run -it --name fenix -v $(pwd):/home/Khadas/fenix -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --privileged --device=/dev/loop0:/dev/loop0 --cap-add SYS_ADMIN fenix
+$ docker run -it --name fenix -v $(pwd):/home/khadas/fenix -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --privileged --device=/dev/loop0:/dev/loop0 --cap-add SYS_ADMIN fenix
 ```
 We are in the Docker Container now, start your build.
 ```
-Khadas@919cab43f66d:~/fenix$ source env/setenv.sh
-Khadas@919cab43f66d:~/fenix$ make
+khadas@919cab43f66d:~/fenix$ source env/setenv.sh
+khadas@919cab43f66d:~/fenix$ make
 ```
 
 To restart the Docker container a second time.

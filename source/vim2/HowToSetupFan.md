@@ -42,6 +42,6 @@ Edit file `/boot/env.txt` and set `fan_mode=off`.
 After edit the file, please save the modification and reboot the board.
 
 ```
-Khadas@Khadas:~$ sync
-Khadas@Khadas:~$ sudo reboot
+khadas@Khadas:~$ sync
+khadas@Khadas:~$ sudo reboot
 ```

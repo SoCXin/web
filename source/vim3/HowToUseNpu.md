@@ -3,7 +3,7 @@ title: How To Use the NPU
 
 ### Download NPU SDK
 
-Please click [here](https://www.Khadas.com/npu-toolkit-vim3) to get the SDK download link.
+Please click [here](https://www.khadas.com/npu-toolkit-vim3) to get the SDK download link.
 
 Download NPU SDK to somewhere, e.g. `~/npu`:
 
@@ -130,7 +130,7 @@ drwxrwxr-x 3 nick nick   4096 9月  20 15:24 ../
 
 * Running On VIM3
 
-Firmware version [V190830](https://dl.Khadas.com/Firmware/VIM3/Ubuntu/EMMC/) or newer, and update the system.
+Firmware version [V190830](https://dl.khadas.com/Firmware/VIM3/Ubuntu/EMMC/) or newer, and update the system.
 
 ```
 $ sudo apt-get update

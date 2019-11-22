@@ -18,7 +18,7 @@ VIM2、VIM3和Edge不同于VIM1的一点就是具有以太网唤醒功能。
 如果VIM2背面贴的MAC地址损坏了，你还可以通过如下方式获取MAC地址。
 **1) Ubuntu系统下在终端执行 **ifconfig**获取MAC地址**
 ```
-Khadas@Khadas:~$ ifconfig
+khadas@khadas:~$ ifconfig
 eth0      Link encap:Ethernet  HWaddr 98:aa:fc:60:46:de
           inet addr:192.168.1.142  Bcast:192.168.1.255  Mask:255.255.255.0 
           inet6 addr: fe80::9aaa:fcff:fe60:46de/64 Scope: Link

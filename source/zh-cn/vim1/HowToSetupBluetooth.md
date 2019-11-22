@@ -5,12 +5,12 @@ title: 如何设置蓝牙
 
 ### 使能蓝牙
 ```
-Khadas@Khadas:~$ sudo hciconfig hci0 up
+khadas@Khadas:~$ sudo hciconfig hci0 up
 ```
 
 ### 进入bluetoothctl命令行
 ```
-Khadas@Khadas:~$ sudo bluetoothctl
+khadas@Khadas:~$ sudo bluetoothctl
 [NEW] Controller 43:54:A2:00:1F:AC Khadas [default]
 Agent registered
 [bluetooth]#
@@ -54,5 +54,5 @@ Device 9C:FB:D5:0D:91:47 9C-FB-D5-0D-91-47
 [bluetooth]# quit
 Agent unregistered
 [DEL] Controller 43:54:A2:00:1F:AC Khadas [default]
-Khadas@Khadas:~$
+khadas@Khadas:~$
 ```

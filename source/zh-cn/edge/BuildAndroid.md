@@ -22,7 +22,7 @@ $ make ARCHV=aarch64
 $ cd PATH_YOUR_PROJECT
 $ cd kernel
 $ make ARCH=arm64 kedge_defconfig -jN
-$ make ARCH=arm64 rk3399-Khadas-edge-android.img -jN
+$ make ARCH=arm64 rk3399-khadas-edge-android.img -jN
 ```
 **编译 android：**
 ```sh
@@ -71,7 +71,7 @@ $ ./make.sh kedge
 $ cd PATH_YOUR_PROJECT
 $ cd kernel
 $ make ARCH=arm64 kedge_defconfig -jN
-$ make ARCH=arm64 rk3399-Khadas-edge-android.img -jN
+$ make ARCH=arm64 rk3399-khadas-edge-android.img -jN
 ```
 **编译 android：**
 ```sh

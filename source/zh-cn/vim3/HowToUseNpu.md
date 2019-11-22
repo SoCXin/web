@@ -3,7 +3,7 @@ title: 如何使用NPU
 
 ### 下载NPU相关工具包SDK
 
-请访问[这里](https://www.Khadas.com/npu-toolkit-vim3)来获取SDK下载链接。
+请访问[这里](https://www.khadas.com/npu-toolkit-vim3)来获取SDK下载链接。
 
 下载NPU相关SDK到某个目录，如：`~/npu`
 
@@ -127,7 +127,7 @@ drwxrwxr-x 3 nick nick   4096 9月  20 15:24 ../
 
 * 在VIM3上运行
 
-固件版本需要[V190830](https://dl.Khadas.com/Firmware/VIM3/Ubuntu/EMMC/)及以上版本，并更新至最新系统。
+固件版本需要[V190830](https://dl.khadas.com/Firmware/VIM3/Ubuntu/EMMC/)及以上版本，并更新至最新系统。
 
 ```
 $ sudo apt-get update

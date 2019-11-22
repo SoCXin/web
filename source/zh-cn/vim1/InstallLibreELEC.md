@@ -68,5 +68,5 @@ $ sudo eject /dev/sdb
 ## 注意
 * 对于之前的Android N存在权限问题，所以不能通过之前版本来启动外部媒体介质镜像，否则或导致外部媒体介质镜像被破坏。
 
-* 对于Android O同样有权限问题。如果你想要通过Android O来启动linux 4.9内核的系统，可以参考[这里](http://forum.Khadas.com/t/armbian-kodi-ubuntu-debian-for-sd-usb-emmc/825/109)解决。
+* 对于Android O同样有权限问题。如果你想要通过Android O来启动linux 4.9内核的系统，可以参考[这里](http://forum.khadas.com/t/armbian-kodi-ubuntu-debian-for-sd-usb-emmc/825/109)解决。
 

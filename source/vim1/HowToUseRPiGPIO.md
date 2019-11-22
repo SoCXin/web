@@ -7,13 +7,13 @@ RPi.GPIO is a Python Library which use to control GPIO on Raspberry Pi.This is a
 ### Begin to Use RPi.GPIO
 #### Verify that RPI is installed correctly
 There are two locations to confirm.
-* In python2,you can check with this command `cat /usr/local/lib/python2.7/dist-packages/RPi.GPIO-0.6.3.post1.egg-info | grep "Khadas"`,you will look this.
+* In python2,you can check with this command `cat /usr/local/lib/python2.7/dist-packages/RPi.GPIO-0.6.3.post1.egg-info | grep "KHADAS"`,you will look this.
 ```
-Description: This package provides a class to control the GPIO on a Raspberry Pi or Khadas.
+Description: This package provides a class to control the GPIO on a Raspberry Pi or KHADAS.
 ```
-* In Python3, you can check with this command `cat /usr/local/lib/python3.6/dist-packages/RPi.GPIO-0.6.3.post1.egg-info |  grep "Khadas"`,you will look this again.
+* In Python3, you can check with this command `cat /usr/local/lib/python3.6/dist-packages/RPi.GPIO-0.6.3.post1.egg-info |  grep "KHADAS"`,you will look this again.
 ```
-Description: This package provides a class to control the GPIO on a Raspberry Pi or Khadas.
+Description: This package provides a class to control the GPIO on a Raspberry Pi or KHADAS.
 ```
 #### How to Programing The Python Program to control GPIO
 

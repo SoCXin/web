@@ -100,12 +100,12 @@ hexo.extend.helper.register('header_menu', function(className) {
 
     if (path === currentPath) {
       if (title === 'firmware')
-		result += '<a href="https://dl.Khadas.com/Firmware/" target="_blank" class="' + className + '-link current">' + self.__('menu.' + title) + '</a>';
+		result += '<a href="https://dl.khadas.com/Firmware/" target="_blank" class="' + className + '-link current">' + self.__('menu.' + title) + '</a>';
 	  else
 		result += '<a href="' + self.url_for(path) + '" class="' + className + '-link current">' + self.__('menu.' + title) + '</a>';
 	} else {
 	  if (title === 'firmware')
-		result += '<a href="https://dl.Khadas.com/Firmware/" target="_blank" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
+		result += '<a href="https://dl.khadas.com/Firmware/" target="_blank" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
 	  else
 		result += '<a href="' + self.url_for(path) + '" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
     }
@@ -131,7 +131,7 @@ hexo.extend.helper.register('url_for_lang', function(path) {
 });
 
 hexo.extend.helper.register('raw_link', function(path) {
-  return 'https://github.com/Khadas/khadas_docs/edit/master/source/' + path;
+  return 'https://github.com/khadas/khadas_docs/edit/master/source/' + path;
 });
 
 hexo.extend.helper.register('page_anchor', function(str) {
