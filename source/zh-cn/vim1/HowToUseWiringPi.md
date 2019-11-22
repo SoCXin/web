@@ -49,13 +49,13 @@ PU/PD --> PU:上拉 PD:下拉 DSBLD:已关闭上下拉
 wpi的1号引脚被设置成了输出模式。
 * 运行 `gpio read 1`
 ```
-root@OS-Q:~# gpio read 1
+root@Khadas:~# gpio read 1
 1
 ```
 * 运行 `gpio write 1 0` 改变引脚的输出值
 * 再次运行 `gpio read 1` 
 ```
-root@OS-Q:~# gpio read 1   
+root@Khadas:~# gpio read 1   
 0
 ```
 你可看到将引脚设置成输出后，就可以通过写命令改变引脚的电平值了。

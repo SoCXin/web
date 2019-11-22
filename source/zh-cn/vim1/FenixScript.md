@@ -1,7 +1,7 @@
 title: 编译Ubuntu/Debian固件
 ---
 
-你可以使用[Fenix](https://github.com/OS-Q/fenix)脚本来编译Ubuntu/Debian固件。
+你可以使用[Fenix](https://github.com/Khadas/fenix)脚本来编译Ubuntu/Debian固件。
 
 ### 设置本地编辑环境
 ```
@@ -15,7 +15,7 @@ $ sudo apt-get install git make lsb-release qemu-user-static
 ```sh
 $ mkdir ~/project/
 $ cd ~/project/
-$ git clone https://github.com/OS-Q/fenix
+$ git clone https://github.com/Khadas/fenix
 ```
 
 ### 设置编译环境
@@ -149,12 +149,12 @@ $ docker build -t fenix .
 
 进入Docker环境：
 ```
-$ docker run -it --name fenix -v $(pwd):/home/OS-Q/fenix -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --privileged --device=/dev/loop0:/dev/loop0 --cap-add SYS_ADMIN fenix
+$ docker run -it --name fenix -v $(pwd):/home/Khadas/fenix -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --privileged --device=/dev/loop0:/dev/loop0 --cap-add SYS_ADMIN fenix
 ```
 现在已经在Docker容器里面了，可以开始编译了：
 ```
-OS-Q@919cab43f66d:~/fenix$ source env/setenv.sh
-OS-Q@919cab43f66d:~/fenix$ make
+Khadas@919cab43f66d:~/fenix$ source env/setenv.sh
+Khadas@919cab43f66d:~/fenix$ make
 ```
 
 下一次可以用如下命令启动Docker：

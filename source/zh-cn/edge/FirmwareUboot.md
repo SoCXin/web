@@ -1,4 +1,4 @@
-title: OS-Q Edge U-boot固件
+title: Khadas Edge U-boot固件
 ---
 
 # U-Boot

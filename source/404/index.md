@@ -6,6 +6,6 @@ comments: false
 
 ## Oops! File not found!
 
-Please feed back to [OS-Q Forum](http://forum.OS-Q.com/) or send E-mail to hello@OS-Q.com.
+Please feed back to [Khadas Forum](http://forum.Khadas.com/) or send E-mail to hello@Khadas.com.
 
 [Return to home page](/index.html).

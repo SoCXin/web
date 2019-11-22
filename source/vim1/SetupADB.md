@@ -1,7 +1,7 @@
 title: Setup ADB
 ---
 
-There are two ways to setup ADB for the OS-Q VIM. The methods portrayed are common with other Android products.
+There are two ways to setup ADB for the Khadas VIM. The methods portrayed are common with other Android products.
 
 
 ### ADB over Wi-Fi/LAN 

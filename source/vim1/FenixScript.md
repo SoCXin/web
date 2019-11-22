@@ -1,7 +1,7 @@
 title: Build Ubuntu/Debian Images
 ---
 
-You can use [Fenix](https://github.com/OS-Q/fenix) (one-stop script) to build Ubuntu/Debian images.
+You can use [Fenix](https://github.com/Khadas/fenix) (one-stop script) to build Ubuntu/Debian images.
 
 ### Setup Build Host
 ```
@@ -16,7 +16,7 @@ Clone Fenix repository to somewhere like: `~/project/`
 ```sh
 $ mkdir ~/project/
 $ cd ~/project/
-$ git clone https://github.com/OS-Q/fenix
+$ git clone https://github.com/Khadas/fenix
 ```
 
 ### Setup Build Environment
@@ -33,7 +33,7 @@ If you have setup the environment, then it’s time to build the image. Fenix re
 $ make
 ```
 
-**Tip:**If this is your first time building an image, the script will check your Host's environment and install some essential packages. In addition, repositories (U-Boot, Linux) will be cloned automatically from our OS-Q GitHub.
+**Tip:**If this is your first time building an image, the script will check your Host's environment and install some essential packages. In addition, repositories (U-Boot, Linux) will be cloned automatically from our Khadas GitHub.
 
 You can build the U-Boot and Kernel alone.
 
@@ -152,12 +152,12 @@ $ docker build -t fenix .
 
 Build Image in Docker:
 ```
-$ docker run -it --name fenix -v $(pwd):/home/OS-Q/fenix -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --privileged --device=/dev/loop0:/dev/loop0 --cap-add SYS_ADMIN fenix
+$ docker run -it --name fenix -v $(pwd):/home/Khadas/fenix -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --privileged --device=/dev/loop0:/dev/loop0 --cap-add SYS_ADMIN fenix
 ```
 We are in the Docker Container now, start your build.
 ```
-OS-Q@919cab43f66d:~/fenix$ source env/setenv.sh
-OS-Q@919cab43f66d:~/fenix$ make
+Khadas@919cab43f66d:~/fenix$ source env/setenv.sh
+Khadas@919cab43f66d:~/fenix$ make
 ```
 
 To restart the Docker container a second time.

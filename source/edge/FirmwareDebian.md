@@ -1,4 +1,4 @@
-title: OS-Q Edge Debian Firmware
+title: Khadas Edge Debian Firmware
 ---
 
 # Debian

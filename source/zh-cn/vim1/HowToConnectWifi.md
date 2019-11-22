@@ -5,7 +5,7 @@ title: 如何连接Wi-Fi
 
 ### 扫描Wi-Fi热点
 ```
-OS-Q@OS-Q:~$ nmcli d wifi list
+Khadas@Khadas:~$ nmcli d wifi list
 IN-USE  SSID                          MODE   CHAN  RATE        SIGNAL  BARS  SEC
         VIM                           Infra  2     195 Mbit/s  92      ▂▄▆█  WPA
         Wesion                        Infra  7     260 Mbit/s  84      ▂▄▆█  WPA
@@ -19,14 +19,14 @@ IN-USE  SSID                          MODE   CHAN  RATE        SIGNAL  BARS  SEC
 
 ### 连接到Wi-Fi热点
 ```
-OS-Q@OS-Q:~$ sudo nmcli d wifi connect your_ssid password your_password
-[sudo] password for OS-Q:
+Khadas@Khadas:~$ sudo nmcli d wifi connect your_ssid password your_password
+[sudo] password for Khadas:
 Device 'wlan0' successfully activated with '206ab399-3822-4652-ba4c-64847af0bce9'.
 ```
 *注意： 替换`your_ssid`和`your_password`为你要连接的Wi-Fi的SSID和密码。*
 
 ### 断开Wi-Fi
 ```
-OS-Q@OS-Q:~$ sudo nmcli d disconnect wlan0
+Khadas@Khadas:~$ sudo nmcli d disconnect wlan0
 Device 'wlan0' successfully disconnected.
 ```

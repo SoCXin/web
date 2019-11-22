@@ -8,10 +8,10 @@ title: VIM3 相关文档
 2. Type-C数据线
 
 **更多：**
-* [OS-Q Shop - 电源适配器](https://www.OS-Q.com/product-page/power-adapter)
-* [OS-Q Shop - Type-C数据线](https://www.OS-Q.com/product-page/usb-c-cable)
-* [OS-Q VIMs 外部供电接口](https://docs.OS-Q.com/zh-cn/vim3/ExtraPowerInput.html)
-* [OS-Q VIM 规格](https://www.OS-Q.com/vim)
+* [Khadas Shop - 电源适配器](https://www.Khadas.com/product-page/power-adapter)
+* [Khadas Shop - Type-C数据线](https://www.Khadas.com/product-page/usb-c-cable)
+* [Khadas VIMs 外部供电接口](https://docs.Khadas.com/zh-cn/vim3/ExtraPowerInput.html)
+* [Khadas VIM 规格](https://www.Khadas.com/vim)
 
 # 显示器　&& 用户输入
 当您需要将VIM3 SBC连接到外部显示器+键盘鼠标+遥控器，以用作台式计算机或媒体中心时，这些选项非常有用
@@ -22,8 +22,8 @@ title: VIM3 相关文档
 4. 兼容CEC的遥控器
 
 **更多：**
-[OS-Q Shop - HDMI数据线](https://www.OS-Q.com/product-page/hdmi-cable)
-[OS-Q Shop - 遥控器](https://www.OS-Q.com/product-page/ir-remote)
+[Khadas Shop - HDMI数据线](https://www.Khadas.com/product-page/hdmi-cable)
+[Khadas Shop - 遥控器](https://www.Khadas.com/product-page/ir-remote)
 [亚马逊－无线鼠标和键盘](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Delectronics&field-keywords=wireless+keyboard+and+mouse&rh=n%3A172282%2Ck%3Awireless+keyboard+and+mouse)
 
 # 制作可引导/烧录的SD卡/U盘驱动器
@@ -35,10 +35,10 @@ title: VIM3 相关文档
 4. 不小于8GB的U盘。
 
 **更多：**
-[启动卡与烧录卡的比较](https://docs.OS-Q.com/zh-cn/vim3/BootingCardVsBurningCard.html)
-[通过TF卡升级安卓](https://docs.OS-Q.com/zh-cn/vim3/UpgradeViaTFBurningCard.html)
-[从外部媒体介质启动系统](https://docs.OS-Q.com/zh-cn/vim3/BootFromExtMedia.html)
-[如何进入升级模式](https://docs.OS-Q.com/vim3/HowtoBootIntoUpgradeMode.html)
+[启动卡与烧录卡的比较](https://docs.Khadas.com/zh-cn/vim3/BootingCardVsBurningCard.html)
+[通过TF卡升级安卓](https://docs.Khadas.com/zh-cn/vim3/UpgradeViaTFBurningCard.html)
+[从外部媒体介质启动系统](https://docs.Khadas.com/zh-cn/vim3/BootFromExtMedia.html)
+[如何进入升级模式](https://docs.Khadas.com/vim3/HowtoBootIntoUpgradeMode.html)
 
 **提示:**
 * 应使用USB-C数据线从Ubuntu或Windows主机直接将**emmc固件**刻录到`emmc`。不能将其烧录到SD卡中。例如：android和ubuntu发行版包含“emmc”标记。
@@ -52,16 +52,16 @@ title: VIM3 相关文档
 2. 两头Type-C的数据线 (现代PC)
 
 **更多：**
-* [通过USB升级固件](https://docs.OS-Q.com/zh-cn/vim3/UpgradeViaUSBCable.html)
-* [进入升级模式](https://docs.OS-Q.com/zh-cn/vim3/HowtoBootIntoUpgradeMode.html)
+* [通过USB升级固件](https://docs.Khadas.com/zh-cn/vim3/UpgradeViaUSBCable.html)
+* [进入升级模式](https://docs.Khadas.com/zh-cn/vim3/HowtoBootIntoUpgradeMode.html)
 
 **固件**
-* [安卓固件](https://docs.OS-Q.com/zh-cn/vim3/FirmwareAndroid.html)
-* [Ubuntu固件](https://docs.OS-Q.com/zh-cn/vim3/FirmwareUbuntu.html)
-* [LibreELEC](https://docs.OS-Q.com/zh-cn/vim3/FirmwareLibreelec.html)
-* [Dual](https://docs.OS-Q.com/vim3/zh-cn/FirmwareDualos.html)
-* [U-Boot](https://docs.OS-Q.com/vim3/zh-cn/FirmwareUboot.html)
-* [Third Party OSes](https://docs.OS-Q.com/vim3/zh-cn/FirmwareThirdparty.html)
+* [安卓固件](https://docs.Khadas.com/zh-cn/vim3/FirmwareAndroid.html)
+* [Ubuntu固件](https://docs.Khadas.com/zh-cn/vim3/FirmwareUbuntu.html)
+* [LibreELEC](https://docs.Khadas.com/zh-cn/vim3/FirmwareLibreelec.html)
+* [Dual](https://docs.Khadas.com/vim3/zh-cn/FirmwareDualos.html)
+* [U-Boot](https://docs.Khadas.com/vim3/zh-cn/FirmwareUboot.html)
+* [Third Party OSes](https://docs.Khadas.com/vim3/zh-cn/FirmwareThirdparty.html)
 
 # 观看电影，扩展内部emmc存储
 如果您希望将VIM3 SBC用作媒体中心，用于存储/下载大型电影文件，这些项目非常有用。一个microDXC的UHS-I卡很贵，但它的速度也足以支持4K视频播放。此外，您还可以连接外部USB-2.0/3.0 SSD或HDD以存储整个媒体库。
@@ -73,7 +73,7 @@ title: VIM3 相关文档
 * [Amazon - Samsung T5 Portable SSD](https://www.amazon.com/Samsung-T5-Portable-SSD-MU-PA1T0B/dp/B073H552FJ/ref=sr_1_1_sspa?ie=UTF8&qid=1543995277&sr=8-1-spons&keywords=external+usb+ssd&psc=1)
 * [Amzon - microSDXC UHS-I SD-Card](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=microSDXC+UHS-I&rh=i%3Aaps%2Ck%3AmicroSDXC+UHS-I)
 
-**提示:** 如今，大多数人都通过流媒体使用，可以参考[如何安装LibreELEC](https://docs.OS-Q.com/zh-cn/vim3/InstallLibreELEC.html)
+**提示:** 如今，大多数人都通过流媒体使用，可以参考[如何安装LibreELEC](https://docs.Khadas.com/zh-cn/vim3/InstallLibreELEC.html)
 
 # 软件开发/高级CRACH恢复
 在系统完全崩溃需要手动恢复的极端情况下，需要使用mregister重置VIM3 SBC。USB串行调试工具对于开发人员调试复杂软件问题也很有用。
@@ -82,11 +82,11 @@ title: VIM3 相关文档
 2. USB串行调试工具（用于诊断软件/硬件问题）
 
 **更多:**
-* [升级模式](https://docs.OS-Q.com/zh-cn/vim3/HowtoBootIntoUpgradeMode.html)
+* [升级模式](https://docs.Khadas.com/zh-cn/vim3/HowtoBootIntoUpgradeMode.html)
 * [亚马逊－金属镊子](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=metal+tweezers)
 * [亚马逊-USB调试工具](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=usb+serial+debug+tool&rh=i%3Aaps%2Ck%3Ausb+serial+debug+tool)
 
 # VIM3相关网页
 更多的相关信息，请查看我们的网页，阅读文档，或者到论坛浏览以及提问。
-* [VIM3网站首页](https://www.OS-Q.com/vim)
-* [VIM3论坛页](https://forum.OS-Q.com/c/OS-Q-VIM3)
+* [VIM3网站首页](https://www.Khadas.com/vim)
+* [VIM3论坛页](https://forum.Khadas.com/c/Khadas-VIM3)

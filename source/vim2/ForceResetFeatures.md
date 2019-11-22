@@ -7,7 +7,7 @@ Your VIM is equipped with a programmable MCU(STM8S003F3U6), this allows it to su
 * Boot Media Setup: Boot from eMMC or SPI-Flash
 * IR Remote Power On/Off
 * Timer Power On/Off
-* [KBI: OS-Q Bootloader Instructions](/vim2/KbiGuidance.html)
+* [KBI: Khadas Bootloader Instructions](/vim2/KbiGuidance.html)
 
 For other purposes, Makers could want more features like:
 * Power on the VIM2 via a PIN on the 40-PIN GPIO

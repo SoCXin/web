@@ -1,10 +1,10 @@
 title: Boot From SPI Flash
 ---
 
-OS-Q VIM3/VIM3L contains a 16 MB SPI-Flash that's used as boot storage; so you can boot from it. This guide is about how to boot from the on-board SPI-Flash.
+Khadas VIM3/VIM3L contains a 16 MB SPI-Flash that's used as boot storage; so you can boot from it. This guide is about how to boot from the on-board SPI-Flash.
 
 ### Build U-boot For SPI-Flash
-The U-Boot for SPI-Flash is the same as eMMC U-Boot. We recommend using [Fenix Script](https://github.com/OS-Q/fenix) to build U-Boot, as it's easy this way.
+The U-Boot for SPI-Flash is the same as eMMC U-Boot. We recommend using [Fenix Script](https://github.com/Khadas/fenix) to build U-Boot, as it's easy this way.
 
 **This guide assumes that you have already setup a basic build environment. If not, please refer to [Fenix Usage](vim33/FenixScript.html).**
 

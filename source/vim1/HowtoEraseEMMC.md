@@ -75,10 +75,10 @@ This approach is suitable for a VIM that has Linux installed:
 1. Power on and boot up.
 2. Open a terminal, and run `dd` to fill your bootloader partition with zeros:
 ```
-root@OS-Q:~# dd if=/dev/zero of=/dev/bootloader
+root@Khadas:~# dd if=/dev/zero of=/dev/bootloader
 dd: writing to '/dev/bootloader': No space left on device
 8193+0 records in
 8192+0 records out
 4194304 bytes (4.2 MB, 4.0 MiB) copied, 1.1226 s, 3.7 MB/s
-root@OS-Q:~# reboot
+root@Khadas:~# reboot
 ```

@@ -5,15 +5,15 @@ title: 搭建Golang环境
 
 ### 下载arm64架构Golang包
 ```
-OS-Q@OS-Q:~$ mkdir source
-OS-Q@OS-Q:~$ cd source/
-OS-Q@OS-Q:~/source$ wget https://dl.google.com/go/go1.10.3.linux-arm64.tar.gz
+Khadas@Khadas:~$ mkdir source
+Khadas@Khadas:~$ cd source/
+Khadas@Khadas:~/source$ wget https://dl.google.com/go/go1.10.3.linux-arm64.tar.gz
 ```
 
 ### 解压
 解压压缩包到某处，如：`/usr/local`。
 ```
-OS-Q@OS-Q:~/source$ sudo tar -C /usr/local -xzf go1.10.3.linux-arm64.tar.gz
+Khadas@Khadas:~/source$ sudo tar -C /usr/local -xzf go1.10.3.linux-arm64.tar.gz
 ```
 
 ### 添加Golang到PATH环境变量
@@ -21,12 +21,12 @@ OS-Q@OS-Q:~/source$ sudo tar -C /usr/local -xzf go1.10.3.linux-arm64.tar.gz
 
 注销或执行以下命令使其生效。
 ```
-OS-Q@OS-Q:~/source$ source ~/.bashrc
+Khadas@Khadas:~/source$ source ~/.bashrc
 ```
 
 ### 检查安装
 ```
-OS-Q@OS-Q:~/source$ go version
+Khadas@Khadas:~/source$ go version
 go version go1.10.3 linux/arm64
 ```
 
@@ -35,7 +35,7 @@ go version go1.10.3 linux/arm64
 ### 测试
 创建Hello World文件，编译并运行。
 ```
-OS-Q@OS-Q:~/source$ cat HelloWorld.go 
+Khadas@Khadas:~/source$ cat HelloWorld.go 
 package main
 
 import "fmt"
@@ -43,8 +43,8 @@ import "fmt"
 func main() {
 	        fmt.Println("Hello World!")
 }
-OS-Q@OS-Q:~/source$ go build HelloWorld.go 
-OS-Q@OS-Q:~/source$ ./HelloWorld 
+Khadas@Khadas:~/source$ go build HelloWorld.go 
+Khadas@Khadas:~/source$ ./HelloWorld 
 Hello World!
 ```
 

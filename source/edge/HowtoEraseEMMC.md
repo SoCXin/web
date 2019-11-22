@@ -2,7 +2,7 @@ title: How To Erase The eMMC Storage
 ---
 
 ### Using Windows
-You can use [AndroidTool](https://dl.OS-Q.com/Tools/AndroidTool_Release_en_v2.58.zip) to erase the eMMC storage.
+You can use [AndroidTool](https://dl.Khadas.com/Tools/AndroidTool_Release_en_v2.58.zip) to erase the eMMC storage.
 
 1. Power on Edge and connect it to your Host PC via a USB-C data cable.
 
@@ -14,7 +14,7 @@ You can use [AndroidTool](https://dl.OS-Q.com/Tools/AndroidTool_Release_en_v2.58
 ![AndroidTool Erase eMMC](/images/edge/AndroidTool_erase_en.png)
 
 ### Using Ubuntu
-You can use [Linux_Upgrade_Tool](https://dl.OS-Q.com/Tools/Linux_Upgrade_Tool_v1.34.zip) to erase the eMMC storage.
+You can use [Linux_Upgrade_Tool](https://dl.Khadas.com/Tools/Linux_Upgrade_Tool_v1.34.zip) to erase the eMMC storage.
 
 1. Power on Edge and connect it to your Host PC via a USB-C data cable.
 

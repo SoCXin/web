@@ -1,4 +1,4 @@
-title: OS-Q VIM3 Third Party Firmware
+title: Khadas VIM3 Third Party Firmware
 ---
 
 # 3rd party

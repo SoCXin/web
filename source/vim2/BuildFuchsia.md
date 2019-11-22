@@ -1,6 +1,6 @@
 title: Build Fuchsia
 ---
-Google's new operating system [Fuchsia](https://en.wikipedia.org/wiki/Google_Fuchsia) has added support for our OS-Q VIM2. However, its still under development. In this guide, I will give instructions on how to build Fuchsia and get it running on your VIM2. Let's go!
+Google's new operating system [Fuchsia](https://en.wikipedia.org/wiki/Google_Fuchsia) has added support for our Khadas VIM2. However, its still under development. In this guide, I will give instructions on how to build Fuchsia and get it running on your VIM2. Let's go!
 
 ### Prepare your Build Environment (needs to be done once per build environment)
 Install Essential Packages:
@@ -87,4 +87,4 @@ Reboot your VIM2 to enter `zedboot`.
 
 ### See Also
 [Google Fuchsia Docs](https://fuchsia.googlesource.com/docs/+/master/getting_started.md#Prerequisites)
-[Zircon on OS-Q VIM2 Board](https://github.com/fuchsia-mirror/zircon/blob/master/docs/targets/OS-Q-vim.md)
+[Zircon on Khadas VIM2 Board](https://github.com/fuchsia-mirror/zircon/blob/master/docs/targets/Khadas-vim.md)

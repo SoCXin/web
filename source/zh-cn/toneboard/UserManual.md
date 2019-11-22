@@ -1,4 +1,4 @@
-title: OS-Q Tone Board 用户手册
+title: Khadas Tone Board 用户手册
 ---
 
 感谢选购Khadas Tone Board，现在开始享受高品质音乐吧～
@@ -51,7 +51,7 @@ USB Type C数据线|USB Type C数据线
 * ### Windows
   以Windows 10为例进行说明，Windows 7和Windows XP也是类似的。
   *  安装XMOS驱动
-     * [下载](https://dl.OS-Q.com/Firmware/ToneBoard/Driver/Thesycon-Stereo-USB-Audio-Driver-V224.rar)驱动
+     * [下载](https://dl.Khadas.com/Firmware/ToneBoard/Driver/Thesycon-Stereo-USB-Audio-Driver-V224.rar)驱动
      * 解压并运行`setup.exe`来安装驱动
      * 安装完成后可以在设备管理器看到XMOS设备
 ![Tone Board Windows Setup1](/images/toneboard/ToneboardWindowsSetup1.png)

@@ -1,4 +1,4 @@
-title: OS-Q VIM2 Firmware Resources
+title: Khadas VIM2 Firmware Resources
 ---
 
 # LibreELEC

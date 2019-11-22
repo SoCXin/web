@@ -1,4 +1,4 @@
-title: OS-Q Edge Buildroot固件
+title: Khadas Edge Buildroot固件
 ---
 
 # Buildroot

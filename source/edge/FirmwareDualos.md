@@ -1,4 +1,4 @@
-title: OS-Q Edge DualOS Firmware
+title: Khadas Edge DualOS Firmware
 ---
 
 # DualOS

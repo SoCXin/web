@@ -1,4 +1,4 @@
-title: Extra Power Input for OS-Q VIMs
+title: Extra Power Input for Khadas VIMs
 ---
 
 **NOTE:**
@@ -7,7 +7,7 @@ title: Extra Power Input for OS-Q VIMs
 * **ENSURE THAT THE VOLTAGE OF YOUR POWER ADAPTER IS LISTED AS: 5.2V MAX, 2000mA.**
 
 ### Overview
-OS-Q VIM1/VIM2 is designed with three power supply ports:
+Khadas VIM1/VIM2 is designed with three power supply ports:
 
 1. USB-C Port: This is used for both Power Supply and USB Data Transmission.
 2. 4-Pin VIN port which is situated near the USB-C port.

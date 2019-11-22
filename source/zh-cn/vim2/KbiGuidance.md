@@ -1,7 +1,7 @@
-title: OS-Q VIM2/VIM3/Edge KBI说明
+title: Khadas VIM2/VIM3/Edge KBI说明
 ---
 
-KBI是"OS-Q Bootloader Instructions"的缩写，主要用于以下几方面：
+KBI是"Khadas Bootloader Instructions"的缩写，主要用于以下几方面：
 * 控制可编程MCU
 * 管理底层硬件
 * 让开发者体验VIM2/VIM3/Edge全部的特性
@@ -22,7 +22,7 @@ kvim2#
 和其他U-boot命令一样，直接执行`kbi`会给出帮助信息：
 ```
 kvim2# kbi
-kbi - OS-Q Bootloader Instructions sub-system
+kbi - Khadas Bootloader Instructions sub-system
 
 Usage:
 kbi [function] [mode] [write|read] <value>
@@ -121,7 +121,7 @@ VIM2配置有eMMC和SPI存储器，可以通过KBI设置从哪里启动系统。
 ```
 kvim2# kbi bootmode w spi
 ```
-*关于SPI FLASH启动请参考如何从SPI Flash启动([VIM2](http://forum.OS-Q.com/t/how-to-boot-from-spi-flash/1354)/[VIM3](/zh-cn/vim3/BootFromSpiFlash.html)/[Edge](/zh-cn/edge/BootFromSpiFlash.html))*。
+*关于SPI FLASH启动请参考如何从SPI Flash启动([VIM2](http://forum.Khadas.com/t/how-to-boot-from-spi-flash/1354)/[VIM3](/zh-cn/vim3/BootFromSpiFlash.html)/[Edge](/zh-cn/edge/BootFromSpiFlash.html))*。
 
 设置默认从eMMC启动系统：
 ```
@@ -167,7 +167,7 @@ set_wol: 0
 
 ### 更多
 [如何使用WOL](/zh-cn/vim2/HowtoUseWol.html)。
-[Edge-V MCU寄存器说明](https://dl.OS-Q.com/Hardware/Edge/MCU/Edge-V_MCU_REG_ZH.pdf)
-[VIM2 MCU寄存器说明](https://dl.OS-Q.com/Hardware/VIM2/MCU/VIM2_MCU_REG_ZH.pdf)
-[VIM3 MCU寄存器说明](https://dl.OS-Q.com/Hardware/VIM3/MCU/VIM3_MCU_REG_ZH.pdf)
+[Edge-V MCU寄存器说明](https://dl.Khadas.com/Hardware/Edge/MCU/Edge-V_MCU_REG_ZH.pdf)
+[VIM2 MCU寄存器说明](https://dl.Khadas.com/Hardware/VIM2/MCU/VIM2_MCU_REG_ZH.pdf)
+[VIM3 MCU寄存器说明](https://dl.Khadas.com/Hardware/VIM3/MCU/VIM3_MCU_REG_ZH.pdf)
 

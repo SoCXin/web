@@ -46,7 +46,7 @@ When you build the Android Kernel (above), the Linux Kernel will also be built s
 
 In some cases, you might want to build the Linux Kernel separately. You can run this script below to do that:
 ```sh
-$ source device/OS-Q/kvim2/mkern.sh
+$ source device/Khadas/kvim2/mkern.sh
 ```
 
 ### See Also

@@ -1,4 +1,4 @@
-title: OS-Q VIM1 Firmware Resources
+title: Khadas VIM1 Firmware Resources
 ---
 
 ## [Android](/vim1/FirmwareAndroid.html)

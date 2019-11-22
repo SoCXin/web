@@ -1,4 +1,4 @@
-title: OS-Q Edge U-boot Firmware
+title: Khadas Edge U-boot Firmware
 ---
 
 # U-Boot

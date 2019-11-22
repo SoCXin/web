@@ -45,8 +45,8 @@ Edit file `/boot/env.txt` and set `fan_mode=off`.
 After edit the file, please save the modification and reboot the board.
 
 ```bash
-OS-Q@OS-Q:~$ sync
-OS-Q@OS-Q:~$ sudo reboot
+Khadas@Khadas:~$ sync
+Khadas@Khadas:~$ sudo reboot
 ```
 
 ### Query fan mode/level, temperature and trigger after boot
@@ -58,7 +58,7 @@ To query the fan mode/level, temperature and trigger after booting use the follo
 * `trig` : Query the three different temperature trigger for low, mid and high fan level.
 
 ```bash
-OS-Q@OS-Q:~$ sudo fan.sh --help
+Khadas@Khadas:~$ sudo fan.sh --help
 Help: Command line parameters:
 
 Usage: /usr/local/bin/fan.sh [on|auto|off]  :: Set fan mode

@@ -13,6 +13,6 @@ cp .travis/ssh_config ~/.ssh/config
 git config --global user.name qitas
 git config --global user.email qitas@qitas.cn
 # Clone the repository
-git clone git@github.com:OS-Q/OS-Q.github.io.git .deploy_git
+git clone git@github.com:Khadas/Khadas.github.io.git .deploy_git
 # Deploy to GitHub
 npm run deploy

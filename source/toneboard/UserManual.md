@@ -1,7 +1,7 @@
-title: OS-Q Tone Board User Manual
+title: Khadas Tone Board User Manual
 ---
 
-Thank you for purchasing a OS-Q Tone Board. Now you can easily enjoy Hi-Res Audio at home.
+Thank you for purchasing a Khadas Tone Board. Now you can easily enjoy Hi-Res Audio at home.
 ![Tone Board Overview](/images/toneboard/ToneboardOverview.jpg)
 
 
@@ -54,7 +54,7 @@ Most software platforms have integrated Tone Board Drivers. Only Windows platfor
 * ### Windows
   We will use Windows 10 for this example. Windows 7 is similar.
   *  Install XMOS Driver
-     * [Download](https://dl.OS-Q.com/Firmware/ToneBoard/Driver/Thesycon-Stereo-USB-Audio-Driver-V224.rar).
+     * [Download](https://dl.Khadas.com/Firmware/ToneBoard/Driver/Thesycon-Stereo-USB-Audio-Driver-V224.rar).
      * Decompress and run setup.exe to install the driver.
      * Install completed.
 ![Tone Board Windows Setup1](/images/toneboard/ToneboardWindowsSetup1.png)

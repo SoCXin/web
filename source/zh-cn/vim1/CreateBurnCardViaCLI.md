@@ -6,7 +6,7 @@ title: 通过命令行方式创建系统烧录卡
 **注意：由于VIM1、VIM2和VIM3操作方式基本上是一样的，所以本文档以VIM1为例进行说明。**
 
 ### 准备工作
-* 编译或下载([VIM1](https://dl.OS-Q.com/Firmware/VIM1/U-boot/)/[VIM2](https://dl.OS-Q.com/Firmware/VIM2/U-boot/)/[VIM3](https://dl.OS-Q.com/Firmware/VIM3/U-boot/))最新的U-Boot文件。
+* 编译或下载([VIM1](https://dl.Khadas.com/Firmware/VIM1/U-boot/)/[VIM2](https://dl.Khadas.com/Firmware/VIM2/U-boot/)/[VIM3](https://dl.Khadas.com/Firmware/VIM3/U-boot/))最新的U-Boot文件。
 * 准备好TF卡和读卡器。
 * 如果TF卡上有多个分区的话，需要通过fdisk格式化TF卡([VIM1](/zh-cn/vim1/CreateBurnCardViaCLI.html)/[VIM2](/zh-cn/vim2/CreateBurnCardViaCLI.html)/[VIM3](/zh-cn/vim3/CreateBurnCardViaCLI.html))。
 
@@ -39,7 +39,7 @@ $ sudo mkfs.vfat /dev/sdX1
 $ sudo dd if=u-boot.bin.sd.bin of=/dev/sdX conv=fsync,notrunc bs=1 count=444
 $ sudo dd if=u-boot.bin.sd.bin of=/dev/sdX conv=fsync,notrunc bs=512 skip=1 seek=1
 ```
-*说明：编译出来的U-Boot文件，其中“u-boot.bin.sd.bin”是用于制作 TF卡的，而“u-boot.bin”是用于eMMC启动的。你可以在[这里](https://github.com/OS-Q/images_upgrade/blob/master/Amlogic/aml_sdc_burn.ini)找到。*
+*说明：编译出来的U-Boot文件，其中“u-boot.bin.sd.bin”是用于制作 TF卡的，而“u-boot.bin”是用于eMMC启动的。你可以在[这里](https://github.com/Khadas/images_upgrade/blob/master/Amlogic/aml_sdc_burn.ini)找到。*
 
 **复制系统固件到TF卡上:**
 重新拔插一下TF卡并运行以下命令:

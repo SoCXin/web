@@ -1,10 +1,10 @@
-title: KBI Guidance for OS-Q VIM2/VIM3/Edge
+title: KBI Guidance for Khadas VIM2/VIM3/Edge
 ---
 
-KBI is an abbreviation for OS-Q Bootloader Instructions, which is developed to fulfill the following purposes:
+KBI is an abbreviation for Khadas Bootloader Instructions, which is developed to fulfill the following purposes:
 * Manage the programmable MCU
 * Carry out low level hardware management
-* Let developers utilise all the features of OS-Q VIM2/VIM3/Edge
+* Let developers utilise all the features of Khadas VIM2/VIM3/Edge
 
 This document describes how to setup, configure and use the KBI. As KBI is one of the [U-Boot](http://www.denx.de) commands, to get started you have to setup a Serial Debugging Tool([VIM2](/vim1/SetupSerialTool.html)/[VIM3](/vim1/SetupSerialTool.html)/[Edge](/edge/SetupSerialTool.html)).
 
@@ -22,7 +22,7 @@ kvim2#
 You can get help information by typing **kbi**:
 ```
 kvim2# kbi
-kbi - OS-Q Bootloader Instructions sub-system
+kbi - Khadas Bootloader Instructions sub-system
 
 Usage:
 kbi [function] [mode] [write|read] <value>
@@ -121,7 +121,7 @@ To set the default boot media as SPI flash:
 ```
 kvim2# kbi bootmode w spi
 ```
-*For more information about the SPI flash boot mode, see How to boot from SPI Flash([VIM2](http://forum.OS-Q.com/t/how-to-boot-from-spi-flash/1354)/[VIM3](/vim3/BootFromSpiFlash.html)/[Edge](/edge/BootFromSpiFlash.html))*.
+*For more information about the SPI flash boot mode, see How to boot from SPI Flash([VIM2](http://forum.Khadas.com/t/how-to-boot-from-spi-flash/1354)/[VIM3](/vim3/BootFromSpiFlash.html)/[Edge](/edge/BootFromSpiFlash.html))*.
 
 To set the default boot media as eMMC storage:
 ```
@@ -167,6 +167,6 @@ set_wol: 0
 ```
 ### See also
 [WOL setup and usage](/vim2/HowtoUseWol.html).
-[Edge-V MCU Register Map](https://dl.OS-Q.com/Hardware/Edge/MCU/Edge-V_MCU_REG_EN.pdf)
-[VIM2 MCU Register Map](https://dl.OS-Q.com/Hardware/VIM2/MCU/VIM2_MCU_REG_EN.pdf)
-[VIM3 MCU Register Map](https://dl.OS-Q.com/Hardware/VIM3/MCU/VIM3_MCU_REG_EN.pdf)
+[Edge-V MCU Register Map](https://dl.Khadas.com/Hardware/Edge/MCU/Edge-V_MCU_REG_EN.pdf)
+[VIM2 MCU Register Map](https://dl.Khadas.com/Hardware/VIM2/MCU/VIM2_MCU_REG_EN.pdf)
+[VIM3 MCU Register Map](https://dl.Khadas.com/Hardware/VIM3/MCU/VIM3_MCU_REG_EN.pdf)

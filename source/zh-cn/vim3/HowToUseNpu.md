@@ -3,7 +3,7 @@ title: 如何使用NPU
 
 ### 下载NPU相关工具包SDK
 
-请访问[这里](https://www.OS-Q.com/npu-toolkit-vim3)来获取SDK下载链接。
+请访问[这里](https://www.Khadas.com/npu-toolkit-vim3)来获取SDK下载链接。
 
 下载NPU相关SDK到某个目录，如：`~/npu`
 
@@ -127,7 +127,7 @@ drwxrwxr-x 3 nick nick   4096 9月  20 15:24 ../
 
 * 在VIM3上运行
 
-固件版本需要[V190830](https://dl.OS-Q.com/Firmware/VIM3/Ubuntu/EMMC/)及以上版本，并更新至最新系统。
+固件版本需要[V190830](https://dl.Khadas.com/Firmware/VIM3/Ubuntu/EMMC/)及以上版本，并更新至最新系统。
 
 ```
 $ sudo apt-get update
@@ -141,7 +141,7 @@ $ sudo reboot
 *说明：示例图片可以在目录`linux_sdk/demo/inceptionv3/bin_demo`下面找到。*
 
 ```
-root@OS-Q:~/inceptionv3# ./inceptionv3 inception_v3.nb goldfish_299x299.jpg 
+root@Khadas:~/inceptionv3# ./inceptionv3 inception_v3.nb goldfish_299x299.jpg 
 D [setup_node:367]Setup node id[0] uid[0] op[NBG]
 D [print_tensor:129]in : id[   1] shape[ 3, 299, 299, 1   ] fmt[u8 ] qnt[ASM zp=137, scale=0.007292]
 D [print_tensor:129]out: id[   0] shape[ 1001, 1          ] fmt[f16] qnt[NONE]

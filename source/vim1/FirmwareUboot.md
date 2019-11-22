@@ -1,4 +1,4 @@
-title: OS-Q VIM1 U-boot Firmware
+title: Khadas VIM1 U-boot Firmware
 ---
 
 # U-Boot

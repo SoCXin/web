@@ -1,4 +1,4 @@
-title: Extra Power Input for OS-Q VIMs
+title: Extra Power Input for Khadas VIMs
 ---
 
 # TBD

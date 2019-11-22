@@ -2,13 +2,13 @@ title: 通过USB升级固件
 ---
 ## 通过Windows升级
 ### 准备
-* 下载[USB驱动](https://dl.OS-Q.com/Tools/DriverAssitant_v4.6.zip)并解压。
+* 下载[USB驱动](https://dl.Khadas.com/Tools/DriverAssitant_v4.6.zip)并解压。
 * 运行`DriverInstall.exe`来安装USB驱动。
   * 先点击`驱动卸载`来卸载旧的驱动。
   ![DriverInstall uninstall](/images/edge/DriverInstall_uninstall_zh.png)
   * 在点击`驱动安装`来安装新的驱动。
   ![DriverInstall install](/images/edge/DriverInstall_install_zh.png)
-* 下载[Android Tool](https://dl.OS-Q.com/Tools/AndroidTool_Release_zh_v2.65.zip)并解压。
+* 下载[Android Tool](https://dl.Khadas.com/Tools/AndroidTool_Release_zh_v2.65.zip)并解压。
 * `AndroidTool.exe`就是烧录工具，是免安装的，直接运行即可。
 
 ### 升级步骤
@@ -38,9 +38,9 @@ title: 通过USB升级固件
 $ sudo apt-get install libusb-dev git parted
 ```
 ### 获取烧录工具
-镜像烧录工具在仓库[utils](https://github.com/OS-Q/utils)中。
+镜像烧录工具在仓库[utils](https://github.com/Khadas/utils)中。
 ```
-$ git clone https://github.com/OS-Q/utils
+$ git clone https://github.com/Khadas/utils
 ```
 如果以前克隆过仓库，只需更新即可：
 ```
@@ -79,7 +79,7 @@ Host PC: Ubuntu 16.04
 Installing USB rules...
 Installing flash-tool...
 Done!
-Installing OS-Q burn-tool...
+Installing Khadas burn-tool...
 Done!
 ```
 **注意：** 安装需要`root`权限。

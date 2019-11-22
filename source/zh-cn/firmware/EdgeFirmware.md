@@ -1,4 +1,4 @@
-title: OS-Q Edge固件
+title: Khadas Edge固件
 ---
 
 ## [Android](/zh-cn/edge/FirmwareAndroid.html)

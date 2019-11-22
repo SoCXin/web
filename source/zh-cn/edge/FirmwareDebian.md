@@ -1,4 +1,4 @@
-title: OS-Q Edge Debian固件
+title: Khadas Edge Debian固件
 ---
 
 # Debian

@@ -1,4 +1,4 @@
-title: OS-Q Edge LibreELEC固件
+title: Khadas Edge LibreELEC固件
 ---
 
 # LibreELEC

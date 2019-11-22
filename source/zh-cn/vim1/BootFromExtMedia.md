@@ -3,17 +3,17 @@ title: 从外部媒体介质启动系统
 
 
 有很多系统运行在SD卡或U盘上,例如：
-* [Armbian with Debian / Ubuntu](http://forum.OS-Q.com/t/armbian-kodi-ubuntu-debian-for-sd-usb-emmc/825)
-* [AltLinux](https://forum.OS-Q.com/t/altlinux-sd-usb-emmc/1653)
-* [ArchLinux](https://forum.OS-Q.com/t/archlinux-kodi-sd-usb-emmc/1152)
+* [Armbian with Debian / Ubuntu](http://forum.Khadas.com/t/armbian-kodi-ubuntu-debian-for-sd-usb-emmc/825)
+* [AltLinux](https://forum.Khadas.com/t/altlinux-sd-usb-emmc/1653)
+* [ArchLinux](https://forum.Khadas.com/t/archlinux-kodi-sd-usb-emmc/1152)
 * [CoreELEC](https://coreelec.org/)
-* [LibreELEC](https://libreelec.tv/downloads_new/OS-Q-vim/)
-* [Manjaro](https://forum.OS-Q.com/t/manjaro-linux-desktop-environment-for-vim1-vim3/3945)
-* [Volumio](https://forum.OS-Q.com/t/volumio-for-OS-Q/1437)
-* OS-Q SD images
-  * [VIM1](https://dl.OS-Q.com/Firmware/VIM1/Ubuntu/SD_USB/)
-  * [VIM2](https://dl.OS-Q.com/Firmware/VIM2/Ubuntu/SD_USB/)
-  * [VIM3](https://dl.OS-Q.com/Firmware/VIM3/Ubuntu/SD_USB/)
+* [LibreELEC](https://libreelec.tv/downloads_new/Khadas-vim/)
+* [Manjaro](https://forum.Khadas.com/t/manjaro-linux-desktop-environment-for-vim1-vim3/3945)
+* [Volumio](https://forum.Khadas.com/t/volumio-for-Khadas/1437)
+* Khadas SD images
+  * [VIM1](https://dl.Khadas.com/Firmware/VIM1/Ubuntu/SD_USB/)
+  * [VIM2](https://dl.Khadas.com/Firmware/VIM2/Ubuntu/SD_USB/)
+  * [VIM3](https://dl.Khadas.com/Firmware/VIM3/Ubuntu/SD_USB/)
 
 
 ### 1、把固件写入到SD卡或U盘
@@ -35,10 +35,10 @@ $ sudo dd if=/path/to/image of=/dev/sdX bs=8M
 
 * 进入SD卡或U盘的`BOOT`分区下的`dtb`文件夹。
 * 在`dtb`文件夹中找到相应的`.dtb`文件，如：
-  * VIM1: `/dtb/meson-gxl-s905x-OS-Q-vim.dtb`
-  * VIM2: `/dtb/meson-gxm-OS-Q-vim2.dtb`
-  * VIM3: `/dtb/meson-g12b-a311d-OS-Q-vim3.dtb`
-  * VIM3L: `/dtb/meson-sm1-OS-Q-vim3l.dtb`
+  * VIM1: `/dtb/meson-gxl-s905x-Khadas-vim.dtb`
+  * VIM2: `/dtb/meson-gxm-Khadas-vim2.dtb`
+  * VIM3: `/dtb/meson-g12b-a311d-Khadas-vim3.dtb`
+  * VIM3L: `/dtb/meson-sm1-Khadas-vim3l.dtb`
 * 编辑`/extlinux/extlinux.conf`里面的`FDT`，以及`uEnv.ini`文件里面的`dtb_name=`设置为上面相应的值。
 
 #### 对于CoreELEC
@@ -49,8 +49,8 @@ $ sudo dd if=/path/to/image of=/dev/sdX bs=8M
 
 #### 对于Volumio
 * 在SD卡或U盘的`BOOT`分区`dtb`目录下找到相应的`.dtb`文件：
-  * VIM1：拷贝`kvim.dtb`，`kvim_linux.dtb`或`meson-gxl-s905x-OS-Q-vim.dtb`到`BOOT`分区，并重命名为`dtb.img`。
-  * VIM2：拷贝`kvim2.dtb`，`kvim2_linux.dtb`或`meson-gxm-OS-Q-vim2.dtb`到`BOOT`分区并重命名为`dtb.img`。
+  * VIM1：拷贝`kvim.dtb`，`kvim_linux.dtb`或`meson-gxl-s905x-Khadas-vim.dtb`到`BOOT`分区，并重命名为`dtb.img`。
+  * VIM2：拷贝`kvim2.dtb`，`kvim2_linux.dtb`或`meson-gxm-Khadas-vim2.dtb`到`BOOT`分区并重命名为`dtb.img`。
   * VIM3：拷贝`kvim3_linux.dtb`或`kvim3l_linux.dtb`到`BOOT`分区，并重命名为`dtb.img`。
 
 

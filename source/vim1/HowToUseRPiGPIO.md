@@ -7,13 +7,13 @@ RPi.GPIO is a Python Library which use to control GPIO on Raspberry Pi.This is a
 ### Begin to Use RPi.GPIO
 #### Verify that RPI is installed correctly
 There are two locations to confirm.
-* In python2,you can check with this command `cat /usr/local/lib/python2.7/dist-packages/RPi.GPIO-0.6.3.post1.egg-info | grep "OS-Q"`,you will look this.
+* In python2,you can check with this command `cat /usr/local/lib/python2.7/dist-packages/RPi.GPIO-0.6.3.post1.egg-info | grep "Khadas"`,you will look this.
 ```
-Description: This package provides a class to control the GPIO on a Raspberry Pi or OS-Q.
+Description: This package provides a class to control the GPIO on a Raspberry Pi or Khadas.
 ```
-* In Python3, you can check with this command `cat /usr/local/lib/python3.6/dist-packages/RPi.GPIO-0.6.3.post1.egg-info |  grep "OS-Q"`,you will look this again.
+* In Python3, you can check with this command `cat /usr/local/lib/python3.6/dist-packages/RPi.GPIO-0.6.3.post1.egg-info |  grep "Khadas"`,you will look this again.
 ```
-Description: This package provides a class to control the GPIO on a Raspberry Pi or OS-Q.
+Description: This package provides a class to control the GPIO on a Raspberry Pi or Khadas.
 ```
 #### How to Programing The Python Program to control GPIO
 
@@ -64,7 +64,7 @@ This program simply changes the pin level of GPIO.BCM15.
 #### How to Run you Program
 * Run with python2
 ```
-root@OS-Q:~/test# python simple.py 
+root@Khadas:~/test# python simple.py 
 Test with RPI GPIO
 simple.py:8: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
 GPIO.setup(GpioW,GPIO.OUT)
@@ -76,7 +76,7 @@ GPIO.cleanup()
 ```
 * Run with python3
 ```
-root@OS-Q:~/test# python3 simple.py 
+root@Khadas:~/test# python3 simple.py 
 Test with RPI GPIO
 simple.py:8: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
 GPIO.setup(GpioW,GPIO.OUT)

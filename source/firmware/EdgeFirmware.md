@@ -1,4 +1,4 @@
-title: OS-Q Edge Firmware Resources
+title: Khadas Edge Firmware Resources
 ---
 
 ## [Android](/edge/FirmwareAndroid.html)

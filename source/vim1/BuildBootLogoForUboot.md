@@ -18,24 +18,24 @@ Before you begin, you'll need a bootup picture with the following specs:
 
 Check the bmp file:
 ```sh
-$ file ~/Pictures/OS-Q.bmp 
-/home/gouwa/Pictures/OS-Q.bmp: data
+$ file ~/Pictures/Khadas.bmp 
+/home/gouwa/Pictures/Khadas.bmp: data
 $
 ```
-An example bootup logo file [OS-Q.bmp](http://www.mediafire.com/file/xoobk7gc3t5bo00/OS-Q.bmp) is provided for reference.
+An example bootup logo file [Khadas.bmp](http://www.mediafire.com/file/xoobk7gc3t5bo00/Khadas.bmp) is provided for reference.
 
 In this guide, we will introduce two different approaches to build the bootup Logo.
 
 ### Build Logo Separately
 **1)** Clone the tool:
 ```sh
-$ git clone https://github.com/OS-Q/utils.git
+$ git clone https://github.com/Khadas/utils.git
 ```
 
 **2)** Update a new logo picture as you want:
 ```sh
 $ mkdir -p images/logo
-$ cp ~/Pictures/OS-Q.bmp images/logo/bootup.bmp
+$ cp ~/Pictures/Khadas.bmp images/logo/bootup.bmp
 ```
 **3)** Build the logo:
 ```sh
@@ -48,7 +48,7 @@ $
 ### Build Logo on Android
 **1)** Update a new logo picture as you want:
 ```sh
-$ cp ~/Pictures/OS-Q.bmp device/OS-Q/kvim/product/logo/bootup.bmp
+$ cp ~/Pictures/Khadas.bmp device/Khadas/kvim/product/logo/bootup.bmp
 ```
 
 **2)** Build the logo:
@@ -63,7 +63,7 @@ $ make logoimg
 ...
 
 generate out/target/product/kvim/upgrade/logo.img
-gzip -c device/OS-Q/kvim/product/logo/bootup.bmp > out/target/product/kvim/upgrade/logo/bootup.bmp
+gzip -c device/Khadas/kvim/product/logo/bootup.bmp > out/target/product/kvim/upgrade/logo/bootup.bmp
 dbg:item num 8
 dbg:pack item [bootup]
 dbg:pack item [upgrade_upgrading]
@@ -99,10 +99,10 @@ kvim# run init_display
 ```
 
 ### Further reading
-You might notice that there are [other pictures](https://github.com/OS-Q/android_device_khadas/tree/Vim/kvim/product/logo) that are also built into `logo.img`. They are listed below:
+You might notice that there are [other pictures](https://github.com/Khadas/android_device_khadas/tree/Vim/kvim/product/logo) that are also built into `logo.img`. They are listed below:
 
 ```sh
-$ ls device/OS-Q/kvim/product/logo/
+$ ls device/Khadas/kvim/product/logo/
 bootup.bmp       upgrade_error.bmp  upgrade_logo.bmp     upgrade_unfocus.bmp
 upgrade_bar.bmp  upgrade_fail.bmp   upgrade_success.bmp  upgrade_upgrading.bmp
 ```

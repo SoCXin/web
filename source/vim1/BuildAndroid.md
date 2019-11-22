@@ -63,7 +63,7 @@ In some case, you might want to build Linux kernel separately, you can run the s
 
 For Android 6.0 and 7.1:
 ```sh
-$ source device/OS-Q/kvim/mkern.sh
+$ source device/Khadas/kvim/mkern.sh
 ```
 
 For Android 9.0:

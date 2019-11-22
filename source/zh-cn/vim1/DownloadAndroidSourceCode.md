@@ -13,7 +13,7 @@ VPN方式不再介绍，如下方法基于清华大学镜像服务器：
 * 步骤参考[Download the Android Source Code](/vim1/DownloadAndroidSourceCode.html)
 * 在`repo sync`之前修改default.xml文件，把Google的URL地址改为清华大学的，如下：
 ```
-gouwa@Server:~/project/OS-Q/aosp/.repo/manifests$ git diff
+gouwa@Server:~/project/Khadas/aosp/.repo/manifests$ git diff
 diff --git a/default.xml b/default.xml
 index f48a988..b8cb9da 100644
 --- a/default.xml
@@ -23,10 +23,10 @@ index f48a988..b8cb9da 100644
  <manifest>
 -  <remote fetch="https://android.googlesource.com/" name="aosp" review="https:/
 +  <remote fetch="https://aosp.tuna.tsinghua.edu.cn/" name="aosp" review="https:
-   <remote fetch="https://github.com/OS-Q/" name="github"/>
+   <remote fetch="https://github.com/Khadas/" name="github"/>
    
    <default remote="github" revision="refs/heads/Nougat" sync-j="4"/>
-gouwa@Server:~/project/OS-Q/aosp/.repo/manifests$ 
+gouwa@Server:~/project/Khadas/aosp/.repo/manifests$ 
 ```
 
 ### 常见问题：
@@ -44,7 +44,7 @@ error: Cannot fetch platform/prebuilts/tools
 error: Cannot fetch platform/prebuilts/sdk
 
 error: Exited sync due to fetch errors
-gouwa@Server:~/project/OS-Q/aosp$ 
+gouwa@Server:~/project/Khadas/aosp$ 
 ```
 
 ### 更多参考：

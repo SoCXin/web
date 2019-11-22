@@ -11,7 +11,7 @@ title: How to Install LibreELEC
 - [x] An SD Card and a Card Reader or a Thumdrive (U-Disk) is required, make sure there is nothing important on your card as ALL the data will be erased after the following operations.
 
 ## Download The LibreELEC Image
-You can download LibreELEC images from [VIM1](/vim1/FirmwareThirdparty.html#LibreELEC)/[VIM2](https://docs.OS-Q.com/vim2/FirmwareThirdparty.html#LibreELEC)/[VIM3](https://docs.OS-Q.com/vim3/FirmwareThirdparty.html#LibreELEC).
+You can download LibreELEC images from [VIM1](/vim1/FirmwareThirdparty.html#LibreELEC)/[VIM2](https://docs.Khadas.com/vim2/FirmwareThirdparty.html#LibreELEC)/[VIM3](https://docs.Khadas.com/vim3/FirmwareThirdparty.html#LibreELEC).
 *Note: Image names containing "KVIM" is an image for VIM1, "KVIM2" is for VIM2, and "KVIM3" is for VIM3*
 
 ## Write Image to SD/USB Storage
@@ -72,6 +72,6 @@ In order to boot from the SD/USB storage, **you need Android running on the eMMC
 
 ## NOTICE
 * Android N has a permission issue; Your bootable SD card will be damaged, if you attempt to use it to boot.
-* Android O also has a permission issue. If you want to boot Ubuntu with Linux 4.9 please refer to [this guide](http://forum.OS-Q.com/t/armbian-kodi-ubuntu-debian-for-sd-usb-em mc/825/109).
+* Android O also has a permission issue. If you want to boot Ubuntu with Linux 4.9 please refer to [this guide](http://forum.Khadas.com/t/armbian-kodi-ubuntu-debian-for-sd-usb-em mc/825/109).
 
 

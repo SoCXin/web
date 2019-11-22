@@ -1,7 +1,7 @@
 title: Install Docker
 ---
 
-This guide will show you how to install Docker on Ubuntu for OS-Q VIMs/Edge.
+This guide will show you how to install Docker on Ubuntu for Khadas VIMs/Edge.
 
 ### Preparations
 * Ubuntu `V180531` or newer
@@ -54,7 +54,7 @@ $ docker run hello-world
 
 If you see the following messages, it means that Docker has been setup correctly:
 ```
-OS-Q@OS-Q:~$ docker run hello-world
+Khadas@Khadas:~$ docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
 255483503861: Pull complete 

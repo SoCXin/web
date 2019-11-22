@@ -5,7 +5,7 @@ title: 通过USB升级固件
 
 ## 通过Windows升级固件
 ### 准备工作
-* 下载升级工具[USB Upgrade Tool](https://dl.OS-Q.com/Tools/USB_Burning_Tool_v2.1.7.3_zh.zip)并解压。
+* 下载升级工具[USB Upgrade Tool](https://dl.Khadas.com/Tools/USB_Burning_Tool_v2.1.7.3_zh.zip)并解压。
 * 运行`setup_v2.x.x.exe`程序进行安装。
 ![image](/images/vim1/usb_upgrade_tool_setup_v217_zh.png)
 
@@ -31,9 +31,9 @@ title: 通过USB升级固件
 $ sudo apt-get install libusb-dev git parted
 ```
 ### 获取ubuntu烧录工具
-烧录工具在仓库[utils](https://github.com/OS-Q/utils)中.
+烧录工具在仓库[utils](https://github.com/Khadas/utils)中.
 ```
-$ git clone https://github.com/OS-Q/utils
+$ git clone https://github.com/Khadas/utils
 ```
 如果你之前已经下载过`utils`仓库，那么你只需要更新到最新版本即可。
 ```
@@ -72,7 +72,7 @@ Installing Amlogic flash-tool...
  Installing USB rules...
  Installing flash-tool...
  Done!
- Installing OS-Q burn
+ Installing Khadas burn
  Done!
 ```
 **注意** 安装过程中需要root权限。
@@ -124,7 +124,7 @@ Do you want to reset the board? y/n [n]? y
 Resetting board [OK]
 
 ```
-更多请参考[文档](https://github.com/OS-Q/utils/tree/master/aml-flash-tool/docs)。
+更多请参考[文档](https://github.com/Khadas/utils/tree/master/aml-flash-tool/docs)。
 
 ### 卸载烧录工具
 ```

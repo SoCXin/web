@@ -49,7 +49,7 @@ $ ./vendor/amlogic/tools/aml_upgrade/aml_image_v2_packer  -r out/target/product/
 $ cd PATH_YOUR_PROJECT
 $ source build/envsetup.sh
 $ lunch TARGET_LUNCH
-$ source device/OS-Q/TARGET/mkern.sh
+$ source device/Khadas/TARGET/mkern.sh
 ```
 * Package Update Image
 ```sh

@@ -80,7 +80,7 @@ $ cd /path/to/labelImg/data/
 $ vim predefined_classes.txt
 ```
 You can see that the default lables are 20, which you need can be added after the default labels, or empty and only write the labels you want to train.
-Here we use the object detection of OS-Q as an example:
+Here we use the object detection of Khadas as an example:
 ```
 person
 bicycle
@@ -173,7 +173,7 @@ Edit it,
 sets=[('2019', 'train'), ('2019', 'val')]
 ```
 Change the class in the class to the one you need to train.
-Here we take the object detection of OS-Q as an example:
+Here we take the object detection of Khadas as an example:
 ```
 classes = ["person","bicycle","car","motorbike","aeroplane","bus","train","truck","boat","traffic light","fire hydrant","stop sign","parking meter","bench","bird","cat","dog","horse","sheep","cow","elephant","bear","zebra","giraffe","backpack","umbrella","handbag","tie","suitcase","frisbee","skis","snowboard","sports ball","kite","baseball bat","baseball glove","skateboard","surfboard","tennis racket","bottle","wine glass","cup","fork","knife","spoon","bowl","banana","apple","sandwich","orange","broccoli","carrot","hot dog","pizza","donut","cake","chair","sofa","pottedplant","bed","diningtable","toilet","tvmonitor","laptop","mouse","remote","keyboard","cell phone","microwave","oven","toaster","sink","refrigerator","book","clock","vase","scissors","teddy bear","hair drier","toothbrush","Edge-V","Edge","VIM1","VIM2","VIM3","VIM3L","Fan3705","Captain","Captain+Edge","ToneBoard","Heatsink(VIMs)","Heatsink(Edge)"]
 ```
@@ -234,7 +234,7 @@ $ cd $workspace/yolov3_train/
 $ vim voc.names
 ```
 Write to `voc.names` in the order of the class set by `$workspace/voc_label.py`. Each class is a line,
-Here we take the object detection of OS-Q as an example:
+Here we take the object detection of Khadas as an example:
 ```
 person
 bicycle
@@ -301,7 +301,7 @@ random=1
 ```
 > 1. Modify the class parameter and set it according to the quantity of `$workspace/voc_label.py`
 > 2. Set the parameters of filters, calculation method: `filters=(class+5)*3*1*1`
-> Here we take the object detection of OS-Q as an example:`class=92`,`filters=291`
+> Here we take the object detection of Khadas as an example:`class=92`,`filters=291`
 
 #### Edit the file `voc.data`
 ```bash
@@ -317,13 +317,13 @@ backup = $workspace/yolov3-train/backup
 ```
 > 1. Where the value of class is equal to the value of class you set in yolov3-voc.cfg
 > 2. All paths use absolute paths
-Here we take the object detection of OS-Q as an example:
+Here we take the object detection of Khadas as an example:
 ```
 classes= 92
-train  = /home/OS-Q/Pictures/VOCdevkit/yolov3-train/train.txt
-valid  = /home/OS-Q/Pictures/VOCdevkit/yolov3-train/val.txt
-names = /home/OS-Q/Pictures/VOCdevkit/yolov3-train/voc.names
-backup = /home/OS-Q/Pictures/VOCdevkit/yolov3-train/backup
+train  = /home/Khadas/Pictures/VOCdevkit/yolov3-train/train.txt
+valid  = /home/Khadas/Pictures/VOCdevkit/yolov3-train/val.txt
+names = /home/Khadas/Pictures/VOCdevkit/yolov3-train/voc.names
+backup = /home/Khadas/Pictures/VOCdevkit/yolov3-train/backup
 
 ```
 

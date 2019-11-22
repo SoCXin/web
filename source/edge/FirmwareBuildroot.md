@@ -1,4 +1,4 @@
-title: OS-Q Edge Buildroot Firmware
+title: Khadas Edge Buildroot Firmware
 ---
 
 # Buildroot

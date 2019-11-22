@@ -1,4 +1,4 @@
-title: OS-Q VIM3 LibreELEC Firmware
+title: Khadas VIM3 LibreELEC Firmware
 ---
 
 # LibreELEC

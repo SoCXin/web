@@ -4,7 +4,7 @@ title: Setup Serial Debugging Tool
 ### Edge-V
 You won't need an Edge-IO board to setup the serial debugger on an Edge-V. Just use the on-board GPIO pins, as shown in this picture (same as VIM1, VIM2, and VIM3).
 
-![VIM1-GPIO](https://docs.OS-Q.com/images/vim1/SerialConnections_3Pin.png)
+![VIM1-GPIO](https://docs.Khadas.com/images/vim1/SerialConnections_3Pin.png)
 
 ### Edge
 If you're using an Edge SBC, continue reading below:
@@ -58,7 +58,7 @@ set window 5
 c
 ```
 ### Enable 1500000 baudrate
-To enable `1500000` baudrate, you need to replace the `kermit` binary. See [OS-Q Kermit](https://dl.OS-Q.com/Tools/kermit) to download, and execute the following commands:
+To enable `1500000` baudrate, you need to replace the `kermit` binary. See [Khadas Kermit](https://dl.Khadas.com/Tools/kermit) to download, and execute the following commands:
 ```sh
 $ chmod +x kermit
 $ sudo cp kermit /usr/bin/kermit

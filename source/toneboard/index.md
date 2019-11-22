@@ -10,7 +10,7 @@ title: Tone Board Beginners FAQ
 * If there is no sound is coming from your Tone Board, you may need to install a driver.
 
 **Download:**
-[Thesycon-Stereo-USB-Audio-Driver-V224](https://dl.OS-Q.com/Firmware/ToneBoard/Driver/Thesycon-Stereo-USB-Audio-Driver-V224.rar)
+[Thesycon-Stereo-USB-Audio-Driver-V224](https://dl.Khadas.com/Firmware/ToneBoard/Driver/Thesycon-Stereo-USB-Audio-Driver-V224.rar)
 
 # Select Audio Device On Mac OS X:
 
@@ -37,11 +37,11 @@ title: Tone Board Beginners FAQ
 If you're using a Tone Board on a Mac, you may notice that you are unable to control the output volume of your Tone Board. To enable volume control, you'll need to upgrade your Tone Board's firmware. (Newer models of Tone Board are shipped with upgraded firmware)
 
 **Learn More:**
-[Upgrade Tone Board Firmware](https://docs.OS-Q.com/toneboard/HowtoUpgradeFirmware.html)
+[Upgrade Tone Board Firmware](https://docs.Khadas.com/toneboard/HowtoUpgradeFirmware.html)
 
 # More Information:
 
 For more information, please refer to our website or see the Tone Board User Manual.
 
-* [Tone Board Website](https://www.OS-Q.com/tone)
-* [Tone Board User Manual](https://docs.OS-Q.com/toneboard/UserManual.html)
+* [Tone Board Website](https://www.Khadas.com/tone)
+* [Tone Board User Manual](https://docs.Khadas.com/toneboard/UserManual.html)

@@ -1,7 +1,7 @@
 title: How To Setup PCIe/USB3.0 Port
 ---
 
-OS-Q VIM3 contains a data switch to switch the "combo interface" between `PCIe` and `USB 3.0`. The default mode is `USB 3.0`.
+Khadas VIM3 contains a data switch to switch the "combo interface" between `PCIe` and `USB 3.0`. The default mode is `USB 3.0`.
 You can find the block below.
 
 ![VIM3 PCIe/USB3.0 Block](/images/vim3/vim3_pcie_usb3_block.png)
@@ -63,7 +63,7 @@ You'll need to navigate to "Device Preferences" using an IR remote, mouse or att
 * Check current port mode:
 
 ```
-OS-Q@OS-Q:~$ cat /sys/class/mcu/usb_pcie_switch_mode
+Khadas@Khadas:~$ cat /sys/class/mcu/usb_pcie_switch_mode
 1
 ```
 
@@ -73,19 +73,19 @@ OS-Q@OS-Q:~$ cat /sys/class/mcu/usb_pcie_switch_mode
 * Change mode to `USB 3.0`:
 
 ```
-OS-Q@OS-Q:~$ echo 0 > /sys/class/mcu/usb_pcie_switch_mode
+Khadas@Khadas:~$ echo 0 > /sys/class/mcu/usb_pcie_switch_mode
 ```
 
 * Change mode to `PCIe`:
 
 ```
-OS-Q@OS-Q:~$ echo 1 > /sys/class/mcu/usb_pcie_switch_mode
+Khadas@Khadas:~$ echo 1 > /sys/class/mcu/usb_pcie_switch_mode
 ```
 
 **Poweroff the system to bring changes into effect:**
 
 ```
-OS-Q@OS-Q:~$ echo 1 > /sys/class/mcu/poweroff 
+Khadas@Khadas:~$ echo 1 > /sys/class/mcu/poweroff 
 ```
 
 Then press the `POWER KEY` to boot the system.

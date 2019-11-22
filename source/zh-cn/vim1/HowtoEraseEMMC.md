@@ -73,10 +73,10 @@ GXL:BL1:9ac50e:a1974b;FEAT:ADFC318C;POC:3;RCY:0;EMMC:0;READ:0;CHK:AA;SD:800;USB:
 1. 上电并进入到linux命令行# 如何擦除eMMC存储器
 2. 打开终端使用`dd`命令清除U-boot分区
 ```
-root@OS-Q:~# dd if=/dev/zero of=/dev/bootloader
+root@Khadas:~# dd if=/dev/zero of=/dev/bootloader
 dd: writing to '/dev/bootloader': No space left on device
 8193+0 records in
 8192+0 records out
 4194304 bytes (4.2 MB, 4.0 MiB) copied, 1.1226 s, 3.7 MB/s
-root@OS-Q:~# reboot
+root@Khadas:~# reboot
 ```

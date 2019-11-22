@@ -8,10 +8,10 @@ Although your VIM1 SBC is compatible with various types of power supplies, these
 2. USB-A to USB-C Cable
 
 **Learn More:**
-* [OS-Q Shop - Power Adapter](https://www.OS-Q.com/product-page/power-adapter)
-* [OS-Q Shop - USB-C Cable](https://www.OS-Q.com/product-page/usb-c-cable)
-* [Extra Power Input For OS-Q VIMs](https://docs.OS-Q.com/vim1/ExtraPowerInput.html)
-* [OS-Q VIM Specifications](https://www.OS-Q.com/vim)
+* [Khadas Shop - Power Adapter](https://www.Khadas.com/product-page/power-adapter)
+* [Khadas Shop - USB-C Cable](https://www.Khadas.com/product-page/usb-c-cable)
+* [Extra Power Input For Khadas VIMs](https://docs.Khadas.com/vim1/ExtraPowerInput.html)
+* [Khadas VIM Specifications](https://www.Khadas.com/vim)
 
 # Displays & User Input
 These items are useful when you need to connect your VIM1 SBC to an external display + keyboard mouse + remote control, for use as a desktop computer or media center.
@@ -24,8 +24,8 @@ These items are useful when you need to connect your VIM1 SBC to an external dis
 ```Note: Please do not attach multiple cables with large heads that interfere with each other, as that may bend or twist the connectors, and this will cause intermittent connectivity issues after some time.```
 
 **Learn More:**
-* [OS-Q Shop - HDMI Cable](https://www.OS-Q.com/product-page/hdmi-cable)
-* [OS-Q Shop - Remote Control](https://www.OS-Q.com/product-page/ir-remote)
+* [Khadas Shop - HDMI Cable](https://www.Khadas.com/product-page/hdmi-cable)
+* [Khadas Shop - Remote Control](https://www.Khadas.com/product-page/ir-remote)
 * [Amazon - Wireless Keyboard + Mouse](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Delectronics&field-keywords=wireless+keyboard+and+mouse&rh=n%3A172282%2Ck%3Awireless+keyboard+and+mouse)
 
 # Making Bootable/Burning SD-Cards/Thumbdrives
@@ -37,10 +37,10 @@ These items are useful when you want to upgrade your VIM1 SBC's operating system
 4. 8GB or Larger, USB-Thumbdrive (U-Disk)
 
 **Learn More:**
-* [Booting Card Vs Burning Card](https://docs.OS-Q.com/vim1/BootingCardVsBurningCard.html)
-* [Upgrade Using SD-Card](https://docs.OS-Q.com/vim1/UpgradeViaTFBurningCard.html)
-* [Boot From External Media](https://docs.OS-Q.com/vim1/BootFromExtMedia.html)
-* [Enter Upgrade Mode](https://docs.OS-Q.com/vim1/HowtoBootIntoUpgradeMode.html)
+* [Booting Card Vs Burning Card](https://docs.Khadas.com/vim1/BootingCardVsBurningCard.html)
+* [Upgrade Using SD-Card](https://docs.Khadas.com/vim1/UpgradeViaTFBurningCard.html)
+* [Boot From External Media](https://docs.Khadas.com/vim1/BootFromExtMedia.html)
+* [Enter Upgrade Mode](https://docs.Khadas.com/vim1/HowtoBootIntoUpgradeMode.html)
 
 **Tips:**
 * **eMMC image** should be burned directly to the eMMC using a USB-C data cable, from a Ubuntu or Windows Host. It must not be burned into an SD-Card. For Example: Android and Ubuntu distributions containing the `EMMC` mark.
@@ -55,16 +55,16 @@ You'll need these items if you want to use your laptop or desktop PC to upgrade 
 3. Laptop / Desktop PC
 
 **Learn More:**
-* [Upgrade Firmware Using USB-C Cable](https://docs.OS-Q.com/vim1/UpgradeViaUSBCable.html)
-* [Booting Into Upgrade Mode](https://docs.OS-Q.com/vim1/HowtoBootIntoUpgradeMode.html)
+* [Upgrade Firmware Using USB-C Cable](https://docs.Khadas.com/vim1/UpgradeViaUSBCable.html)
+* [Booting Into Upgrade Mode](https://docs.Khadas.com/vim1/HowtoBootIntoUpgradeMode.html)
 
 **Firmware Images:**
-* [Android OS](https://docs.OS-Q.com/vim1/FirmwareAndroid.html)
-* [Ubuntu OS](https://docs.OS-Q.com/vim1/FirmwareUbuntu.html)
-* [LibreELEC](https://docs.OS-Q.com/vim1/FirmwareLibreelec.html)
-* [Dual OS](https://docs.OS-Q.com/vim1/FirmwareDualos.html)
-* [U-Boot](https://docs.OS-Q.com/vim1/FirmwareUboot.html)
-* [Third Party OSes](https://docs.OS-Q.com/vim1/FirmwareThirdparty.html)
+* [Android OS](https://docs.Khadas.com/vim1/FirmwareAndroid.html)
+* [Ubuntu OS](https://docs.Khadas.com/vim1/FirmwareUbuntu.html)
+* [LibreELEC](https://docs.Khadas.com/vim1/FirmwareLibreelec.html)
+* [Dual OS](https://docs.Khadas.com/vim1/FirmwareDualos.html)
+* [U-Boot](https://docs.Khadas.com/vim1/FirmwareUboot.html)
+* [Third Party OSes](https://docs.Khadas.com/vim1/FirmwareThirdparty.html)
 
 # Software Development / Advanced Crash Recovery
 Extreme cases of crash-recovery will require you to use the MRegister to reset your VIM1 SBC. A USB Serial Debug Tool is also useful for developers debugging complex software issues.
@@ -73,14 +73,14 @@ Extreme cases of crash-recovery will require you to use the MRegister to reset y
 2. USB Serial Debug Tool (For diagnosing software/hardware issues)
 
 **Learn More:**
-* [MRegister Upgrade Mode](https://docs.OS-Q.com/vim1/HowtoBootIntoUpgradeMode.html)
+* [MRegister Upgrade Mode](https://docs.Khadas.com/vim1/HowtoBootIntoUpgradeMode.html)
 * [Amazon - Metal Tweezers](https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=metal+tweezers)
 * [Amazon - USB Serial Debug Tool](https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=usb+serial+debug+tool&rh=i%3Aaps%2Ck%3Ausb+serial+debug+tool)
 
 # VIM1 Website
 For more information, please see our website, read more documentation, or visit our forum.
-* [OS-Q VIM1 Homepage](https://www.OS-Q.com/vim)
-* [OS-Q VIM1 Forum](https://forum.OS-Q.com/c/OS-Q-vim)
+* [Khadas VIM1 Homepage](https://www.Khadas.com/vim)
+* [Khadas VIM1 Forum](https://forum.Khadas.com/c/Khadas-vim)
 
 # VIM1 Review Video
 {% youtube dLAX8nwcTvo %}

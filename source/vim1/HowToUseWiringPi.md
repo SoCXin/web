@@ -50,13 +50,13 @@ Here's an example of controlling wpi number 1.
 Now, The wpi number 1 mode is out.
 * run `gpio read 1`
 ```
-root@OS-Q:~# gpio read 1 
+root@Khadas:~# gpio read 1 
 1
 ```
 * run `gpio write 1 0` to change the pinout level
 * run `gpio read 1` again
 ```
-root@OS-Q:~# gpio read 1   
+root@Khadas:~# gpio read 1   
 0
 ```
 you can see the wpi number 1 Output changed from high to low.

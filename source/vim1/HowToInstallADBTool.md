@@ -37,4 +37,4 @@ open shell
 **Note:** 
 1.if you android deivce is a phone,you must open *developer model*.
 2.When you try to debug your Android device with  `adb devices` ,There will be a proposal on your mobile phone.Please check it.
-3.If your Android device is the development board of OS-Q,direct connection is enough.
+3.If your Android device is the development board of Khadas,direct connection is enough.

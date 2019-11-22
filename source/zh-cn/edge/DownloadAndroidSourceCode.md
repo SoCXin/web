@@ -15,11 +15,11 @@ $cd WORKING_DIRECTORY
 
 **android 7.1:**
 ```sh
-$repo init -u https://github.com/OS-Q/android_manifest.git -b OS-Q-edge-nougat
+$repo init -u https://github.com/Khadas/android_manifest.git -b Khadas-edge-nougat
 ```
 **android 9.0:**
 ```sh
-$repo init -u https://github.com/OS-Q/android_manifest.git -b OS-Q-edge-pie
+$repo init -u https://github.com/Khadas/android_manifest.git -b Khadas-edge-pie
 ```
 3）运行repo-sync下拉Android源代码：
 ```sh

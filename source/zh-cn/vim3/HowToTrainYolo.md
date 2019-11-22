@@ -319,10 +319,10 @@ backup = $workspace/yolov3-train/backup
 这里以khadas的物体检测为例:
 ```
 classes= 92
-train  = /home/OS-Q/Pictures/VOCdevkit/yolov3-train/train.txt
-valid  = /home/OS-Q/Pictures/VOCdevkit/yolov3-train/val.txt
-names = /home/OS-Q/Pictures/VOCdevkit/yolov3-train/voc.names
-backup = /home/OS-Q/Pictures/VOCdevkit/yolov3-train/backup
+train  = /home/Khadas/Pictures/VOCdevkit/yolov3-train/train.txt
+valid  = /home/Khadas/Pictures/VOCdevkit/yolov3-train/val.txt
+names = /home/Khadas/Pictures/VOCdevkit/yolov3-train/voc.names
+backup = /home/Khadas/Pictures/VOCdevkit/yolov3-train/backup
 
 ```
 

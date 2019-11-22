@@ -7,7 +7,7 @@ VIM2板载一颗可编程的MCU(STM8S003F3U6)，所以可以实现很多特性�
 * 启动介质设置: 从eMMC或SPI-Flash启动
 * IR遥控电源设置
 * 定时器电源设置
-* [KBI: OS-Q Bootloader Instructions](/zh-cn/vim2/KbiGuidance.html)
+* [KBI: Khadas Bootloader Instructions](/zh-cn/vim2/KbiGuidance.html)
 
 但是出于别的因素，一些开发者可能需要更多新的特性，如：
 * 通过40-PIN座子的GPIO开关机

@@ -1,4 +1,4 @@
-title: OS-Q VIM1固件
+title: Khadas VIM1固件
 ---
 
 ## [Android](/zh-cn/vim1/FirmwareAndroid.html)

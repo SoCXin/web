@@ -1,7 +1,7 @@
 title: 如何设置PCIe/USB3.0端口模式
 ---
 
-OS-Q VIM3包含一个数据切换开关来切换`PCIe`或`USB 3.0`模式。默认为`USB 3.0`模式。
+Khadas VIM3包含一个数据切换开关来切换`PCIe`或`USB 3.0`模式。默认为`USB 3.0`模式。
 下图为逻辑框图：
 
 ![VIM3 PCIe/USB3.0 Block](/images/vim3/vim3_pcie_usb3_block.png)
@@ -64,7 +64,7 @@ You'll need to navigate to "Device Preferences" using an IR remote, mouse or att
 * 查看当前模式：
 
 ```
-OS-Q@OS-Q:~$ cat /sys/class/mcu/usb_pcie_switch_mode
+Khadas@Khadas:~$ cat /sys/class/mcu/usb_pcie_switch_mode
 1
 ```
 
@@ -74,19 +74,19 @@ OS-Q@OS-Q:~$ cat /sys/class/mcu/usb_pcie_switch_mode
 * 设置模式为`USB 3.0`：
 
 ```
-OS-Q@OS-Q:~$ echo 0 > /sys/class/mcu/usb_pcie_switch_mode
+Khadas@Khadas:~$ echo 0 > /sys/class/mcu/usb_pcie_switch_mode
 ```
 
 * 设置模式为`PCIe`：
 
 ```
-OS-Q@OS-Q:~$ echo 1 > /sys/class/mcu/usb_pcie_switch_mode
+Khadas@Khadas:~$ echo 1 > /sys/class/mcu/usb_pcie_switch_mode
 ```
 
 **设置完后一定要给系统断电，以保证配置生效：**
 
 ```
-OS-Q@OS-Q:~$ echo 1 > /sys/class/mcu/poweroff 
+Khadas@Khadas:~$ echo 1 > /sys/class/mcu/poweroff 
 ```
 
 然后可以按电源键开机。

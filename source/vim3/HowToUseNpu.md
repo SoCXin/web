@@ -3,7 +3,7 @@ title: How To Use the NPU
 
 ### Download NPU SDK
 
-Please click [here](https://www.OS-Q.com/npu-toolkit-vim3) to get the SDK download link.
+Please click [here](https://www.Khadas.com/npu-toolkit-vim3) to get the SDK download link.
 
 Download NPU SDK to somewhere, e.g. `~/npu`:
 
@@ -130,7 +130,7 @@ drwxrwxr-x 3 nick nick   4096 9月  20 15:24 ../
 
 * Running On VIM3
 
-Firmware version [V190830](https://dl.OS-Q.com/Firmware/VIM3/Ubuntu/EMMC/) or newer, and update the system.
+Firmware version [V190830](https://dl.Khadas.com/Firmware/VIM3/Ubuntu/EMMC/) or newer, and update the system.
 
 ```
 $ sudo apt-get update
@@ -144,7 +144,7 @@ Copy the executable binary `inceptionv3`, model data `inception_v3.nb`, and test
 *Note: You can find the sample pictures in directory `linux_sdk/demo/inceptionv3/bin_demo`.*
 
 ```
-root@OS-Q:~/inceptionv3# ./inceptionv3 inception_v3.nb goldfish_299x299.jpg 
+root@Khadas:~/inceptionv3# ./inceptionv3 inception_v3.nb goldfish_299x299.jpg 
 D [setup_node:367]Setup node id[0] uid[0] op[NBG]
 D [print_tensor:129]in : id[   1] shape[ 3, 299, 299, 1   ] fmt[u8 ] qnt[ASM zp=137, scale=0.007292]
 D [print_tensor:129]out: id[   0] shape[ 1001, 1          ] fmt[f16] qnt[NONE]

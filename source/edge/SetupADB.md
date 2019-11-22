@@ -3,7 +3,7 @@ title: Setup ADB
 
 SDK is compiled in userdebug mode by default. It is conducive to development and debugging.
 
-There are two ways to setup ADB for the OS-Q VIM. The methods portrayed are common with other Android products.
+There are two ways to setup ADB for the Khadas VIM. The methods portrayed are common with other Android products.
 
 ### ADB over Wi-Fi/LAN 
 * Ensure that either the Wi-Fi or LAN is connected.

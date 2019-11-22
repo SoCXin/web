@@ -11,4 +11,4 @@ title: Booting Card Versus Burning Card
 * When burning/downloading the images is complete, you can safely unplug the SD-Card from your device. The device will then continue to bootup normally from its onboard eMMC storage.
 
 ### Feedback
-Still have doubts about this? Feedback to us at [Khdas Forum](http://forum.OS-Q.com/).
+Still have doubts about this? Feedback to us at [Khdas Forum](http://forum.Khadas.com/).

@@ -17,7 +17,7 @@ Captain开发板外置了2个LCD屏接口：EDP + MIPI。接口对应板子上�
 
 # 2.（HDMI + DP）屏幕配置
 ##  2.1配置 **dts**
-rk3399-OS-Q-edge.dtsi为例介绍：HDMI(主显) + DP（副显）
+rk3399-Khadas-edge.dtsi为例介绍：HDMI(主显) + DP（副显）
 ### 2.1.1 使能对应显示设备节点
 ```sh
 &hdmi {
@@ -123,7 +123,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # 3.（MIPI + HDMI）屏幕配置
 ![TS050 and Edge-V](/images/edge/edge_v_ts050.jpg)
 ##  3.1配置 **dts**
-rk3399-OS-Q-edge-mipi-android.dtsi为例介绍：MIPI(主显) + HDMI（副显）
+rk3399-Khadas-edge-mipi-android.dtsi为例介绍：MIPI(主显) + HDMI（副显）
 ### 3.1.1 使能对应显示设备节点
 ```sh
 &hdmi {
@@ -344,7 +344,7 @@ HDMI or DP + MIPI意思是，兼容 HDMI(主显) + MIPI（副显） 或 DP(主�
 ##  4.1 配置 **dts**
 ### android 9.0配置
 见下面dts，详解见前面两章节说明：
-rk3399-OS-Q-edge-android.dts
+rk3399-Khadas-edge-android.dts
 
 ##  4.2 主副显示器配置
 ### android 9.0配置

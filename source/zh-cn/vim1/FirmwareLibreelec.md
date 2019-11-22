@@ -1,6 +1,6 @@
-title: OS-Q VIM1 LibreELEC固件
+title: Khadas VIM1 LibreELEC固件
 ---
 
 # LibreELEC
-[官方LibreELEC固件](https://libreelec.tv/downloads_new/OS-Q-vim/)，感谢LibreELEC团队！
+[官方LibreELEC固件](https://libreelec.tv/downloads_new/Khadas-vim/)，感谢LibreELEC团队！
 [第三方LibreELEC固件](/zh-cn/vim1/FirmwareThirdparty.html#LibreELEC)。

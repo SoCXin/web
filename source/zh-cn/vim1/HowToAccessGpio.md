@@ -56,13 +56,13 @@ Number(GPIOAO_6) = bank + pin = 145 - 0 + 6 = 151
 `aobus-banks`:
 Banks:
 ```
-root@OS-Q:~# cat /sys/kernel/debug/pinctrl/pinctrl@14/gpio-ranges 
+root@Khadas:~# cat /sys/kernel/debug/pinctrl/pinctrl@14/gpio-ranges 
 GPIO ranges handled:
 0: aobus-banks GPIOS [0 - 10] PINS [0 - 10]
 ```
 Pins:
 ```
-root@OS-Q:~# cat /sys/kernel/debug/pinctrl/pinctrl@14/pins 
+root@Khadas:~# cat /sys/kernel/debug/pinctrl/pinctrl@14/pins 
 registered pins: 11
 pin 0 (GPIOAO_0)  pinctrl@14
 pin 1 (GPIOAO_1)  pinctrl@14
@@ -83,13 +83,13 @@ Number(GPIOAO_6) = bank + pin = 0 - 0 + 6 = 6
 `periphs-banks`:
 Banks:
 ```
-root@OS-Q:~# cat /sys/kernel/debug/pinctrl/pinctrl@4b0/gpio-ranges
+root@Khadas:~# cat /sys/kernel/debug/pinctrl/pinctrl@4b0/gpio-ranges
 GPIO ranges handled:
 0: periphs-banks GPIOS [11 - 110] PINS [11 - 110]
 ```
 Pins:
 ```
-root@OS-Q:~# cat /sys/kernel/debug/pinctrl/pinctrl@4b0/pins 
+root@Khadas:~# cat /sys/kernel/debug/pinctrl/pinctrl@4b0/pins 
 registered pins: 100
 pin 11 (GPIOZ_0)  pinctrl@4b0
 pin 12 (GPIOZ_1)  pinctrl@4b0

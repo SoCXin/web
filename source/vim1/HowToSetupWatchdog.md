@@ -29,7 +29,7 @@ $ sudo systemctl restart watchdog
 Trigger a Kernel crash.
 ```
 $ sudo -i
-root@OS-Q:~# echo c > /proc/sysrq-trigger 
+root@Khadas:~# echo c > /proc/sysrq-trigger 
 ```
 If `watchdog` setup successfully, the system will reboot after the timeout you set above.
 
