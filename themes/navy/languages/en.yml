@@ -1,16 +1,16 @@
 menu:
-  vim1: VIM1
-  vim2: VIM2
-  vim3: VIM3
-  edge: Edge
-  toneboard: ToneBoard
-  firmware: Firmware
-  faq: FAQ
+  docs: Docs
+  api: API
+  news: News
+  plugins: Plugins
+  themes: Themes
+  about: About
+  search: Search
 
 index:
-  get_started: Getting Started
-  read_docs: READ DOCS
-  read_faqs: READ FAQs
+  get_started: Get started
+  theme_intro: Choose from a huge library of spectacular, feature-packed and customizable themes. Create your own using any compatible template engines.
+  theme_link: Explore themes
 
 page:
   contents: Contents
@@ -20,276 +20,56 @@ page:
   next: Next
   last_updated: "Last updated: %s"
 
-home_page:
-  intro_title1: Editable
-  intro_desc1: This documentation is editable via GitHub Pull Request, any code donation is welcome.
-  intro_title2: Open Source
-  intro_desc2: All source code is open source, you can find the source code on the Khadas GitHub.
-  intro_title3: Markdown Support
-  intro_desc3: All documentation is written with Markdown. All features of GitHub Flavoured Markdown are supported.
-  intro_title4: Multi-Language Support
-  intro_desc4: English and Simplified Chinese are supported, more languages will be supported in the future.
-
-
 sidebar:
-  vim1:
-    overview: Beginners Guide
+  docs:
     getting_started: Getting Started
-    vim1_interfaces: VIM1 Interfaces
-    enter_upgrade_mode: Enter Upgrade Mode
-    upgrade_via_usb: Upgrade Using USB-C Cable
-    upgrade_via_tfcard: Upgrade Android Using SD-Card
-    install_libreelec: Install LibreELEC
-    create_burning_card_via_cli: Create Burning Card Using CLI
-    create_booting_card: Create Booting Card Using CLI
-    booting_card_vs_burning_card: Booting Card Vs Burning Card
-    boot_from_ext_image: Boot From External Media
-    extra_power_input: Extra Power Input
-    gpio_pinout: GPIO Pin-Outs
-    development: Development
-    install_toolchains: Install Toolchains
-    setup_serial: Serial Debugging Tool
-    erase_emmc: Erase eMMC Storage
-    how_to_access_gpio: How To Access GPIO
-    how_to_access_i2c: How To Access I2C
-    how_to_install_adb_tool: How To Install ADB Tool
-    uboot: U-Boot
-    uboot_usage: U-boot Usage Guide
-    build_boot_logo_for_uboot: Boot Logo For U-boot
-    setup_tftp: TFTP Server for U-Boot
-    load_image_via_tftp: Load Images with U-Boot via TFTP
-    android: Android
-    download_android_source_code: Download Android Source Code
-    build_android: Build Android Source Code
-    package_update_image: Fast Package Update Image
-    setup_adb: Setup ADB
-    linux: Linux
-    fenix_script: Build Ubuntu/Debian Image
-    how_to_connect_wifi: Connect to Wi-Fi
-    how_to_setup_bluetooth: Setup Bluetooth
-    bluetooth_instructions: Bluetooth Instructions
-    how_to_setup_watchdog: Setup Watchdog
-    add_chinese_support: Chinese Support
-    install_tensorflow: Install TensorFlow
-    install_docker: Install Docker
-    setup_golang: Setup Golang
-    enable_adb: Enable ADB
-    how_to_use_wiringpi: How To Use WiringPi
-    how_to_use_rpigpio: How To Use RPi.GPIO
-    hardware: Hardware
-    download: Download
-    firmware: Firmware
-    android_image: Android
-    ubuntu_image: Ubuntu
-    libreelec_image: LibreELEC
-    uboot_image: U-Boot
-    dualos_image: Dual OS
-    thirdparty_image: Third Party
-
-  vim2:
-    overview: Beginners Guide
-    getting_started: Getting Started
-    vim2_interfaces: VIM2 Interfaces
-    enter_upgrade_mode: Enter Upgrade Mode
-    upgrade_via_usb: Upgrade Using USB-C Cable
-    upgrade_via_tfcard: Upgrade Android Using SD-Card
-    install_libreelec: Install LibreELEC
-    create_burning_card_via_cli: Create Burning Card Using CLI
-    create_booting_card: Create Booting Card Using CLI
-    booting_card_vs_burning_card: Booting Card Vs Burning Card
-    boot_from_ext_image: Boot From External Media
-    extra_power_input: Extra Power Input
-    gpio_pinout: GPIO Pin-Outs
-    development: Development
-    install_toolchains: Install Toolchains
-    setup_serial: Serial Debugging Tool
-    erase_emmc: Erase eMMC Storage
-    how_to_access_gpio: How To Access GPIO
-    how_to_access_i2c: How To Access I2C
-    how_to_install_adb_tool: How To Install ADB Tool
-    uboot: U-Boot
-    uboot_usage: U-Boot Usage Guide
-    build_boot_logo_for_uboot: Boot Logo For U-boot
-    setup_tftp: TFTP Server for U-Boot
-    load_image_via_tftp: Load Images with U-Boot Using TFTP
-    kbi_guidance: KBI Guide
-    android: Android
-    download_android_source_code: Download Android Source Code
-    build_android: Build Android Source Code
-    package_update_image: Fast Package Update Image
-    setup_adb: Setup ADB
-    howto_use_wol: How To Use WOL
-    force_reset_features: Force Reset Remotely
-    linux: Linux
-    fenix_script: Build Ubuntu/Debian Images
-    how_to_connect_wifi: Connect to Wi-Fi
-    how_to_setup_bluetooth: Setup Bluetooth
-    bluetooth_instructions: Bluetooth Instructions
-    how_to_setup_watchdog: Setup Watchdog
-    add_chinese_support: Chinese Support
-    install_tensorflow: Install TensorFlow
-    install_docker: Install Docker
-    how_to_setup_fan: Add Cooling Fan
-    setup_golang: Setup Golang
-    enable_adb: Enable ADB
-    how_to_use_wiringpi: How To Use WiringPi
-    how_to_use_rpigpio: How To Use RPi.GPIO
-    fuchsia: Fuchsia
-    build_fuchsia: Build Fuchsia
-    mcu: MCU
-    mcu_develop: MCU Development
-    mcu_code_flow_chart: MCU Code Flow Chart
-    hardware: Hardware
-    download: Download
-    firmware: Firmware
-    android_image: Android
-    ubuntu_image: Ubuntu
-    libreelec_image: LibreELEC
-    uboot_image: U-Boot
-    dualos_image: Dual OS
-    thirdparty_image: Third Party
-
-  vim3:
-    overview: Beginners Guide
-    getting_started: Getting Started
-    vim3_interfaces: VIM3 Interfaces
-    enter_upgrade_mode: Enter Upgrade Mode
-    upgrade_via_usb: Upgrade Using USB-C Cable
-    upgrade_via_tfcard: Upgrade Android Using SD-Card
-    install_libreelec: Install LibreELEC
-    create_burning_card_via_cli: Create Burning Card Using CLI
-    create_booting_card: Create Booting Card Using CLI
-    booting_card_vs_burning_card: Booting Card Vs Burning Card
-    boot_from_ext_image: Boot From External Media
-    extra_power_input: Extra Power Input
-    gpio_pinout: GPIO Pin-Outs
-    connect_lcd: Connect to TS050 Touchscreen
-    list_of_compatible_nvme_ssd: List of compatible NVMe SSDs
-    development: Development
-    install_toolchains: Install Toolchains
-    setup_serial: Serial Debugging Tool
-    how_to_use_npu: How To Use the NPU
-    how_to_install_darknet: How To Install Darnket
-    how_to_train_yolo: How To Train Yolo Model
-    how_to_transform_yolo: How To Transform Yolo Model
-    how_to_train_inception: How To Train Inception Model
-    erase_emmc: Erase eMMC Storage
-    how_to_access_gpio: How To Access GPIO
-    how_to_access_i2c: How To Access I2C
-    how_to_setup_pcie_usb_port: How To Setup PCIe/USB3.0 Port
-    how_to_install_adb_tool: How To Install ADB Tool
-    uboot: U-Boot
-    boot_from_spi_flash: Boot From SPI-Flash
-    uboot_usage: U-boot Usage Guide
-    build_boot_logo_for_uboot: Boot Logo For U-boot
-    setup_tftp: TFTP Server for U-Boot
-    load_image_via_tftp: Load Images with U-Boot via TFTP
-    kbi_guidance: KBI Guide
-    android: Android
-    download_android_source_code: Download Android Source Code
-    build_android: Build Android Source Code
-    package_update_image: Fast Package Update Image
-    setup_adb: Setup ADB
-    howto_use_wol: How To Use WOL
-    linux: Linux
-    fenix_script: Build Ubuntu/Debian Image
-    how_to_connect_wifi: Connect to Wi-Fi
-    how_to_setup_bluetooth: Setup Bluetooth
-    bluetooth_instructions: Bluetooth Instructions
-    how_to_setup_watchdog: Setup Watchdog
-    add_chinese_support: Chinese Support
-    install_tensorflow: Install TensorFlow
-    install_docker: Install Docker
-    setup_golang: Setup Golang
-    enable_adb: Enable ADB
-    how_to_use_wiringpi: How To Use WiringPi
-    how_to_use_rpigpio: How To Use RPi.GPIO
-    hardware: Hardware
-    download: Download
-    firmware: Firmware
-    android_image: Android
-    ubuntu_image: Ubuntu
-    libreelec_image: LibreELEC
-    uboot_image: U-Boot
-    dualos_image: Dual OS
-    thirdparty_image: Third Party
-
-  edge:
-    overview: Beginners Guide
-    getting_started: Getting Started
-    edge_interfaces: Edge Interfaces
-    captain_interfaces: Captain Interfaces
-    edgev_interfaces: Edge-V Interfaces
-    edgecaptain_power_priority: Edge+Captain Power Priority
-    enter_upgrade_mode: Enter Upgrade Mode
-    upgrade_via_usb: Upgrade Using USB-C Cable
-    upgrade_via_tfcard: Upgrade Using SD-Card
-    install_libreelec: Install LibreELEC
-    create_burning_card_via_cli: Create Burning Card Using CLI
-    create_booting_card: Create Booting Card Using CLI
-    booting_card_vs_burning_card: Booting Card Vs Burning Card
-    boot_from_ext_image: Boot From External Media
-    extra_power_input: Extra Power Input
-    captain_gpio_pinout: Captain GPIO Pin-Outs
-    edgev_gpio_pinout: Edge V GPIO Pin-Outs
-    connect_lcd: Connect to TS050 Touchscreen
-    list_of_compatible_nvme_ssd: List of compatible NVMe SSDs
-    development: Development
-    install_toolchains: Install Toolchains
-    setup_serial: Serial Debugging Tool
-    erase_emmc: Erase eMMC Storage
-    how_to_access_gpio: How To Access GPIO
-    rk_docs: Rockchip Official Docs
-    how_to_install_adb_tool: How To Install ADB Tool
-    uboot: U-Boot
-    boot_from_spi_flash: Boot From SPI-Flash
-    kbi_guidance: KBI Guide
-    uboot_usage: U-Boot Usage Guide
-    build_boot_logo_for_uboot: Boot Logo For U-boot
-    setup_tftp: TFTP Server for U-Boot
-    load_image_via_tftp: Load Images with U-Boot via TFTP
-    android: Android
-    download_android_source_code: Download Android Source Code
-    build_android: Build Android Source Code
-    setup_adb: Setup ADB
-    howto_use_wol: How To Use WOL
-    instructions_for_edge_single_pack_burning_tool: Instructions for Edge Single Pack Burning Tool
-    linux: Linux
-    fenix_script: Build Ubuntu/Debian Images
-    how_to_connect_wifi: Connect to Wi-Fi
-    how_to_setup_bluetooth: Setup Bluetooth
-    add_chinese_support: Chinese Support
-    how_to_setup_fan: Add Cooling Fan
-    install_tensorflow: Install TensorFlow
-    install_docker: Install Docker
-    build_packages_in_docker: Build Packages In Docker
-    setup_golang: Setup Golang
-    enable_adb: Enable ADB
-    how_to_use_wiringpi: How To Use WiringPi
-    how_to_use_rpigpio: How To Use RPi.GPIO
-    hardware: Hardware
-    download: Download
-    firmware: Firmware
-    android_image: Android
-    ubuntu_image: Ubuntu
-    debian_image: Debian
-    libreelec_image: LibreELEC
-    dualos_image: Dual OS
-    buildroot_image: Buildroot
-    uboot_image: U-Boot
-    thirdparty_image: Third Party
-
-  toneboard:
-    getting_started: Getting Started
-    overview: Beginners FAQ
-    user_manual: User Manual
-    how_to_upgrade_firmware: How To Upgrade Firmware
-    hardware: Hardware
-    download: Download
-
-  firmware:
-    firmware_download: Firmware Download
-    vim1: VIM1
-    vim2: VIM2
-    edge: Edge
-    toneboard: Tone Board
+    overview: Overview
+    setup: Setup
+    configuration: Configuration
+    commands: Commands
+    migration: Migration
+    basic_usage: Basic Usage
+    writing: Writing
+    front_matter: Front-matter
+    tag_plugins: Tag Plugins
+    asset_folders: Asset Folders
+    data_files: Data Files
+    server: Server
+    generating: Generating
+    deployment: Deployment
+    github_pages: GitHub Pages
+    gitlab_pages: GitLab Pages
+    one_command_deployment: One-Command Deployment
+    customization: Customization
+    permalinks: Permalinks
+    themes: Themes
+    structure: Structure
+    templates: Templates
+    variables: Variables
+    helpers: Helpers
+    internationalization: Internationalization (i18n)
+    plugins: Plugins
+    miscellaneous: Miscellaneous
+    troubleshooting: Troubleshooting
+    contributing: Contributing
+  api:
+    core: Core
+    overview: Overview
+    events: Events
+    locals: Locals
+    router: Router
+    box: Box
+    rendering: Rendering
+    posts: Posts
+    scaffolds: Scaffolds
+    themes: Themes
+    extensions: Extensions
+    console: Console
+    deployer: Deployer
+    filter: Filter
+    generator: Generator
+    helper: Helper
+    migrator: Migrator
+    processor: Processor
+    renderer: Renderer
+    tag: Tag

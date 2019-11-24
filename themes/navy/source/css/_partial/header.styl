@@ -4,7 +4,7 @@ logo-size = 50px
 
 #header
   position: relative
-  padding: header-padding-normal 50px
+  padding: header-padding-normal 0
   @media print
     display: none
 
@@ -20,7 +20,7 @@ logo-size = 50px
 
 #logo
   hide-text()
-  background: url("/logo.png")
+  background: url("/logo.svg")
   width: logo-size
   height: logo-size
   background-size: @width @height
@@ -42,8 +42,6 @@ logo-size = 50px
   font-family: font-title
   display: inline-block
   padding: 0 15px
-  &.current
-    color: color-link-hover
   &:hover
     opacity: 1
     color: color-link-hover
@@ -72,7 +70,6 @@ logo-size = 50px
 
 #lang-select-wrap
   display: none
-  padding-right: 320px
   position: relative
   @media mq-normal
     display: block
@@ -92,7 +89,7 @@ logo-size = 50px
   position: absolute
   top: 0
   left: 0
-  width: 20%
+  width: 100%
   height: 100%
   -webkit-appearance: menulist-button
   font-size: inherit

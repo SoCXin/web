@@ -1,55 +1,59 @@
 <header id="banner" class="wrapper">
   <div class="inner">
-    <div id="banner-special-content">{{ page.special_content }}</div>
     <h2 id="banner-title">{{ page.subtitle }}</h2>
-	</p>
+    <div id="banner-start">
+      <span id="banner-start-command">npm install hexo-cli -g</span><a id="banner-start-link" href="docs/"><i class="fa fa-arrow-right"></i></a>
+    </div>
+    <div id="banner-share">{{ partial('partial/share') }}</div>
   </div>
 </header>
+<div id="intro-news-list">
+  <div class="wrapper">
+    <div class="inner">
+      <div id="intro-news-flex">
+        {% set posts = site.posts.sort('-date'). %}
+        {% for post in posts.slice('0', '4') %}
+        <a href="{{ url_for(post.path) }}" class="intro-news-wrap">
+          <div class="intro-news-time">{{ time_tag(post.date) }}</div>
+          <div class="intro-news-title">{{ truncate(post.title, {length: 120, separator: ' '}) }}</div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
 <div id="content-wrap">
   <div class="wrapper">
     <div class="inner">
       {{ page.content }}
-
-      <div class="ui two column grid" id="intro-block">
-        <div class="column">
-	      <div class="ui raised segment">
-	        <a class="ui green ribbon label" id="intro-label">{{ __('home_page.intro_title1') }}</a>
-	        <p id="intro-description">{{ __('home_page.intro_desc1') }}</p>
-	      </div>
-        </div>
-
-        <div class="column">
-	      <div class="ui raised segment">
-	        <a class="ui green right ribbon label" id="intro-label">{{ __('home_page.intro_title2') }}</a>
-	        <p id="intro-description">{{ __('home_page.intro_desc2') }}</p>
-	      </div>
-        </div>
-
-        <div class="column">
-	      <div class="ui raised segment">
-	        <a class="ui blue ribbon label" id="intro-label">{{ __('home_page.intro_title3') }}</a>
-	        <p id="intro-description">{{ __('home_page.intro_desc3') }}</p>
-	      </div>
-        </div>
-
-        <div class="column">
-	      <div class="ui raised segment">
-	        <a class="ui orange right ribbon label" id="intro-label">{{ __('home_page.intro_title4') }}</a>
-	        <p id="intro-description">{{ __('home_page.intro_desc4') }}</p>
-	      </div>
+      <ul id="intro-cmd-wrap">
+        <li class="intro-cmd-item">npm install hexo-cli -g</li>
+        <li class="intro-cmd-item">hexo init blog</li>
+        <li class="intro-cmd-item">cd blog</li>
+        <li class="intro-cmd-item">npm install</li>
+        <li class="intro-cmd-item">hexo server</li>
+      </ul>
+      <div id="intro-get-started-wrap">
+        <a href="docs/" id="intro-get-started-link">{{ __('index.get_started') }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="theme-wrap">
+  <div class="wrapper">
+    <div class="inner theme-wrapper">
+      <div class="theme-thumbnail">
+        <div class="theme-thumbnail-container">
+          <img src="/themes/screenshots/landscape.png">
         </div>
       </div>
-
-	  <div class="btns" id="intro-get-started-wrap">
-       <a href="vim1/" class="ui inverted blue button" id="intro-get-started-link">
-         <i class="play icon"></i>
-         {{ __('index.read_docs') }}
-       </a>
-       <a href="faq/" class="ui inverted green button" id="intro-get-started-link">
-         <i class="question circle icon"></i>
-         {{ __('index.read_faqs') }}
-       </a>
-	  </div>
+      <div class="theme-intro">
+        <div class="theme-intro-container">
+          <h2 class="theme-intro-title">{{ site.data.themes.length }} {{ __('menu.themes') }}</h2>
+          <p class="theme-intro-text">{{ __('index.theme_intro') }}</p>
+          <a href="/themes/" id="theme-link">{{ __('index.theme_link') }}</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
