@@ -15,15 +15,9 @@ docs:
     generating: generating.html
   deployment:
     github_pages: github-pages.html
-    gitlab_pages: gitlab-pages.html
-    one_command_deployment: one-command-deployment.html
   customization:
     permalinks: permalinks.html
     themes: themes.html
-    templates: templates.html
-    variables: variables.html
-    helpers: helpers.html
-    internationalization: internationalization.html
     plugins: plugins.html
   miscellaneous:
     troubleshooting: troubleshooting.html
@@ -45,8 +39,5 @@ api:
     deployer: deployer.html
     filter: filter.html
     generator: generator.html
-    helper: helper.html
-    migrator: migrator.html
-    processor: processor.html
     renderer: renderer.html
     tag: tag.html

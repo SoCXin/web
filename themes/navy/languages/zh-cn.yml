@@ -38,8 +38,6 @@ sidebar:
     generating: 生成器
     deployment: 部署
     github_pages: GitHub Pages
-    gitlab_pages: GitLab Pages
-    one_command_deployment: 一键部署
     customization: 自定义
     permalinks: 永久链接
     themes: 主题
@@ -61,15 +59,11 @@ sidebar:
     box: 盒(Box)
     rendering: 渲染
     posts: 文章
-    scaffolds: 模版 (Scaffold)
     themes: 主题
     extensions: 扩展
     console: 控制台 (Console)
     deployer: 部署器 (Deployer)
-    filter: 过滤器 (Filter)
     generator: 生成器 (Generator)
     helper: 辅助函数 (Helper)
     migrator: 迁移器 (Migrator)
-    processor: 处理器 (Processor)
-    renderer: 渲染引擎 (Renderer)
     tag: 标签 (Tag)
