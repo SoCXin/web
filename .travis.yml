@@ -1,25 +1,18 @@
-language: node_js
-
 sudo: false
-
+language: node_js
 node_js:
-  - 10.17.0
-
-cache:
-  apt: true
-  directories:
-    - node_modules
-
-scrpit:
-  - hexo clean
-  - hexo g
-
-before_install:
-  - npm install hexo-cli -g
-
+  - 10
+cache: npm
+branches:
+  only:
+    - master # build master branch only
+script:
+  - hexo generate # generate static files
 deploy:
-  provider: script
-  script: .travis/deploy.sh
-  skip_cleanup: true
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
   on:
     branch: master
+  local-dir: public
