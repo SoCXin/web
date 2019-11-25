@@ -20,15 +20,21 @@ skip_render: vendor/**
 theme: navy
 deploy:
   type: git
-  repo: git@github.com:qitas/qitas.github.io.git
+  repo: git@github.com:qitas/web.git
   branch: master
 
 highlight:
   enable: true
   line_number: false
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 #disqus_shortname: hexojs
-google_analytics: UA-110196417-1
+# google_analytics: UA-110196417-1
 #fb_admins: 100000247608790
 #algolia:
 #  en:
