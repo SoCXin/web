@@ -2,11 +2,11 @@
   <div class="inner">
     <div id="footer-copyright">
       &copy; {{ moment(Date.now()).year() }} <a href="https://github.com/hexojs/hexo/graphs/contributors" target="_blank">{{ config.author }}</a><br>
-      Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+     Try to smooth the uneven road<a href="https://www.qitas.cn" target="_blank"> under my feet.</a>.
     </div>
     <div id="footer-links">
-      <a href="https://www.netlify.com/" class="footer-link" target="_blank"><img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" style="margin-bottom:-14px"/></a>
-      <a href="https://twitter.com/{{ config.twitter }}" class="footer-link" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="weibo.com/{{ config.weibo }}" class="footer-link" target="_blank"><i class="fa fa-weibo"></i></a>
+      <a href="https://linkedin.com/in/{{ config.linkedin }}" class="footer-link" target="_blank"><i class="fa fa-linkedin"></i></a>
       <a href="https://github.com/{{ config.github }}" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
     </div>
   </div>

@@ -1,6 +1,6 @@
-# [Web](https://github.com/qitas/web) 
+# [web](https://github.com/qitas/web) 
 
-基于hexo的信息网站资源
+基于hexo构建的个人网站
 
 [![sites](http://182.61.61.133/link/resources/head.png)](http://www.qitas.cn) 
 

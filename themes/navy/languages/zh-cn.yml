@@ -1,15 +1,15 @@
 menu:
   docs: 文档
-  api: API
+  api: 服务
   news: 新闻
-  plugins: 插件
-  themes: 主题
+  plugins: 工具
+  themes: 产品
   about: 关于
   search: 搜索
 
 index:
   get_started: 开始使用
-  theme_intro: 在众多美观、强大、可定制的主题中选择；使用任何兼容的模板引擎创建自己的主题。
+  theme_intro:  使用任何兼容的模板引擎创建自己的主题。
   theme_link: 探索主题
 
 page:

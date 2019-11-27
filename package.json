@@ -17,6 +17,8 @@
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-feed": "^2.0.0",
     "hexo-generator-sitemap": "^1.1.2",
+    "hexo-migrator-rss": "^0.1.4",
+    "hexo-migrator-wordpress": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-pug": "^1.0.0",
     "hexo-renderer-stylus": "^1.0.0",

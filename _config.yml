@@ -1,6 +1,6 @@
 title: Qitas
 subtitle: "锻造最美之器"
-description: "效率笔记，灵感启发"
+description: "锻造最美之器"
 author: qitas
 language:
   - en
@@ -27,12 +27,6 @@ highlight:
   enable: true
   line_number: false
 
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
-
 #disqus_shortname: hexojs
 # google_analytics: UA-110196417-1
 #fb_admins: 100000247608790
@@ -46,5 +40,6 @@ search:
 #  zh-cn:
 #    api_key: cdea7d4e47d84f6145b77e7f68689f35
 #    index_name: hexo_zh-cn
-twitter: qitas
+weibo: qitas
+linkedin: qitas
 github: qitas/web
