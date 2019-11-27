@@ -1,16 +1,16 @@
 menu:
+  news: News
   docs: Docs
   api: Services
-  news: News
   plugins: Tools
-  themes: Products
-  about: About
+  themes: Platforms
+  about: Resurces
   search: Search
 
 index:
   get_started: Explore Tools
   theme_intro: Choose the right products for your system.
-  theme_link: Explore Products
+  theme_link: Explore Platforms
 
 page:
   contents: Contents
@@ -38,14 +38,6 @@ sidebar:
     generating: Generating
     deployment: Deployment
     github_pages: GitHub Pages
-    customization: Customization
-    permalinks: Permalinks
-    themes: Themes
-    structure: Structure
-    templates: Templates
-    variables: Variables
-    helpers: Helpers
-    internationalization: Internationalization (i18n)
     plugins: Plugins
     miscellaneous: Miscellaneous
     troubleshooting: Troubleshooting

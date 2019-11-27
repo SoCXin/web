@@ -36,15 +36,12 @@ sidebar:
     server: 服务器
     generating: 生成器
     deployment: 部署
-    github_pages: GitHub Pages
     customization: 自定义
     permalinks: 永久链接
     themes: 主题
     structure: 结构
     templates: 模版
     variables: 变量
-    helpers: 辅助函数
-    internationalization: 国际化 (i18n)
     plugins: 插件
     miscellaneous: 其他
     troubleshooting: 问题解答
@@ -59,9 +56,4 @@ sidebar:
     posts: 文章
     themes: 主题
     extensions: 扩展
-    console: 控制台 (Console)
-    deployer: 部署器 (Deployer)
-    generator: 生成器 (Generator)
-    helper: 辅助函数 (Helper)
-    migrator: 迁移器 (Migrator)
     tag: 标签 (Tag)
