@@ -8,9 +8,9 @@ menu:
   search: 搜索
 
 index:
-  get_started: 开始使用
-  theme_intro:  使用任何兼容的模板引擎创建自己的主题。
-  theme_link: 探索主题
+  get_started: 浏览工具
+  theme_intro:  使用基础模块构建设备体系
+  theme_link: 浏览产品
 
 page:
   contents: 目录
@@ -30,7 +30,6 @@ sidebar:
     migration: 迁移
     basic_usage: 基本操作
     writing: 写作
-    front_matter: Front-matter
     tag_plugins: 标签插件
     asset_folders: 资源文件夹
     data_files: 数据文件夹
@@ -49,7 +48,6 @@ sidebar:
     plugins: 插件
     miscellaneous: 其他
     troubleshooting: 问题解答
-    contributing: 贡献
   api:
     core: 核心
     overview: 概述
