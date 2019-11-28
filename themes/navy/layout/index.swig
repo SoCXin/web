@@ -2,7 +2,7 @@
   <div class="inner">
     <h2 id="banner-title">{{ page.subtitle }}</h2>
     <div id="banner-start">
-      <span id="banner-start-command">Find right tools and platforms </span><a id="banner-start-link" href="plugins/"><i class="fa fa-arrow-right"></i></a>
+      <span id="banner-start-command">pick up a shortcut</span><a id="banner-start-link" href="plugins/"><i class="fa fa-arrow-right"></i></a>
     </div>
 </header>
 <div id="intro-news-list">
@@ -25,7 +25,7 @@
     <div class="inner">
       {{ page.content }}
       <div id="intro-get-started-wrap">
-        <a href="docs/" id="intro-get-started-link">{{ __('index.get_started') }}</a>
+        <a href="api/" id="intro-get-started-link">{{ __('index.get_started') }}</a>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@
     <div class="inner theme-wrapper">
       <div class="theme-thumbnail">
         <div class="theme-thumbnail-container">
-          <img src="/themes/screenshots/landscape.png">
+          <img src="/themes/main/landscape.png">
         </div>
       </div>
       <div class="theme-intro">

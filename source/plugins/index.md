@@ -1,5 +1,5 @@
 layout: plugins
-title: Plugins
+title: Tools
 data: plugins
 partial: plugin
 comments: false

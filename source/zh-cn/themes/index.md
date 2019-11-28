@@ -1,5 +1,5 @@
 layout: plugins
-title: Themes
+title: 平台
 data: themes
 partial: theme
 comments: false

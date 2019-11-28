@@ -1,11 +1,11 @@
 docs:
-  getting_started:
+  purpose:
     overview: index.html
     setup: setup.html
     configuration: configuration.html
     commands: commands.html
     migration: migration.html
-  basic_usage:
+  usage:
     writing: writing.html
     front_matter: front-matter.html
     tag_plugins: tag-plugins.html

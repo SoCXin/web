@@ -2,15 +2,15 @@ menu:
   docs: 文档
   api: 服务
   news: 新闻
-  plugins: 工具
+  tools: 工具
   themes: 产品
-  about: 关于
+  resources: 资源
   search: 搜索
 
 index:
-  get_started: 浏览工具
-  theme_intro:  使用基础模块构建设备体系
-  theme_link: 浏览产品
+  get_started: 软件工具
+  theme_intro:  使用最小单元模块构建完整设备体系
+  theme_link: 硬件平台
 
 page:
   contents: 目录
@@ -22,7 +22,7 @@ page:
 
 sidebar:
   docs:
-    getting_started: 开始使用
+    purpose: 意图
     overview: 概述
     setup: 建站
     configuration: 配置

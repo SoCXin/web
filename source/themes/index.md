@@ -1,5 +1,5 @@
 layout: plugins
-title: Themes
+title: Platforms
 data: themes
 partial: theme
 comments: false

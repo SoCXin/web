@@ -1,15 +1,15 @@
 menu:
   news: News
   docs: Docs
-  api: Services
-  plugins: Tools
+  api: API
+  tools: Tools
   themes: Platforms
-  about: Resurces
+  resources: Resources	
   search: Search
 
 index:
   get_started: Explore Tools
-  theme_intro: Choose the right products for your system.
+  theme_intro: Choose a suitable hardware for your code
   theme_link: Explore Platforms
 
 page:
@@ -22,13 +22,13 @@ page:
 
 sidebar:
   docs:
-    getting_started: Getting Started
+    purpose: Purpose
     overview: Overview
     setup: Setup
     configuration: Configuration
     commands: Commands
     migration: Migration
-    basic_usage: Basic Usage
+    usage: Usage
     writing: Writing
     front_matter: Front-matter
     tag_plugins: Tag Plugins

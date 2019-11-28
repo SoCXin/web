@@ -1,6 +1,6 @@
+news: /news/
 docs: /docs/
 api: /api/
-news: /news/
-plugins: /plugins/
+tools: /plugins/
 themes: /themes/
-about: /about/
+resources: /resources/
