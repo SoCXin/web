@@ -162,7 +162,7 @@
     - nRF52832
 
 - name: Platform H24
-  description: For  nRF52
+  description: For  xxx
   link: https://github.com/OS-Q/H24
   tags:
-    - nRF52832
+    - FPGA

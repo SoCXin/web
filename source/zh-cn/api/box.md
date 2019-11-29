@@ -1,61 +1,26 @@
 ---
-title:  Box
+title:  LoRa
 ---
-「Box」是 Hexo 用来处理特定文件夹中的文件的容器，在 Hexo 中有两个 Box，分别是 `hexo.source` 和 `hexo.theme`，前者用于处理 `source` 文件夹，而后者用于处理主题文件夹。
 
-## 载入文件
+### 背景知识
 
-Box 提供了两种方法来载入文件：`process`, `watch`，前者用于载入文件夹内的所有文件；而后者除了执行 `process` 以外，还会继续监视文件变动。
+LoRa是Long Range（长距离）的简称，是一种长距离、低功耗无线通信技术。2009年法国公司Cycleo设计出一种优异的扩频通信算法，后来，该公司被美国semtech公司收购，后者于2013年推出LoRa芯片。目前，semtech公司是LoRa芯片唯一供应商。
 
-``` js
-box.process().then(function(){
-  // ...
-});
+LoRaWAN是LoRa Wide Area Network（LoRa广域网）的简称，是基于LoRa技术的一种通信协议。它主要包括三个层次的通信实体：LoRa终端、LoRa网关和LoRa服务器。
 
-box.watch().then(function(){
-  // 之后可调用 box.unwatch()，停止监视文件
-});
-```
+LoRaWAN是一个较庞大的体系结构，支持CLASS A / B / C三种终端，使用LoRa MAC协议为网关和终端提供防冲突通信和同步机制，有4种服务器角色，分别担任：网络连接、应用管理、接入控制和用户数据。
 
-## 比对路径
+SX1276/8是semtech公司推出的LoRa终端芯片，单信道，前者面向欧美市场（支持862～1020MHz），后者面向中国市场（不支持支持862～1020MHz）。从硬件设计，到软件驱动，都开源设计，用户可以免费下载。
 
-Box 提供了多种比对路径的模式，您可以以使用正则表达式（regular expression）、函数、或是一种类似于 Express 的路径字符串，例如：
+SX1301是semtech公司推出的LoRa网关芯片，8个LoRa信道，1个FSK信道，可以看成是FPGA+8路LoRa调制解调器。该芯片是semtech的核心利益块，从数据手册，到硬件参数，到软件驱动，到协议算法，都不公开；仅当用户缴纳付费，成为LoRa Alliance的会员，才能获得相关资料和技术。
+SX1301的体系结构如下图所示，有2个前端芯片SX1255/7处理信号，推荐GPS提供精确时钟，通过SPI与MCU连接。
 
-``` plain
-posts/:id => posts/89
-posts/*path => posts/2015/title
-```
 
-您可以以参考 [util.Pattern] 以获得更多信息。
+### LoRa关键参数
 
-## 处理器（Processor）
-
-处理器（Processor）是 Box 中非常重要的元素，它用于处理文件，您可以使用上述的路径对比来限制该处理器所要处理的文件类型。使用 `addProcessor` 来添加处理器。
-
-``` js
-box.addProcessor('posts/:id', function(file){
-  //
-});
-```
-
-Box 在处理时会把目前处理的文件内容（`file`）传给处理器，您可以通过此参数获得该文件的数据。
-
-属性 | 描述
---- | ---
-`source` | 文件完整路径
-`path` | 文件相对于 Box 的路径
-`type` | 文件类型。有 `create`, `update`, `skip`, `delete`。
-`params` | 从路径对比中取得的信息
-
-Box 还提供了一些方法，让您无须手动处理文件 I/O。
-
-方法 | 描述
---- | ---
-`read` | 读取文件
-`readSync` | 同步读取文件
-`stat` | 读取文件状态
-`statSync` | 同步读取文件状态
-`render` | 渲染文件
-`renderSync` | 同步渲染文件
-
-[util.Pattern]: https://github.com/hexojs/hexo-util#patternrule
+1、扩频因子（SF）
+2、编码率（CR）
+3、信号带宽（BW）
+4、LoRa信号带宽BW、符号速率Rs和数据速率DR的关系
+5、 LoRa信号带宽、扩频因子和编码率的设定
+6、空中速率

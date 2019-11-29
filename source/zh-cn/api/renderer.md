@@ -26,30 +26,3 @@ hexo.extend.renderer.register(name, output, function(data, options){
 ## 范例
 
 ### 非同步模式
-
-``` js
-var stylus = require('stylus');
-
-// Callback
-hexo.extend.renderer.register('styl', 'css', function(data, options, callback){
-  stylus(data.text).set('filename', data.path).render(callback);
-});
-
-// Promise
-hexo.extend.renderer.register('styl', 'css', function(data, options){
-  return new Promise(function(resolve, reject){
-    resolve('test');
-  });
-});
-```
-
-### 同步模式
-
-``` js
-var ejs = require('ejs');
-
-hexo.extend.renderer.register('ejs', 'html', function(data, options){
-  options.filename = data.path;
-  return ejs.render(data.text, options);
-}, true);
-```

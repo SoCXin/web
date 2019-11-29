@@ -9,19 +9,12 @@ docs:
     writing: writing.html
     front_matter: front-matter.html
     tag_plugins: tag-plugins.html
-    asset_folders: asset-folders.html
-    data_files: data-files.html
-    server: server.html
-    generating: generating.html
   deployment:
     github_pages: github-pages.html
   customization:
-    permalinks: permalinks.html
-    themes: themes.html
     plugins: plugins.html
   miscellaneous:
     troubleshooting: troubleshooting.html
-    contributing: contributing.html
 
 api:
   core:
