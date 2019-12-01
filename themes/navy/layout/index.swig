@@ -35,7 +35,7 @@
     <div class="inner theme-wrapper">
       <div class="theme-thumbnail">
         <div class="theme-thumbnail-container">
-          <img src="/hardware/main/landscape.png">
+          <img src="/hardware/main/PCBA.jpg">
         </div>
       </div>
       <div class="theme-intro">
