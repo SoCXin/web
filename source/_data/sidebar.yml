@@ -8,11 +8,11 @@ docs:
   usage:
     writing: writing.html
     front_matter: front-matter.html
-    tag_plugins: tag-plugins.html
+    tag_plugins: tag-software.html
   deployment:
     github_pages: github-pages.html
   customization:
-    plugins: plugins.html
+    software: software.html
   miscellaneous:
     troubleshooting: troubleshooting.html
 
@@ -26,7 +26,7 @@ api:
     rendering: rendering.html
     posts: posts.html
     scaffolds: scaffolds.html
-    themes: themes.html
+    hardware: hardware.html
   extensions:
     console: console.html
     deployer: deployer.html

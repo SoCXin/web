@@ -1,16 +1,16 @@
 menu:
   news: News
   docs: Docs
-  api: API
-  tools: Tools
-  themes: Platforms
-  download: download	
+  api: APIs
+  software: Softwares
+  hardware: Hardwares
+  download: downloads	
   search: Search
 
 index:
-  get_started: Explore Tools
+  get_started: Explore Softwares
   theme_intro: Choose a suitable hardware for your code
-  theme_link: Explore Platforms
+  theme_link: Explore Hardwares
 
 page:
   contents: Contents
@@ -38,7 +38,7 @@ sidebar:
     generating: Generating
     deployment: Deployment
     github_pages: GitHub Pages
-    plugins: Plugins
+    software: Plugins
     miscellaneous: Miscellaneous
     troubleshooting: Troubleshooting
     contributing: Contributing
@@ -52,7 +52,7 @@ sidebar:
     rendering: Rendering
     posts: Posts
     scaffolds: Scaffolds
-    themes: Themes
+    hardware: Themes
     extensions: Extensions
     console: Console
     deployer: Deployer

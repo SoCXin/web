@@ -40,7 +40,7 @@ Hexo 有强大的插件系统，使您能轻松扩展功能而不用修改核心
 
 ### 发布
 
-当您完成插件后，可以考虑将它发布到 [插件列表](/plugins)，让更多人能够使用您的插件。发布插件的步骤和 [更新文件](contributing.html#更新文件) 非常类似。
+当您完成插件后，可以考虑将它发布到 [插件列表](/software)，让更多人能够使用您的插件。发布插件的步骤和 [更新文件](contributing.html#更新文件) 非常类似。
 
 1. Fork [hexojs/site]
 2. 把库（repository）复制到电脑上，并安装所依赖的插件。
@@ -51,7 +51,7 @@ Hexo 有强大的插件系统，使您能轻松扩展功能而不用修改核心
     $ npm install
     {% endcode %}
 
-3. 编辑 `source/_data/plugins.yml`，在档案中新增您的插件，例如：
+3. 编辑 `source/_data/software.yml`，在档案中新增您的插件，例如：
 
     {% code %}
     - name: hexo-server

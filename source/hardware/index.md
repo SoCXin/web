@@ -1,5 +1,5 @@
 layout: software
-title: 平台
+title: Hardwares
 data: hardware
 partial: theme
 comments: false

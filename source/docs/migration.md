@@ -43,7 +43,7 @@ First, install the `hexo-migrator-wordpress` plugin.
 $ npm install hexo-migrator-wordpress --save
 ```
 
-Export your WordPress site by going to "Tools" → "Export" → "WordPress" in the WordPress dashboard (see the [WordPress support page](http://en.support.wordpress.com/export/) for more details).
+Export your WordPress site by going to "Softwares" → "Export" → "WordPress" in the WordPress dashboard (see the [WordPress support page](http://en.support.wordpress.com/export/) for more details).
 
 Now run:
 

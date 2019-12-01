@@ -2,8 +2,8 @@ menu:
   news: 新闻
   docs: 文档
   api: API
-  tools: 软件
-  themes: 硬件
+  software: 软件
+  hardware: 硬件
   download: 下载
   search: 搜索
 
@@ -38,11 +38,11 @@ sidebar:
     deployment: 部署
     customization: 自定义
     permalinks: 永久链接
-    themes: 主题
+    hardware: 主题
     structure: 结构
     templates: 模版
     variables: 变量
-    plugins: 插件
+    software: 插件
     miscellaneous: 其他
     troubleshooting: 问题解答
   api:
@@ -54,6 +54,6 @@ sidebar:
     box: 盒(Box)
     rendering: 渲染
     posts: 文章
-    themes: 主题
+    hardware: 主题
     extensions: 扩展
     tag: 标签 (Tag)

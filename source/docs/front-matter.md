@@ -34,7 +34,7 @@ Setting | Description | Default
 `categories` | Categories (Not available for pages) |
 `permalink` | Overrides the default permalink of the post |
 `keywords` | The keywords that only used in meta tag and Open Graph (not recommended) |
-`excerpt` | Page excerpt in plain text. Use [this plugin](https://hexo.io/docs/tag-plugins#Post-Excerpt) to format the text |
+`excerpt` | Page excerpt in plain text. Use [this plugin](https://hexo.io/docs/tag-software#Post-Excerpt) to format the text |
 
 #### Categories & Tags
 

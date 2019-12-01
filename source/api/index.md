@@ -1,12 +1,12 @@
 title: API
 ---
-This documentation provides more detailed information about the API and will be particularly helpful for people who want to modify the Hexo source code or write new plugins. If you are interested in more basic usage of Hexo, please refer to the [docs](../docs) instead.
+This documentation provides more detailed information about the API and will be particularly helpful for people who want to modify the Hexo source code or write new software. If you are interested in more basic usage of Hexo, please refer to the [docs](../docs) instead.
 
 Please note that this documentation is only valid for Hexo 3 and above.
 
 ## Initialize
 
-First, we have to create a Hexo instance. A new instance takes two arguments: the root directory of the website, `base_dir`, and an object containing the initialization options. Next, we initialize this instance by calling the `init` method on it, which will then cause Hexo to load its configuration and plugins.
+First, we have to create a Hexo instance. A new instance takes two arguments: the root directory of the website, `base_dir`, and an object containing the initialization options. Next, we initialize this instance by calling the `init` method on it, which will then cause Hexo to load its configuration and software.
 
 ``` js
 var Hexo = require('hexo');
@@ -20,7 +20,7 @@ hexo.init().then(function(){
 Option | Description | Default
 --- | --- | ---
 `debug` | Enable debug mode. Display debug messages in the terminal and save `debug.log` in the root directory. | `false`
-`safe` | Enable safe mode. Don't load any plugins. | `false`
+`safe` | Enable safe mode. Don't load any software. | `false`
 `silent` | Enable silent mode. Don't display any messages in the terminal. | `false`
 `config` | Specify the path of the configuration file. | `_config.yml`
 `draft` / `drafts`| Enable to add drafts to the posts list.<br> example: when you use `hexo.locals.get('posts')` | `render_drafts` of _config.yml 

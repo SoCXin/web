@@ -1,5 +1,5 @@
 layout: software
-title: Plugins
+title: Softwares
 data: software
 partial: plugin
 comments: false

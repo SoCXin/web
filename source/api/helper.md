@@ -29,7 +29,7 @@ hexo.extend.helper.register('js', function(path){
 
 ### Where to place custom helper?
 
-Place it under `themes/<yourtheme>/scripts`
+Place it under `hardware/<yourtheme>/scripts`
 
 ### How do I use another registered helper inside my custom helper?
 
