@@ -38,7 +38,7 @@ sidebar:
     generating: Generating
     deployment: Deployment
     github_pages: GitHub Pages
-    software: Plugins
+    software: software
     miscellaneous: Miscellaneous
     troubleshooting: Troubleshooting
     contributing: Contributing
@@ -52,7 +52,7 @@ sidebar:
     rendering: Rendering
     posts: Posts
     scaffolds: Scaffolds
-    hardware: Themes
+    hardware: hardware
     extensions: Extensions
     console: Console
     deployer: Deployer

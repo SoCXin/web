@@ -8,7 +8,7 @@ docs:
   usage:
     writing: writing.html
     front_matter: front-matter.html
-    tag_plugins: tag-software.html
+    tag_plugins: tag-plugins.html
   deployment:
     github_pages: github-pages.html
   customization:
