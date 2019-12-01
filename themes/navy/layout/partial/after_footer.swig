@@ -11,8 +11,8 @@
 <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js"></script>
 <!-- Lazy load -->
 <script async src="https://cdn.jsdelivr.net/lazysizes/3.0.0/lazysizes.min.js"></script>
-<!-- build:js build/js/software.js -->
-{{ js('js/software') }}
+<!-- build:js build/js/plugins.js -->
+{{ js('js/plugins') }}
 <!-- endbuild -->
 {% endif %}
 <!-- Algolia -->
