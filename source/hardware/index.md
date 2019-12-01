@@ -1,6 +1,6 @@
-layout: software
+layout: plugins
 title: Hardwares
-data: hardware
+data: plugins
 partial: theme
 comments: false
 ---

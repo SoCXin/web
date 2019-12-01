@@ -1,4 +1,4 @@
-layout: software
+layout: plugins
 title: Softwares
 data: software
 partial: plugin
