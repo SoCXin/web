@@ -1,9 +1,10 @@
 menu:
   news: 新闻
   docs: 文档
-  api: API
+  api: 接口
   software: 软件
   hardware: 硬件
+  structure: 结构
   download: 下载
   search: 搜索
 
@@ -38,7 +39,7 @@ sidebar:
     deployment: 部署
     customization: 自定义
     permalinks: 永久链接
-    hardware: 主题
+    hardware: 硬件
     structure: 结构
     templates: 模版
     variables: 变量
@@ -54,6 +55,6 @@ sidebar:
     box: 盒(Box)
     rendering: 渲染
     posts: 文章
-    hardware: 主题
+    hardware: 硬件
     extensions: 扩展
     tag: 标签 (Tag)
