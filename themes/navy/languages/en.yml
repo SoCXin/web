@@ -2,10 +2,10 @@ menu:
   news: News
   docs: Docs
   api: APIs
-  software: Softwares
-  hardware: Hardwares
-  structure: Structure
-  download: Downloads	
+  software: SDKs
+  hardware: PCBs
+  structure: MODs
+  download: more	
   search: Search
 
 index:
@@ -49,7 +49,7 @@ sidebar:
     events: Events
     locals: Locals
     router: Router
-    box: Box
+    LoRa: LoRa
     rendering: Rendering
     posts: Posts
     scaffolds: Scaffolds

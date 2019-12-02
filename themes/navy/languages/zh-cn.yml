@@ -52,7 +52,7 @@ sidebar:
     events: 事件
     locals: 本地变量
     router: 路由
-    box: 盒(Box)
+    LoRa: LoRa
     rendering: 渲染
     posts: 文章
     hardware: 硬件

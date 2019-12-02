@@ -10,7 +10,7 @@ docs:
     front_matter: front-matter.html
     tag_plugins: tag-plugins.html
   deployment:
-    github_pages: github-pages.html
+    github-pages: github-pages.html
   customization:
     software: software.html
   miscellaneous:
@@ -22,10 +22,9 @@ api:
     events: events.html
     locals: locals.html
     router: router.html
-    box: box.html
+    LoRa: LoRa.html
     rendering: rendering.html
     posts: posts.html
-    scaffolds: scaffolds.html
     hardware: hardware.html
   extensions:
     console: console.html
