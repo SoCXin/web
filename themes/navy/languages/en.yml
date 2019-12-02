@@ -1,17 +1,17 @@
 menu:
   news: News
   docs: Docs
-  api: APIs
-  software: SDKs
-  hardware: PCBs
-  structure: MODs
+  api: SDK
+  software: Software
+  hardware: Hardware
+  structure: Models
   download: more	
   search: Search
 
 index:
-  get_started: Explore Softwares
+  get_started: Explore Software
   theme_intro: Choose a suitable hardware for your code
-  theme_link: Explore Hardwares
+  theme_link: Explore Hardware
 
 page:
   contents: Contents
@@ -23,9 +23,9 @@ page:
 
 sidebar:
   docs:
-    purpose: Purpose
+    language: Language
     overview: Overview
-    setup: Setup
+    C: C
     configuration: Configuration
     commands: Commands
     migration: Migration
@@ -37,8 +37,8 @@ sidebar:
     data_files: Data Files
     server: Server
     generating: Generating
-    deployment: Deployment
-    github_pages: GitHub Pages
+    deploy: Deploy
+    github_pages: GitHub
     software: software
     miscellaneous: Miscellaneous
     troubleshooting: Troubleshooting

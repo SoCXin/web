@@ -1,7 +1,7 @@
 docs:
-  purpose:
+  language:
     overview: index.html
-    setup: setup.html
+    C: C.html
     configuration: configuration.html
     commands: commands.html
     migration: migration.html
@@ -9,8 +9,8 @@ docs:
     writing: writing.html
     front_matter: front-matter.html
     tag_plugins: tag-plugins.html
-  deployment:
-    github-pages: github-pages.html
+  deploy:
+    github: github.html
   customization:
     software: software.html
   miscellaneous:
