@@ -1,6 +1,6 @@
 layout: plugins
 title: Structure
-data: structure
+data: model
 partial: theme
 comments: false
 ---
