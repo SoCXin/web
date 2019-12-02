@@ -50,6 +50,7 @@ gulp.task('screenshot:rev', ['screenshot:clean'], function() {
     .pipe(gulp.dest(dirs.screenshots));
 });
 
+
 gulp.task('screenshot:revreplace', ['screenshot:rev'], function() {
   var destDir = '/build/screenshots';
 

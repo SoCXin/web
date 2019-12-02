@@ -1,7 +1,10 @@
 ---
-title: 过滤器（Filter）
+title: 蓝牙
 ---
-过滤器用于修改特定文件，Hexo 将这些文件依序传给过滤器，而过滤器可以针对文件进行修改，这个概念借鉴自 [WordPress](http://codex.wordpress.org/Plugin_API#Filters)。
 
 ## 概要
 
+
+**蓝牙底层核心协议** 
+
+1、BaseBand 2、基于BaseBand的LMP、L2CAP 3、基于LMP、L2CAP 的 SDP 蓝牙规范还定义了主机控制器接口（HCI），它为基带控制器、连接管理器、硬件状态和控制寄存器提供命令接口。HCI可以位于L2CAP的下层，也可以可位于L2CAP的上层。 在底层核心协议之上，蓝牙协议定义了多种面向应用的协议，包括在设备之间发送和接收文件电缆替代协议RFCOMM 和Object Exchange（OBEX），RFCOMM和服务发现协议SDP处于同一层级。 如果想发送和接收流数据RFCOMM更好，反之如果想发送对象数据以及关于负载的上下文和元数据，则OBEX最好。RFCOMM是通过不同的频道（channel）来提供不同的Profile的，RFCOMM可以通过SDP找到要用的服务在设备上的哪个频道上。 **蓝牙Profile** 定义了设备如何实现一种连接或者应用，可以理解为连接层或者应用层协议，常用的profile包括 通用访问配置文件(Generic Access Profile, GAP) 服务发现应用配置文件(Service Discovery Application Profile, SDAP) 串行端口配置文件(Serial Port Profile, SPP) 通用对象交换配置文件(Generic Object Exchange Profile, GOEP) 其中的SPP是基于RFCOMM的，spp协议处于rfcomm的上层，能在蓝牙设备之间创建串口进行数据传输，俗称蓝牙串口。如果使用RFCOMM能够实现也就不需要SPP，可以省略了一些数据包头提高通信速度。 不过还是推荐使用SPP来保证兼容性，这也是为什么蓝牙本质上数据和语音的传送会出现HFP，HSP，SPP，OPP等诸多具体应用profile的原因。 **逻辑传输层** SCO：面向连接的同步逻辑传输(Synchronous Connection Oriented),面向同步连接，HFP协议语音走的SCO。 ACL：面向连接的异步逻辑传输(Asynchronous Connection-Oriented)，在主从设备之间以分组交换方式传输数据，可以支持异步应用也可以支持同步应用。 **蓝牙音频编码** SBC：子带编码（sub band code）是一种以中等比特率传递高质量音频数据的低计算复杂度的音频编码算法，蓝牙传输在不支持AAC/aptx的时候都用SBC传输，音质一般，大多数都是这种格式。A2DP协议中强制支持SBC。 有损音频格式，蓝牙通信120ms-200ms左右延时。 AAC：当蓝牙支持AAC格式的文件，手机也支持AAC传输时，音质比SBC好很多。无损音频格式，蓝牙通信有120mS左右延时。 APTX：是蓝牙传输的一种无损格式，由csr（高通）推广，要支持APTX就必须要购买这个软件费用，APTX并不是大多数手机都支持，虽然效果好，但真正支持的设备端不多。 APT-X-LL：无损音频格式，32mS超低延时；APT-X-L：无损音频格式，60mS低延时。

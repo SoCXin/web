@@ -38,6 +38,7 @@
           <img src="/hardware/main/PCBA.jpg">
         </div>
       </div>
+      
       <div class="theme-intro">
         <div class="theme-intro-container">
           <h2 class="theme-intro-title">{{ site.data.hardware.length }} {{ __('menu.hardware') }}</h2>
@@ -45,6 +46,7 @@
           <a href="/hardware/" id="theme-link">{{ __('index.theme_link') }}</a>
         </div>
       </div>
+      
     </div>
   </div>
 </div>
