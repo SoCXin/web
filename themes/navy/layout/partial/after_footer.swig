@@ -6,7 +6,7 @@
 {{ js('js/toc') }}
 {{ js('js/mobile_nav') }}
 <!-- endbuild -->
-{% if page.layout === 'software' %}
+{% if page.layout === 'plugins' %}
 <!-- Plugin search -->
 <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js"></script>
 <!-- Lazy load -->

@@ -5,7 +5,7 @@ menu:
   software: 软件
   hardware: 硬件
   structure: 结构
-  download: 下载
+  about: 关于
   search: 搜索
 
 index:
@@ -43,9 +43,6 @@ sidebar:
     structure: 结构
     templates: 模版
     variables: 变量
-    software: 软件
-    miscellaneous: 其他
-    troubleshooting: 问题解答
   api:
     core: 核心
     overview: 概述

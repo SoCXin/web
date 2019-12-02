@@ -61,7 +61,7 @@ gulp.task('screenshot:revreplace', ['screenshot:rev'], function() {
       }
     }))
     .pipe(gulpCheerio(function($, file) {
-      $('img.plugin-screenshot-img.lazyload').each(function() {
+      $('img.show-screenshot-img.lazyload').each(function() {
         var img = $(this);
         var src = img.attr('data-src') || img.attr('data-org');
         if (!src) return;

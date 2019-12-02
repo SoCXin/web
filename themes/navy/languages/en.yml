@@ -1,11 +1,11 @@
 menu:
   news: News
   docs: Docs
-  api: SDK
-  software: Software
-  hardware: Hardware
+  api: APIs
+  software: Softwares
+  hardware: Hardwares
   structure: Models
-  download: more	
+  about: About
   search: Search
 
 index:

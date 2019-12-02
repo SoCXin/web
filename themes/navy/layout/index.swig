@@ -2,7 +2,7 @@
   <div class="inner">
     <h2 id="banner-title">{{ page.subtitle }}</h2>
     <div id="banner-start">
-      <span id="banner-start-command">pick up a shortcut</span><a id="banner-start-link" href="software/"><i class="fa fa-arrow-right"></i></a>
+      <span id="banner-start-command">find a new way </span><a id="banner-start-link" href="software/"><i class="fa fa-arrow-right"></i></a>
     </div>
 </header>
 <div id="intro-news-list">
