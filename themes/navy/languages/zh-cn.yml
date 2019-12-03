@@ -2,8 +2,8 @@ menu:
   news: 新闻
   docs: 文档
   api: 接口
-  software: 软件
-  hardware: 硬件
+  software: 工具
+  hardware: 平台
   about: 关于
   search: 搜索
 
@@ -24,10 +24,11 @@ sidebar:
   docs:
     language: 语言
     overview: 概述
-    C: C语言
-    configuration: 配置
-    commands: 命令
-    migration: 迁移
+    C: C
+    python: python
+    go: golang
+    communication: 通信
+    nodejs: nodejs
     basic_usage: 基本操作
     writing: 写作
     tag_plugins: 标签插件
@@ -44,11 +45,11 @@ sidebar:
   api:
     core: 核心
     overview: 概述
-    events: 事件
-    locals: 本地变量
-    router: 路由
+    arm: ARM
+    mips: MIPS
+    risc-v: RISC-V
     LoRa: LoRa
-    rendering: 渲染
+    x86: x86
     posts: 文章
     extensions: 扩展
     tag: 标签
