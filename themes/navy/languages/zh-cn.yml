@@ -32,10 +32,11 @@ sidebar:
     writing: 写作
     tag_plugins: 标签插件
     asset_folders: 资源文件夹
-    data_files: 数据文件夹
+    coap: CoAP
     server: 服务器
-    generating: 生成器
-    deploy: 部署
+    mqtt: 消息队列
+    wireless: 无线
+    BT: 蓝牙
     customization: 自定义
     permalinks: 链接
     templates: 模版
@@ -50,4 +51,4 @@ sidebar:
     rendering: 渲染
     posts: 文章
     extensions: 扩展
-    tag: 标签 (Tag)
+    tag: 标签

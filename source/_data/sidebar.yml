@@ -5,12 +5,11 @@ docs:
     configuration: configuration.html
     commands: commands.html
     migration: migration.html
-  usage:
-    writing: writing.html
-    front_matter: front-matter.html
-    tag_plugins: tag-plugins.html
-  deploy:
-    github: github.html
+  communication:
+    coap: coap.html
+    mqtt: mqtt.html
+  wireless:
+    BT: BT.html
   customization:
     software: software.html
   miscellaneous:

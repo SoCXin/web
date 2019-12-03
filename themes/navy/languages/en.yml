@@ -28,16 +28,16 @@ sidebar:
     configuration: Configuration
     commands: Commands
     migration: Migration
-    usage: Usage
+    communication: Communication
     writing: Writing
     front_matter: Front-matter
     tag_plugins: Tag Plugins
     asset_folders: Asset Folders
-    data_files: Data Files
+    coap: CoAP
     server: Server
-    generating: Generating
-    deploy: Deploy
-    github_pages: GitHub
+    mqtt: MQTT
+    wireless: Wireless
+    BT: BT
     software: software
     miscellaneous: Miscellaneous
     troubleshooting: Troubleshooting

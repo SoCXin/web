@@ -1,9 +1,9 @@
-- name: Q1T2A3S001
-  description: just test
+- name: T03A10S001
+  description: just test T03A10S001
   link: https://github.com/sochub/STM32F103
   preview: https://www.Qful.net
   tags: 
-    - beautiful
+    - powerful
     - simple
     - light
     - star
