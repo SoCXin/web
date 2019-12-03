@@ -27,20 +27,17 @@ sidebar:
     C: C
     configuration: Configuration
     commands: Commands
-    migration: Migration
+    encryption: encryption
     communication: Communication
-    writing: Writing
-    front_matter: Front-matter
-    tag_plugins: Tag Plugins
-    asset_folders: Asset Folders
+    toolchain: toolchain
+    make: make
+    debug: debug
+    lint: lint
     coap: CoAP
     server: Server
     mqtt: MQTT
-    wireless: Wireless
-    BT: BT
-    software: software
-    miscellaneous: Miscellaneous
-    troubleshooting: Troubleshooting
+    algorithm: Algorithm
+    protocol: Protocol
     contributing: Contributing
   api:
     core: Core
@@ -48,18 +45,17 @@ sidebar:
     events: Events
     locals: Locals
     router: Router
-    LoRa: LoRa
     rendering: Rendering
     posts: Posts
-    scaffolds: Scaffolds
-    hardware: hardware
-    extensions: Extensions
-    console: Console
-    deployer: Deployer
-    filter: Filter
-    generator: Generator
+    compute: Compute
+    arm: ARM
+    risc-v: risc-v
+    IoT: IoT
+    mips: MIPS
+    x86: x86
+    WiFi: WiFi
     helper: Helper
-    migrator: Migrator
-    processor: Processor
-    renderer: Renderer
+    BTLE: BT BLE
+    LoRa: LoRa
+    NB-IoT: NB-IoT
     tag: Tag

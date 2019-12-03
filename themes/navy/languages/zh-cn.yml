@@ -27,21 +27,24 @@ sidebar:
     C: C
     python: python
     go: golang
-    communication: 通信
     nodejs: nodejs
-    basic_usage: 基本操作
-    writing: 写作
-    tag_plugins: 标签插件
-    asset_folders: 资源文件夹
     coap: CoAP
+    communication: 通信
     server: 服务器
     mqtt: 消息队列
     wireless: 无线
-    BT: 蓝牙
-    customization: 自定义
-    permalinks: 链接
-    templates: 模版
-    variables: 变量
+    BTLE: 蓝牙
+    LoRa: LoRa
+    NB-IoT: 窄带
+    protocol: 协议
+    algorithm: 算法
+    encryption: 加密
+    modbus: modbus
+    can: can总线
+    make: 编译
+    debug: 调试
+    lint: 编码
+    toolchain: 工具链
   api:
     core: 核心
     overview: 概述

@@ -6,9 +6,9 @@ docs:
     python: python.html
     nodejs: nodejs.html
   toolchain:
-    gcc: gcc.html
-    ocd: ocd.html
-    scons: scons.html
+    make: make.html
+    debug: debug.html
+    lint: lint.html
   algorithm:
     encryption: encryption.html
   protocol:
