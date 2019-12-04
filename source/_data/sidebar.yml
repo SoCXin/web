@@ -1,4 +1,4 @@
-docs:
+base:
   language:
     overview: index.html
     C: C.html
@@ -17,14 +17,18 @@ docs:
     modbus: modbus.html
     can: can.html
 
-api:
-  compute:
+chip:
+  core:
     overview: index.html
     arm: arm.html
     risc-v: risc-v.html
     mips: mips.html
     x86: x86.html
+  sensor:
+    overview: sensor.html
+    mems: mems.html
   IoT:
+    overview: IoT.html
     WiFi: WiFi.html
     BTLE: BTLE.html
     LoRa: LoRa.html

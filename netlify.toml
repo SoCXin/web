@@ -5,9 +5,9 @@
 
 [[redirects]]
   from = "/"
-  to = "/zh-cn/"
+  to = "/cn/"
   status = 302
-  conditions = {Language = ["zh", "zh-cn"]}
+  conditions = {Language = ["zh", "cn"]}
 
 [[redirects]]
   from = "/"

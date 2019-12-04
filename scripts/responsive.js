@@ -8,7 +8,7 @@ const sharp = require('sharp');
 async function responsive() {
   const { route } = this;
   const routeList = route.list();
-  const pngFiles = routeList.filter((path) => path.startsWith('hardware') && path.endsWith('.png'));
+  const pngFiles = routeList.filter((path) => path.startsWith('body') && path.endsWith('.png'));
   const updatePng = {};
 
   await Promise.all(pngFiles.map((path) => {
@@ -49,7 +49,7 @@ async function responsive() {
     });
   }));
 
-  return Promise.all(['hardware/index.html'].map((path) => {
+  return Promise.all(['body/index.html'].map((path) => {
     return new Promise((resolve, reject) => {
       const assetPath = route.get(path);
       const assetData = [];

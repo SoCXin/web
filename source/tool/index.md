@@ -1,8 +1,8 @@
 layout: plugins
-title: Softwares
-data: software
+title: SDK
+data: tool
 partial: plugin
 comments: false
 ---
 
-software
+tool

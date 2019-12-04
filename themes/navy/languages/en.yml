@@ -1,16 +1,16 @@
 menu:
   news: News
-  docs: Docs
-  api: APIs
-  software: Softwares
-  hardware: Hardwares
+  base: Base
+  chip: Chip
+  tool: Tool
+  body: Body
   about: About
   search: Search
 
 index:
-  get_started: Explore Software
-  theme_intro: Choose a suitable hardware for your code
-  theme_link: Explore Hardware
+  get_started: Explore Software DevKits
+  theme_intro: Choose a suitable body for your code
+  theme_link: Explore Hardware Platform
 
 page:
   contents: Contents
@@ -21,32 +21,35 @@ page:
   last_updated: "Last updated: %s"
 
 sidebar:
-  docs:
+  base:
     language: Language
     overview: Overview
     C: C
     configuration: Configuration
     commands: Commands
-    encryption: encryption
+    
     communication: Communication
-    toolchain: toolchain
+    toolchain: Toolchain
     make: make
     debug: debug
     lint: lint
-    coap: CoAP
-    server: Server
-    mqtt: MQTT
-    algorithm: Algorithm
     protocol: Protocol
-    contributing: Contributing
-  api:
+    modbus: Modbus
+    coap: CoAP(Constrained Application Protocol)
+    server: Server
+    mqtt: MQTT(Message Queuing Telemetry Transport)
+    can: CAN(Controller Area Network)
+    algorithm: Algorithm
+    encryption: Encryption
+
+  chip:
     core: Core
     overview: Overview
     events: Events
     locals: Locals
     router: Router
-    rendering: Rendering
-    posts: Posts
+    sensor: Sensor
+    mems: MEMS
     compute: Compute
     arm: ARM
     risc-v: risc-v

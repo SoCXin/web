@@ -1,9 +1,9 @@
 menu:
   news: 新闻
-  docs: 文档
-  api: 接口
-  software: 工具
-  hardware: 平台
+  base: 知识
+  chip: 芯片
+  tool: 工具
+  body: 平台
   about: 关于
   search: 搜索
 
@@ -21,12 +21,12 @@ page:
   last_updated: 上次更新：%s
 
 sidebar:
-  docs:
+  base:
     language: 语言
     overview: 概述
-    C: C
+    C: C/C++
     python: python
-    go: golang
+    go: Golang
     nodejs: nodejs
     coap: CoAP
     communication: 通信
@@ -35,18 +35,19 @@ sidebar:
     wireless: 无线
     BTLE: 蓝牙
     LoRa: LoRa
-    NB-IoT: 窄带
+    NB-IoT: 窄带通信
     protocol: 协议
     algorithm: 算法
-    encryption: 加密
-    modbus: modbus
-    can: can总线
+    encryption: 加密算法
+    modbus: Modbus协议
+    can: CAN网络
+    toolchain: 工具链
     make: 编译
     debug: 调试
     lint: 编码
-    toolchain: 工具链
-  api:
-    core: 核心
+
+  chip:
+    core: 内核
     overview: 概述
     arm: ARM
     mips: MIPS
@@ -54,5 +55,5 @@ sidebar:
     LoRa: LoRa
     x86: x86
     posts: 文章
-    extensions: 扩展
+    mems: 微机电
     tag: 标签

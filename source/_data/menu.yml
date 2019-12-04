@@ -1,6 +1,6 @@
 news: /news/
-docs: /docs/
-api: /api/
-software: /software/
-hardware: /hardware/
+base: /base/
+chip: /chip/
+tool: /tool/
+body: /body/
 about: /about/
