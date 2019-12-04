@@ -1,3 +1,3 @@
 ---
-title: Migration
+title: 插件
 ---

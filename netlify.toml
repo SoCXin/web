@@ -3,18 +3,6 @@
   publish = "/public"
   environment = { NODE_VERSION = "10", NODE_ENV = "production" }
 
-[[redirects]]
-  from = "/"
-  to = "/zh-cn/"
-  status = 302
-  conditions = {Language = ["zh", "zh-cn"]}
-
-[[redirects]]
-  from = "/"
-  to = "/en/"
-  status = 302
-  conditions = {Language = ["en"]}
-
 [[headers]]
   for = "/*"
   [headers.values]
