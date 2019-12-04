@@ -54,6 +54,5 @@ sidebar:
     risc-v: RISC-V
     LoRa: LoRa
     x86: x86
-    posts: 文章
-    mems: 微机电
-    tag: 标签
+    mems: MEMS
+    camera: Camera

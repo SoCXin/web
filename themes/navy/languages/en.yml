@@ -24,41 +24,36 @@ sidebar:
   base:
     language: Language
     overview: Overview
-    C: C
-    configuration: Configuration
-    commands: Commands
-    
-    communication: Communication
+    C: C/C++
+    go: Golang
+    python: Python
+    nodejs: Node.js
     toolchain: Toolchain
-    make: make
-    debug: debug
-    lint: lint
+    make: Make
+    debug: Debug
+    lint: Lint
     protocol: Protocol
     modbus: Modbus
-    coap: CoAP(Constrained Application Protocol)
+    coap: CoAP
     server: Server
-    mqtt: MQTT(Message Queuing Telemetry Transport)
-    can: CAN(Controller Area Network)
+    mqtt: MQTT
+    can: CAN
     algorithm: Algorithm
     encryption: Encryption
 
   chip:
     core: Core
     overview: Overview
-    events: Events
-    locals: Locals
-    router: Router
-    sensor: Sensor
-    mems: MEMS
-    compute: Compute
     arm: ARM
-    risc-v: risc-v
+    risc-v: RISC-V
     IoT: IoT
     mips: MIPS
     x86: x86
+    sensor: Sensor
+    mems: MEMS
+    camera: Camera
+    IoT: IoT
     WiFi: WiFi
-    helper: Helper
-    BTLE: BT BLE
+    BTLE: BT/BLE
     LoRa: LoRa
     NB-IoT: NB-IoT
-    tag: Tag

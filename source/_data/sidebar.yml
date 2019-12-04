@@ -1,17 +1,20 @@
 base:
   language:
-    overview: index.html
+    overview: language.html
     C: C.html
     go: go.html
     python: python.html
     nodejs: nodejs.html
   toolchain:
+    overview: toolchain.html
     make: make.html
     debug: debug.html
     lint: lint.html
   algorithm:
+    overview: algorithm.html
     encryption: encryption.html
   protocol:
+    overview: protocol.html
     coap: coap.html
     mqtt: mqtt.html
     modbus: modbus.html
@@ -19,14 +22,15 @@ base:
 
 chip:
   core:
-    overview: index.html
+    overview: core.html
     arm: arm.html
-    risc-v: risc-v.html
-    mips: mips.html
     x86: x86.html
+    mips: mips.html
+    risc-v: risc-v.html
   sensor:
     overview: sensor.html
     mems: mems.html
+    camera: camera.html
   IoT:
     overview: IoT.html
     WiFi: WiFi.html
