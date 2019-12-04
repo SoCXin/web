@@ -1,0 +1,59 @@
+menu:
+  news: News
+  base: Base
+  chip: Chip
+  tool: Tool
+  body: Body
+  about: About
+  search: Search
+
+index:
+  get_started: Explore Software DevKits
+  theme_intro: Choose a suitable body for your code
+  theme_link: Explore Hardware Platform
+
+page:
+  contents: Contents
+  back_to_top: Back to Top
+  improve: Improve this doc
+  prev: Prev
+  next: Next
+  last_updated: "Last updated: %s"
+
+sidebar:
+  base:
+    language: Language
+    overview: Overview
+    C: C/C++
+    go: Golang
+    python: Python
+    nodejs: Node.js
+    toolchain: Toolchain
+    make: Make
+    debug: Debug
+    lint: Lint
+    protocol: Protocol
+    modbus: Modbus
+    coap: CoAP
+    server: Server
+    mqtt: MQTT
+    can: CAN
+    algorithm: Algorithm
+    encryption: Encryption
+
+  chip:
+    core: Core
+    overview: Overview
+    arm: ARM
+    risc-v: RISC-V
+    IoT: IoT
+    mips: MIPS
+    x86: x86
+    sensor: Sensor
+    mems: MEMS
+    camera: Camera
+    IoT: IoT
+    WiFi: WiFi
+    BTLE: BT/BLE
+    LoRa: LoRa
+    NB-IoT: NB-IoT

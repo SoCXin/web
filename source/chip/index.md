@@ -1,4 +1,5 @@
 ---
-title: API
+title: core
 ---
 
+test core

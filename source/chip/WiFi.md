@@ -1,71 +1,61 @@
 ---
-title: 部署器（Deployer）
+title: Posts
 ---
+## Create a Post
 
-### 连接
+``` js
+hexo.post.create(data, replace);
+```
 
-物理链路：
+Argument | Description
+--- | ---
+`data` | Data
+`replace` | Replace existing files
 
-协议和安全
+The attributes of a post can be defined in `data`. The table below is not exhaustive. Additional attributes may be appended to the front-matter.
 
-MQTT：
+Data | Description
+--- | ---
+`title` | Title
+`slug` | URL
+`layout` | Layout. Defaults to the `default_layout` setting.
+`path` | Path. Hexo builds the post path based on the `new_post_path` setting by default.
+`date` | Date. Defaults to the current date.
 
+## Publish a Draft
 
-同步消息传递在这种情况下使用，当消息发送者希望在某个时间范围内收到响应，然后再进行下一个任务。基本上就是他在收到响应前一直处于“阻塞”状态。
-异步消息意味着发送者并不要求立即收到响应，而且也不会阻塞整个流程。响应可有可无，发送者总会执行剩下的任务。
-上面提到的技术，当两台计算机上的程序相互通信的时候，就广泛使用了异步消息传递。随着微服务架构的兴起，很明显我们需要使用异步消息传递模型来构建服务。
-这一直是软件工程中的基本问题，而且不同的人和组织机构会提出不同的方法。我将介绍在企业IT系统中广泛使用的三种最成功的异步消息传递技术。
+``` js
+hexo.post.publish(data, replace);
+```
 
+Argument | Description
+--- | ---
+`data` | Data
+`replace` | Replace existing files
 
-JMS是最成功的异步消息传递技术之一。随着Java在许多大型企业应用中的使用，JMS就成为了企业系统的首选。它定义了构建消息传递系统的API。
+The attributes of a post can be defined in `data`. The table below is not exhaustive. Additional attributes may be appended to the front-matter.
 
-下面是JMS的主要特性：
-* 面向Java平台的标准消息传递API
-* 在Java或JVM语言比如Scala、Groovy中具有互用性
-* 无需担心底层协议
-* 有queues和topics两种消息传递模型
-* 支持事务
-* 能够定义消息格式（消息头、属性和内容）
+Data | Description
+--- | ---
+`slug` | File name (Required)
+`layout` | Layout. Defaults to the `default_layout` setting.
 
+## Render
 
-JMS非常棒而且人们也非常乐意使用它。微软开发了NMS（.NET消息传递服务）来支持他们的平台和编程语言，它效果还不错。但是碰到了互用性的问题。两套使用两种不同编程语言的程序如何通过它们的异步消息传递机制相互通信呢。此时就需要定义一个异步消息传递的通用标准。JMS或者NMS都没有标准的底层协议。它们可以在任何底层协议上运行，但是API是与编程语言绑定的。AMQP解决了这个问题，它使用了一套标准的底层协议，加入了许多其他特征来支持互用性，为现代应用丰富了消息传递需求。
+``` js
+hexo.post.render(source, data);
+```
 
-下面是AMQP的主要特性：
-独立于平台的底层消息传递协议
-消费者驱动消息传递
-跨语言和平台的互用性
-它是底层协议的
-有5种交换类型direct，fanout，topic，headers，system
-面向缓存的
-可实现高性能
-支持长周期消息传递
-支持经典的消息队列，循环，存储和转发
-支持事务（跨消息队列）
-支持分布式事务（XA，X/OPEN，MS DTC）
-使用SASL和TLS确保安全性
-支持代理安全服务器
-元数据可以控制消息流
-不支持LVQ
-客户端和服务端对等
-可扩展
+Argument | Description
+--- | ---
+`source` | Full path of a file (Optional)
+`data` | Data
 
-现在我们已经有了面向基于Java的企业应用的JMS和面向所有其他应用需求的AMQP。为什么我们还需要第三种技术？它是专门为小设备设计的。计算性能不高的设备不能适应AMQP上的复杂操作，它们需要一种简单而且可互用的方式进行通信。这是MQTT的基本要求，而如今，MQTT是物联网（IOT）生态系统中主要成分之一。
+The data must contain the `content` attribute. If not, Hexo will try to read the original file. The execution steps of this function are as follows:
 
+- Execute `before_post_render` filters
+- Render with Markdown or other renderers (depending on the extension name)
+- Render with [Nunjucks]
+- Execute `after_post_render` filters
 
-下面是MQTT的主要特性：
-面向流，内存占用低
-为小型无声设备之间通过低带宽发送短消息而设计
-不支持长周期存储和转发
-不允许分段消息（很难发送长消息）
-支持主题发布-订阅
-不支持事务（仅基本确认）
-消息实际上是短暂的（短周期）
-简单用户名和密码，基于没有足够信息熵的安全
-不支持安全连接
-消息不透明
-Topic是全局的（一个全局的命名空间）
-支持最新值队列（Last Value Queue (LVQ) ）
-客户端和服务端不对称
-不能扩展
-
-
+[Nunjucks]: http://mozilla.github.io/nunjucks/
