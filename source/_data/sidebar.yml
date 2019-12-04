@@ -22,7 +22,7 @@ base:
 
 chip:
   core:
-    overview: core.html
+    overview: index.html
     arm: arm.html
     x86: x86.html
     mips: mips.html
