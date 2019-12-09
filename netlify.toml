@@ -9,12 +9,6 @@
   status = 302
   conditions = {Language = ["zh", "zh-cn"]}
 
-[[redirects]]
-  from = "/"
-  to = "/en/"
-  status = 302
-  conditions = {Language = ["en"]}
-
 [[headers]]
   for = "/*"
   [headers.values]

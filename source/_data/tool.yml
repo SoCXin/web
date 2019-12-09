@@ -1,6 +1,6 @@
-- name: Platform H 1
-  description: for STM32 
-  link: https://github.com/OS-Q/H1
+- name: Platform H01
+  description: STM32 Platform
+  link: https://github.com/OS-Q/H01
   tags:
     - STM32F030
     - STM32F103
@@ -9,9 +9,9 @@
     - STM32F407
     - STM32H750
 
-- name: Platform H 2
-  description: For STM8
-  link: https://github.com/OS-Q/H2
+- name: Platform H02
+  description: STM8S Platform
+  link: https://github.com/OS-Q/H02
   tags:
     - STM8S103F3
     - STM8S105C6
@@ -19,54 +19,54 @@
     - STM8S105K6
     - STM8S208MB
 
-- name: Platform H 3
-  description: For  NXP i.MX
-  link: https://github.com/OS-Q/H3
+- name: Platform H03
+  description: Arduino AVR Platform
+  link: https://github.com/OS-Q/H03
   tags:
-    - i.MX.RT1062
+    - maga328p
+    - maga2560
 
-- name: Platform H 4
-  description: for GD32V
-  link: https://github.com/OS-Q/H4
+- name: Platform H04
+  description: GD32V Platform
+  link: https://github.com/OS-Q/H04
   tags:
-    - GD32VF103
+    - GD32VF103C
+    - GD32VF103V
 
 
-- name: Platform H 5
-  description: For PIC32
-  link: https://github.com/OS-Q/H5
+- name: Platform H05
+  description: 8051 Platform
+  link: https://github.com/OS-Q/H05
   tags:
-    - 32MX340
-    - 32MX460
-    - 32MX795
+    - STC15
+    - N79E
 
-- name: Platform H 6
-  description: For  FPGA
-  link: https://github.com/OS-Q/H6
+- name: Platform H06
+  description: FPGA Platform
+  link: https://github.com/OS-Q/H06
   tags:
-    - i.MX.RT1062
+    - iCE40
 
-- name: Platform H 7
-  description: for ESP32
-  link: https://github.com/OS-Q/H7
+- name: Platform H07
+  description: ESP32 Platform
+  link: https://github.com/OS-Q/H07
   tags:
-    - GD32VF103
+    - ESP32
 
-- name: Platform H 8
-  description: For ESP8266
-  link: https://github.com/OS-Q/H8
+- name: Platform H08
+  description: ESP8266 Platform
+  link: https://github.com/OS-Q/H08
   tags:
     - ESP8266
     - ESP8285
 
-- name: Platform H 9
-  description: For  nRF52
-  link: https://github.com/OS-Q/H9
+- name: Platform H09
+  description: nRF52 Platform
+  link: https://github.com/OS-Q/H09
   tags:
     - nRF52832
     - nRF52840
     - nRF52810
-
 
 - name: Platform H10
   description: for ESP32
