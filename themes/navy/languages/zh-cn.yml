@@ -29,7 +29,6 @@ sidebar:
     go: Golang
     nodejs: Node.js
     coap: CoAP
-    communication: 通信
     pcie: PCIe
     mqtt: 消息队列
     wireless: 无线
@@ -39,21 +38,26 @@ sidebar:
     interface: 接口
     algorithm: 算法
     encryption: 加密
+    compression: 压缩
     modbus: Modbus
     can: CAN
     usb: USB
+    tcp: TCP
     toolchain: 工具链
     compile: 编译
     debug: 调试
     lint: 编码
 
   chip:
-    core: 核芯
+    architecture: 架构
     overview: 概述
     arm: ARM
-    mips: MIPS
-    risc-v: RISC-V
-    LoRa: LoRa
+    dsp: DSP
     x86: x86
+    mips: MIPS
+    fpga: FPGA
+    risc-v: RISC-V
+    communication: 通信
+    LoRa: LoRa
     mems: MEMS
     camera: Camera

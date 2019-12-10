@@ -39,11 +39,12 @@ sidebar:
     mqtt: MQTT
     can: CAN
     usb: USB
+    tcp: TCP
     algorithm: Algorithm
     encryption: Encryption
 
   chip:
-    core: Core
+    architecture: Architecture
     overview: Overview
     IoT: IoT
     sensor: Sensor

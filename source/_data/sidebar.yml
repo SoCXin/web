@@ -5,16 +5,18 @@ base:
     go: go.html
     python: python.html
     nodejs: nodejs.html
+
   toolchain:
     overview: toolchain.html
-    lint: lint.html
-    debug: debug.html
     compile: compile.html
-
+    debug: debug.html
+    lint: lint.html
+    
   algorithm:
     overview: algorithm.html
     encryption: encryption.html
     compression: compression.html
+    
   interface:
     overview: interface.html
     usb: usb.html
@@ -26,19 +28,21 @@ base:
     modbus: modbus.html
 
 chip:
-  core:
+  architecture:
     overview: index.html
     arm: arm.html
     x86: x86.html
+    dsp: dsp.html
     mips: mips.html
+    fpga: fpga.html
     risc-v: risc-v.html
-  sensor:
-    overview: sensor.html
-    mems: mems.html
-    camera: camera.html
-  IoT:
-    overview: IoT.html
+  communication:
+    overview: communication.html
     WiFi: WiFi.html
     BTLE: BTLE.html
     LoRa: LoRa.html
     NB-IoT: NB.html
+  sensor:
+    overview: sensor.html
+    mems: mems.html
+    camera: camera.html
