@@ -1,3 +1,3 @@
 ---
-title: 处理器（Processor）
+title: RISC-V
 ---

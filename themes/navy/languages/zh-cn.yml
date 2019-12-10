@@ -30,7 +30,7 @@ sidebar:
     nodejs: Node.js
     coap: CoAP
     pcie: PCIe
-    mqtt: 消息队列
+    mqtt: MQTT
     wireless: 无线
     BTLE: 蓝牙
     LoRa: LoRa

@@ -1,3 +1,3 @@
 ---
-title: Commands
+title: Python
 ---

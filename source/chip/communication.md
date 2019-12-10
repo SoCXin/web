@@ -1,4 +1,4 @@
 ---
-title: communication
+title: Communication
 ---
 

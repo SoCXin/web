@@ -16,7 +16,7 @@ base:
     overview: algorithm.html
     encryption: encryption.html
     compression: compression.html
-    
+
   interface:
     overview: interface.html
     usb: usb.html
@@ -29,19 +29,20 @@ base:
 
 chip:
   architecture:
-    overview: index.html
+    overview: architecture.html
     arm: arm.html
     x86: x86.html
     dsp: dsp.html
     mips: mips.html
     fpga: fpga.html
+    MCS51: 8051.html
     risc-v: risc-v.html
   communication:
     overview: communication.html
     WiFi: WiFi.html
-    BTLE: BTLE.html
     LoRa: LoRa.html
     NB-IoT: NB.html
+    BTLE: BTLE.html
   sensor:
     overview: sensor.html
     mems: mems.html

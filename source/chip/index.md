@@ -1,5 +1,3 @@
 ---
-title: core
+title: silicon chips
 ---
-
-test core

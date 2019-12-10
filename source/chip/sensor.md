@@ -1,3 +1,2 @@
-title: API
+title: sensor
 ---
-This documentation provides more detailed information about the API

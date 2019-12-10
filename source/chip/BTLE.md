@@ -32,7 +32,7 @@ title: 蓝牙
 
 蓝牙v4.0与以前的版本有根本区别，因为它以两个协议为基础，而非一个协议。
 
-[![sites](BT/1.png)](https://www.qitas.cn) 
+[![sites](BTLE/1.png)](https://www.qitas.cn) 
 
 ### 低功耗蓝牙
 

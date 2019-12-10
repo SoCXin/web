@@ -1,5 +1,5 @@
 ---
-title:  LoRa
+title: LoRa
 ---
 
 ### 背景知识
