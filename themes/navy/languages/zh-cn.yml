@@ -24,30 +24,31 @@ sidebar:
   base:
     language: 语言
     overview: 概述
-    C: C/C++
-    python: python
+    C: C|C++
+    python: Python
     go: Golang
-    nodejs: nodejs
+    nodejs: Node.js
     coap: CoAP
     communication: 通信
-    server: 服务器
+    pcie: PCIe
     mqtt: 消息队列
     wireless: 无线
     BTLE: 蓝牙
     LoRa: LoRa
     NB-IoT: 窄带通信
-    protocol: 协议
+    interface: 接口
     algorithm: 算法
-    encryption: 加密算法
-    modbus: Modbus协议
-    can: CAN网络
+    encryption: 加密
+    modbus: Modbus
+    can: CAN
+    usb: USB
     toolchain: 工具链
-    make: 编译
+    compile: 编译
     debug: 调试
     lint: 编码
 
   chip:
-    core: 内核
+    core: 核芯
     overview: 概述
     arm: ARM
     mips: MIPS

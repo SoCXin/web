@@ -1,3 +1,3 @@
 ---
-title: Language
+title: index
 ---

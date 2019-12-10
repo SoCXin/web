@@ -24,20 +24,21 @@ sidebar:
   base:
     language: Language
     overview: Overview
-    C: C/C++
+    C: C|C++
     go: Golang
     python: Python
     nodejs: Node.js
     toolchain: Toolchain
-    make: Make
+    compile: Compile
     debug: Debug
     lint: Lint
-    protocol: Protocol
+    interface: Interface
     modbus: Modbus
     coap: CoAP
-    server: Server
+    pcie: PCIe
     mqtt: MQTT
     can: CAN
+    usb: USB
     algorithm: Algorithm
     encryption: Encryption
 
