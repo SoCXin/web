@@ -44,16 +44,20 @@ sidebar:
   chip:
     core: Core
     overview: Overview
-    arm: ARM
-    risc-v: RISC-V
     IoT: IoT
-    mips: MIPS
-    x86: x86
     sensor: Sensor
     mems: MEMS
-    camera: Camera
-    IoT: IoT
     WiFi: WiFi
-    BTLE: BT/BLE
-    LoRa: LoRa
+    BTLE: BT BLE
     NB-IoT: NB-IoT
+    scaffolds: Scaffolds
+    body: Themes
+    extensions: Extensions
+    console: Console
+    deployer: Deployer
+    generator: Generator
+    helper: Helper
+    migrator: Migrator
+    processor: Processor
+    renderer: Renderer
+    tag: Tag
