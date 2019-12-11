@@ -1,8 +1,6 @@
 layout: plugins
-title: SDK
+title: Platform
 data: tool
 partial: plugin
 comments: false
 ---
-
-tool

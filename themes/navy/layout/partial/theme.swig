@@ -1,9 +1,9 @@
 <li class="plugin on">
   <div class="show-screenshot">
     <noscript>
-      <img src="{{ url_for('body/screenshots/' + plugin.name + '.png') }}" class="show-screenshot-img" alt="{{ plugin.name }}">
+      <img src="{{ url_for('products/screenshots/' + plugin.name + '.png') }}" class="show-screenshot-img" alt="{{ plugin.name }}">
     </noscript>
-    <img data-src="{{ url_for('body/screenshots/' + plugin.name + '.png') }}" data-sizes="auto" class="show-screenshot-img lazyload" alt="{{ plugin.name }}">
+    <img data-src="{{ url_for('products/screenshots/' + plugin.name + '.png') }}" data-sizes="auto" class="show-screenshot-img lazyload" alt="{{ plugin.name }}">
     {% if plugin.preview %}
     <a href="{{ plugin.preview }}" class="plugin-preview-link" target="_blank"><i class="fa fa-eye"></i></a>
     {% endif %}

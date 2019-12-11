@@ -43,7 +43,7 @@ gulp.task('screenshot:clean', function() {
 });
 
 gulp.task('screenshot:rev', ['screenshot:clean'], function() {
-  return gulp.src('public/body/screenshots/*.png')
+  return gulp.src('public/products/screenshots/*.png')
     .pipe(gulpRev())
     .pipe(gulp.dest(dirs.screenshots))
     .pipe(gulpRev.manifest())
@@ -54,11 +54,11 @@ gulp.task('screenshot:rev', ['screenshot:clean'], function() {
 gulp.task('screenshot:revreplace', ['screenshot:rev'], function() {
   var destDir = '/build/screenshots';
 
-  return gulp.src([dirs.screenshots + '/rev-manifest.json', 'public/body/index.html'])
+  return gulp.src([dirs.screenshots + '/rev-manifest.json', 'public/products/index.html'])
     .pipe(gulpRevCollector({
       replaceReved: true,
       dirReplacements: {
-        '/body/screenshots': destDir
+        '/products/screenshots': destDir
       }
     }))
     .pipe(gulpCheerio(function($, file) {
@@ -79,7 +79,7 @@ gulp.task('screenshot:revreplace', ['screenshot:rev'], function() {
           .attr('data-org', src);
       });
     }))
-    .pipe(gulp.dest('public/body'));
+    .pipe(gulp.dest('public/products'));
 });
 
 gulp.task('screenshot:resize', ['screenshot:rev'], function() {

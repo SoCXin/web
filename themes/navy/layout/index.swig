@@ -2,7 +2,7 @@
   <div class="inner">
     <h2 id="banner-title">{{ page.subtitle }}</h2>
     <div id="banner-start">
-      <span id="banner-start-command">find a new way </span><a id="banner-start-link" href="tool/"><i class="fa fa-arrow-right"></i></a>
+      <span id="banner-start-command">find a new way </span><a id="banner-start-link" href="platform/"><i class="fa fa-arrow-right"></i></a>
     </div>
 </header>
 <div id="intro-news-list">
@@ -35,15 +35,15 @@
     <div class="inner theme-wrapper">
       <div class="theme-thumbnail">
         <div class="theme-thumbnail-container">
-          <img src="/body/main/PCBA.jpg">
+          <img src="/products/main/PCBA.jpg">
         </div>
       </div>
       
       <div class="theme-intro">
         <div class="theme-intro-container">
-          <h2 class="theme-intro-title">{{ site.data.body.length }} {{ __('menu.body') }}</h2>
+          <h2 class="theme-intro-title">{{ site.data.products.length }} {{ __('menu.products') }}</h2>
           <p class="theme-intro-text">{{ __('index.theme_intro') }}</p>
-          <a href="/body/" id="theme-link">{{ __('index.theme_link') }}</a>
+          <a href="/products/" id="theme-link">{{ __('index.theme_link') }}</a>
         </div>
       </div>
       

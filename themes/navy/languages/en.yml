@@ -2,14 +2,14 @@ menu:
   news: News
   base: Base
   chip: Chip
-  tool: Tool
-  body: Body
+  platform: Platform
+  products: Products
   about: About
   search: Search
 
 index:
   get_started: Explore Software DevKits
-  theme_intro: Choose a suitable body for your code
+  theme_intro: Choose the right carrier for your wisdom
   theme_link: Explore Hardware Platform
 
 page:
@@ -53,7 +53,7 @@ sidebar:
     BTLE: BT BLE
     NB-IoT: NB-IoT
     scaffolds: Scaffolds
-    body: Themes
+    products: Themes
     extensions: Extensions
     console: Console
     deployer: Deployer
