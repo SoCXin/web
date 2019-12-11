@@ -27,7 +27,7 @@ base:
     pcie: pcie.html
     modbus: modbus.html
 
-chip:
+silicon:
   architecture:
     overview: architecture.html
     arm: arm.html

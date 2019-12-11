@@ -1,7 +1,7 @@
 menu:
   news: News
   base: Base
-  chip: Chip
+  silicon: Silicon
   platform: Platform
   products: Products
   about: About
@@ -43,7 +43,7 @@ sidebar:
     algorithm: Algorithm
     encryption: Encryption
 
-  chip:
+  silicon:
     architecture: Architecture
     overview: Overview
     IoT: IoT

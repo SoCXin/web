@@ -1,7 +1,7 @@
 menu:
   news: 新闻
   base: 知识
-  chip: 芯片
+  silicon: 芯片
   platform: 平台
   products: 产品
   about: 关于
@@ -48,7 +48,7 @@ sidebar:
     debug: 调试
     lint: 编码
 
-  chip:
+  silicon:
     architecture: 架构
     overview: 概述
     arm: ARM

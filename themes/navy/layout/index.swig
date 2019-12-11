@@ -25,7 +25,7 @@
     <div class="inner">
       {{ page.content }}
       <div id="intro-get-started-wrap">
-        <a href="chip/" id="intro-get-started-link">{{ __('index.get_started') }}</a>
+        <a href="silicon/" id="intro-get-started-link">{{ __('index.get_started') }}</a>
       </div>
     </div>
   </div>
