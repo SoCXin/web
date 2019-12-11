@@ -1,4 +1,4 @@
-base:
+basics:
   language:
     overview: language.html
     C: C.html
@@ -21,12 +21,15 @@ base:
     overview: interface.html
     usb: usb.html
     can: can.html
+    pcie: pcie.html
+
+  protocol:
+    overview: protocol.html
     tcp: tcp.html
     coap: coap.html
     mqtt: mqtt.html
-    pcie: pcie.html
     modbus: modbus.html
-
+  
 silicon:
   architecture:
     overview: architecture.html

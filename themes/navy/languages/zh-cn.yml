@@ -1,10 +1,10 @@
 menu:
   news: 新闻
-  base: 知识
+  basics: 知识
   silicon: 芯片
   platform: 平台
   products: 产品
-  about: 关于
+  more: 关于
   search: 搜索
 
 index:
@@ -21,29 +21,30 @@ page:
   last_updated: 上次更新：%s
 
 sidebar:
-  base:
-    language: 语言
+  basics:
+    language: 开发语言
     overview: 概述
-    C: C|C++
+    C: C | C++
     python: Python
     go: Golang
-    nodejs: Node.js
-    coap: CoAP
-    pcie: PCIe
+    nodejs: Nodejs
     mqtt: MQTT
     wireless: 无线
     BTLE: 蓝牙
     LoRa: LoRa
     NB-IoT: 窄带通信
-    interface: 接口
-    algorithm: 算法
+    interface: 通信接口
+    algorithm: 数据算法
     encryption: 加密
     compression: 压缩
-    modbus: Modbus
+    protocol: 通信协议
     can: CAN
     usb: USB
-    tcp: TCP
-    toolchain: 工具链
+    tcp: TCP | UDP
+    coap: CoAP
+    pcie: PCIe
+    modbus: Modbus
+    toolchain: 开发工具
     compile: 编译
     debug: 调试
     lint: 编码
@@ -56,6 +57,7 @@ sidebar:
     x86: x86
     mips: MIPS
     fpga: FPGA
+    MCS51: MCS51
     risc-v: RISC-V
     communication: 通信
     LoRa: LoRa

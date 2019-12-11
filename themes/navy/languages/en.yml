@@ -1,16 +1,16 @@
 menu:
   news: News
-  base: Base
+  basics: Basics
   silicon: Silicon
   platform: Platform
   products: Products
-  about: About
+  more: More
   search: Search
 
 index:
   get_started: Explore Software DevKits
   theme_intro: Choose the right carrier for your wisdom
-  theme_link: Explore Hardware Platform
+  theme_link: Explore Hardware Products
 
 page:
   contents: Contents
@@ -21,13 +21,13 @@ page:
   last_updated: "Last updated: %s"
 
 sidebar:
-  base:
+  basics:
     language: Language
     overview: Overview
-    C: C|C++
+    C: C | C++
     go: Golang
     python: Python
-    nodejs: Node.js
+    nodejs: Nodejs
     toolchain: Toolchain
     compile: Compile
     debug: Debug
@@ -36,12 +36,14 @@ sidebar:
     modbus: Modbus
     coap: CoAP
     pcie: PCIe
+    protocol: Protocol
     mqtt: MQTT
     can: CAN
     usb: USB
-    tcp: TCP
+    tcp: TCP | UDP
     algorithm: Algorithm
     encryption: Encryption
+    compression: Compression
 
   silicon:
     architecture: Architecture
@@ -52,9 +54,7 @@ sidebar:
     WiFi: WiFi
     BTLE: BT BLE
     NB-IoT: NB-IoT
-    scaffolds: Scaffolds
-    products: Themes
-    extensions: Extensions
+    MCS51: MCS51
     console: Console
     deployer: Deployer
     generator: Generator

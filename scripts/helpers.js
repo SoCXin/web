@@ -7,7 +7,7 @@ const cheerio = require('cheerio');
 const lunr = require('lunr');
 const full_url_for = hexo.extend.helper.get('full_url_for').bind(hexo);
 
-const localizedPath = ['base', 'silicon'];
+const localizedPath = ['basics', 'silicon'];
 
 hexo.extend.helper.register('page_nav', function() {
   const type = this.page.canonical_path.split('/')[0];
@@ -141,7 +141,7 @@ hexo.extend.helper.register('lunr_index', function(data) {
 hexo.extend.helper.register('canonical_path_for_nav', function() {
   const path = this.page.canonical_path;
 
-  if (path.startsWith('base/') || path.startsWith('silicon/')) return path;
+  if (path.startsWith('basics/') || path.startsWith('silicon/')) return path;
   return '';
 });
 
