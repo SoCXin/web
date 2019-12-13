@@ -1,4 +1,4 @@
 ---
-title: algorithm
+title: 算法知识
 ---
 

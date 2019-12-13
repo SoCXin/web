@@ -1,3 +1,3 @@
 ---
-title: Golang
+title: Go 语言
 ---

@@ -48,18 +48,18 @@ sidebar:
   silicon:
     architecture: Architecture
     overview: Overview
-    IoT: IoT
+    arm: ARM
+    dsp: DSP
+    x86: x86
+    mips: MIPS
+    fpga: FPGA
+    MCS51: MCS51
+    risc-v: RISC-V
     sensor: Sensor
     mems: MEMS
+    camera: Camera
+    communication: Communication
     WiFi: WiFi
+    LoRa: LoRa
     BTLE: BT BLE
     NB-IoT: NB-IoT
-    MCS51: MCS51
-    console: Console
-    deployer: Deployer
-    generator: Generator
-    helper: Helper
-    migrator: Migrator
-    processor: Processor
-    renderer: Renderer
-    tag: Tag

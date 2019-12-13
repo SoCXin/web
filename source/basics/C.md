@@ -1,4 +1,4 @@
 ---
-title: C
+title: C | C++
 ---
 

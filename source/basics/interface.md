@@ -1,5 +1,5 @@
 ---
-title: interface
+title: Interface
 ---
 
 interface

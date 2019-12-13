@@ -1,4 +1,4 @@
 ---
-title: compression
+title: Compression
 ---
 

@@ -1,3 +1,3 @@
 ---
-title: protocol
+title: Protocol
 ---

@@ -1,3 +1,3 @@
 ---
-title: golang
+title: Golang
 ---

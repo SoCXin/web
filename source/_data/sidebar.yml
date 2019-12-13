@@ -17,14 +17,11 @@ basics:
     encryption: encryption.html
     compression: compression.html
 
-  interface:
-    overview: interface.html
+  protocol:
+    overview: protocol.html
     usb: usb.html
     can: can.html
     pcie: pcie.html
-
-  protocol:
-    overview: protocol.html
     tcp: tcp.html
     coap: coap.html
     mqtt: mqtt.html
@@ -33,13 +30,13 @@ basics:
 silicon:
   architecture:
     overview: architecture.html
-    arm: arm.html
     x86: x86.html
+    arm: arm.html
     dsp: dsp.html
     mips: mips.html
     fpga: fpga.html
-    MCS51: 8051.html
     risc-v: risc-v.html
+    MCS51: 8051.html   
   communication:
     overview: communication.html
     WiFi: WiFi.html

@@ -1,3 +1,3 @@
 ---
-title: Plugins
+title: Compile
 ---

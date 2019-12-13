@@ -1,3 +1,4 @@
 ---
-title: index
+title: Basics
 ---
+
