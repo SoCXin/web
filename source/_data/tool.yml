@@ -1,16 +1,16 @@
 - name: Platform H01
-  description: STM32 Platform
+  description: STM32 MCU family are based on 32-bit Arm Cortex processors  
   link: https://github.com/OS-Q/H01
   tags:
-    - STM32F030
-    - STM32F103
-    - STM32F303
-    - STM32F401
-    - STM32F407
-    - STM32H750
+    - N01 cubeMX
+    - N02 mbed
+    - N03 Zephyr 
+    - N04 libopencm3
+    - N05 SPL
+    - N06 arduino 
 
 - name: Platform H02
-  description: STM8S Platform
+  description: STM8S 8-bit core MCU with Harvard architecture and 3-stage pipeline
   link: https://github.com/OS-Q/H02
   tags:
     - STM8S103F3
@@ -69,31 +69,30 @@
     - nRF52810
 
 - name: Platform H10
-  description: for ESP32
+  description: for NB-IoT
   link: https://github.com/OS-Q/H10
   tags:
     - GD32VF103
 
 - name: Platform H11
-  description: For ESP8266
+  description: For Tiva
   link: https://github.com/OS-Q/H11
   tags:
-    - ESP8266
-    - ESP8285
+    - Tiva
+    - Tiva
 
 - name: Platform H12
-  description: For  nRF52
+  description: For  W7500
   link: https://github.com/OS-Q/H12
   tags:
-    - nRF52832
-    - nRF52840
-    - nRF52810
+    - W7500
+    - W7500P
   
 - name: Platform H13
-  description: for ESP32
+  description: for RISC-V K210
   link: https://github.com/OS-Q/H13
   tags:
-    - GD32VF103
+    - RISC-V K210
 
 - name: Platform H14
   description: For ESP8266
@@ -109,54 +108,49 @@
     - nRF52832
 
 - name: Platform H16
-  description: For ESP8266
+  description: For Linux ARM
   link: https://github.com/OS-Q/H16
-    - ESP8266
-    - ESP8285
+    - Linux ARM
 
 - name: Platform H17
-  description: For  nRF52
+  description: For windows x86
   link: https://github.com/OS-Q/H17
   tags:
-    - nRF52832
-    - nRF52840
-    - nRF52810
+    - windows x86
   
 - name: Platform H18
-  description: for ESP32
+  description: for Linux x64
   link: https://github.com/OS-Q/H18
   tags:
-    - GD32VF103
+    - Linux x64
 
 - name: Platform H19
-  description: For ESP8266
+  description: For QT
   link: https://github.com/OS-Q/H19
   tags:
-    - ESP8266
-    - ESP8285
+    - QT
 
 - name: Platform H20
-  description: For  nRF52
+  description: For  MALI
   link: https://github.com/OS-Q/H20
   tags:
-    - nRF52832
+    - MALI
 
   
 - name: Platform H21
-  description: for ESP32
+  description: for VINO
   link: https://github.com/OS-Q/H21
   tags:
-    - GD32VF103
+    - VINO
 
 - name: Platform H22
-  description: For ESP8266
+  description: For ROCm
   link: https://github.com/OS-Q/H22
   tags:
-    - ESP8266
-    - ESP8285
+    - ROCm
 
 - name: Platform H23
-  description: For  xxx
+  description: For  CUDA
   link: https://github.com/OS-Q/H23
   tags:
     - nRF52832

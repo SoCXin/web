@@ -43,7 +43,7 @@ silicon:
     LoRa: LoRa.html
     NB-IoT: NB.html
     BTLE: BTLE.html
-  sensor:
-    overview: sensor.html
+  IO:
+    overview: IO.html
     mems: mems.html
     camera: camera.html

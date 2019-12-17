@@ -1,5 +1,5 @@
 layout: plugins
-title: Platform
+title: Platforms
 data: tool
 partial: plugin
 comments: false

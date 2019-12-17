@@ -2,7 +2,7 @@ menu:
   news: News
   basics: Basics
   silicon: Silicon
-  platform: Platform
+  platform: Platforms
   products: Products
   more: More
   search: Search
@@ -55,7 +55,7 @@ sidebar:
     fpga: FPGA
     MCS51: MCS51
     risc-v: RISC-V
-    sensor: Sensor
+    IO: IO
     mems: MEMS
     camera: Camera
     communication: Communication

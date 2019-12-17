@@ -50,7 +50,7 @@ sidebar:
     lint: 编码
 
   silicon:
-    architecture: 架构
+    architecture: 运算
     overview: 概述
     arm: ARM
     dsp: DSP
@@ -61,5 +61,6 @@ sidebar:
     risc-v: RISC-V
     communication: 通信
     LoRa: LoRa
+    IO: 输入输出
     mems: MEMS
     camera: Camera
