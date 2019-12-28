@@ -2,7 +2,7 @@
   <div class="inner">
     <h2 id="banner-title">{{ page.subtitle }}</h2>
     <div id="banner-start">
-      <span id="banner-start-command">find  the right carrier </span><a id="banner-start-link" href="silicon/"><i class="fa fa-arrow-right"></i></a>
+      <span id="banner-start-command">Explore the carrier of wisdom</span><a id="banner-start-link" href="silicon/"><i class="fa fa-arrow-right"></i></a>
     </div>
 </header>
 <div id="intro-news-list">
