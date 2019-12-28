@@ -1,5 +1,5 @@
 ---
-title: PCIe
+title: PCI Express
 ---
 
 PCI总线和设备树是X86硬件体系内很重要的组成部分，几乎所有的外围硬件都以这样或那样的形式连接到PCI设备树上。虽然Intel为了方便各种IP的接入而提出IOSF总线，但是其主体接口(primary interface)还依然是PCIe形式。我们下面分成两部分介绍PCI和他的继承者PCIe（PCI express）：第一部分是历史沿革和硬件架构；第二部分是软件界面和UEFI中的PCI/PCe。

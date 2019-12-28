@@ -32,10 +32,9 @@ sidebar:
     compile: Compile
     debug: Debug
     lint: Lint
-    interface: Interface
     modbus: Modbus
     coap: CoAP
-    pcie: PCIe
+    pcie: PCI Express
     protocol: Protocol
     mqtt: MQTT
     can: CAN

@@ -1,10 +1,10 @@
 menu:
-  news: 新闻
-  basics: 知识
-  silicon: 芯片
+  news: 芯闻
+  basics: 基础
+  silicon: 芯品
   platform: 平台
   products: 产品
-  more: 更多
+  more: 杂类
   search: 搜索
 
 index:
@@ -29,7 +29,6 @@ sidebar:
     go: Golang
     nodejs: Nodejs
     mqtt: MQTT
-    wireless: 无线
     BTLE: 蓝牙
     LoRa: LoRa
     NB-IoT: 窄带通信
@@ -42,7 +41,7 @@ sidebar:
     usb: USB
     tcp: TCP | UDP
     coap: CoAP
-    pcie: PCIe
+    pcie: PCI Express
     modbus: Modbus
     toolchain: 开发工具
     compile: 编译
@@ -50,7 +49,7 @@ sidebar:
     lint: 编码
 
   silicon:
-    architecture: 运算
+    architecture: 运算核心
     overview: 概述
     arm: ARM
     dsp: DSP
@@ -59,8 +58,8 @@ sidebar:
     fpga: FPGA
     MCS51: MCS51
     risc-v: RISC-V
-    communication: 通信
+    communication: 通信传输
     LoRa: LoRa
-    IO: 输入输出
+    IO: 数据采集
     mems: MEMS
     camera: Camera

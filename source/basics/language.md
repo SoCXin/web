@@ -1,5 +1,5 @@
 ---
-title: Embedded Programming Language
+title: Programming Language
 ---
 
 # C | C++
