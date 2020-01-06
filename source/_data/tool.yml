@@ -42,26 +42,26 @@
     - N79E
 
 - name: Platform H06
-  description: FPGA Platform
+  description: FPGA
   link: https://github.com/OS-Q/H06
   tags:
     - iCE40
 
 - name: Platform H07
-  description: ESP32 Platform
+  description: ESP32
   link: https://github.com/OS-Q/H07
   tags:
     - ESP32
 
 - name: Platform H08
-  description: ESP8266 Platform
+  description: ESP8266
   link: https://github.com/OS-Q/H08
   tags:
     - ESP8266
     - ESP8285
 
 - name: Platform H09
-  description: nRF52 Platform
+  description: nRF52
   link: https://github.com/OS-Q/H09
   tags:
     - nRF52832

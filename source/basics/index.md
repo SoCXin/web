@@ -1,11 +1,13 @@
 ---
-title: Basic knowledge
+title: Basics
 ---
 
-# Programming Language
+# Language
 
-# Programming Toolchain
+# Toolchain
 
-# Processing Algorithm
+# Algorithm
 
-# Communication Protocol
+# Interface
+
+# Protocol
