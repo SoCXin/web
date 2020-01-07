@@ -2,15 +2,15 @@ menu:
   news: News
   basics: Basics
   silicon: Silicon
-  platform: Platforms
-  products: Products
+  platform: Softwares
+  products: Hardwares
   more: More
   search: Search
 
 index:
-  get_started: Explore Software DevKits
-  theme_intro: Choose the right carrier for your wisdom
-  theme_link: Explore Hardware Products
+  get_started: Explore Softwares
+  theme_intro: Find the right carrier for your wisdom
+  theme_link: Explore Hardwares
 
 page:
   contents: Contents

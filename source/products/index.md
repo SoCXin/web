@@ -1,5 +1,5 @@
 layout: plugins
-title: Products
+title: Hardwares
 data: body
 partial: theme
 comments: false
