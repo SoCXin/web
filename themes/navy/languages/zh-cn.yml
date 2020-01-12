@@ -1,16 +1,16 @@
 menu:
   news: 芯闻
   basics: 基础
-  silicon: 芯品
-  platform: 平台
-  products: 产品
+  silicon: 芯片
+  platform: 软件
+  products: 硬件
   more: 杂类
   search: 搜索
 
 index:
-  get_started: 开发工具
+  get_started: 软件工具
   theme_intro:  使用标准化单元模块构建逻辑运行平台
-  theme_link: 运行平台
+  theme_link: 硬件平台
 
 page:
   contents: 目录
