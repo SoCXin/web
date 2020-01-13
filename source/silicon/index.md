@@ -1,8 +1,7 @@
 ---
 title: Silicon
 ---
-# Silicon material
 
-# Silicon chip
+## silicon
 
-## IC
+## silicon chips
