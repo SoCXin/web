@@ -2,8 +2,6 @@
   <div class="inner">
     <div id="footer-copyright">
       &copy; {{ moment(Date.now()).year() }} <a href="mailto:qitas@qitas.cn" target="_blank">{{ config.author }}</a><br>
-    </div>
-    <div id="footer-bei">
       <a href="http://beian.miit.gov.cn/" target="_blank">  粤ICP备18011880号 </a>
     </div>
     <div id="footer-links">
