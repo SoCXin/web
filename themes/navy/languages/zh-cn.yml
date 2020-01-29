@@ -51,7 +51,7 @@ sidebar:
   silicon:
     architecture: 运算核心
     overview: 概述
-    arm: ARM
+    arm: arm
     dsp: DSP
     x86: x86
     mips: MIPS
@@ -60,6 +60,6 @@ sidebar:
     risc-v: RISC-V
     communication: 通信传输
     LoRa: LoRa
-    IO: 数据采集
+    IO: 输入输出
     mems: MEMS
     camera: Camera

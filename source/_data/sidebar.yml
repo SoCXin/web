@@ -37,7 +37,7 @@ silicon:
     mips: mips.html
     fpga: fpga.html
     risc-v: risc-v.html
-    MCS51: 8051.html   
+    MCS51: MCS51.html   
   communication:
     overview: communication.html
     WiFi: WiFi.html

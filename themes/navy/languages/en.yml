@@ -48,7 +48,7 @@ sidebar:
   silicon:
     architecture: Architecture
     overview: Overview
-    arm: ARM
+    arm: arm
     dsp: DSP
     x86: x86
     mips: MIPS
