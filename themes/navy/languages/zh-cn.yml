@@ -1,14 +1,14 @@
 menu:
   news: 芯闻
-  basics: 基础
+  basics: 知识
   silicon: 芯片
-  platform: 软件
-  products: 硬件
+  platform: 框架
+  products: 平台
   more: 其他
   search: 搜索
 
 index:
-  get_started: 软件工具
+  get_started: 软件框架
   theme_intro:  使用高度标准化功能单元构建定义设备
   theme_link: 硬件平台
 
@@ -28,15 +28,15 @@ sidebar:
     python: Python
     go: Golang
     nodejs: Nodejs
-    mqtt: 消息队列
-    BTLE: 蓝牙
+    mqtt: MQTT
+    BTLE: BT/BLE
     LoRa: LoRa
     NB-IoT: 窄带通信
-    interface: 通信接口
     algorithm: 数据算法
-    encryption: 数据加密
+    encryption: 加密
     compression: 压缩
-    protocol: 通信协议
+    format: 格式化
+    protocol: 传输协议
     can: CAN
     usb: USB
     tcp: TCP | UDP

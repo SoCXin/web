@@ -43,6 +43,7 @@ sidebar:
     algorithm: Algorithm
     encryption: Encryption
     compression: Compression
+    format: Format
 
   silicon:
     architecture: Architecture
