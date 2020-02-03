@@ -46,3 +46,9 @@ MQTT传输的消息分为：主题（Topic）和负载（payload）两部分：
 
 （1）Topic，可以理解为消息的类型，订阅者订阅（Subscribe）后，就会收到该主题的消息内容（payload）；
 （2）payload，可以理解为消息的内容，是指订阅者具体要使用的内容。
+
+### 调试工具
+
+#### MQTT.fx
+
+[MQTT.fx](http://mqttfx.jensd.de/index.php/download)  is a MQTT Client written in Java based on Eclipse Paho. 
