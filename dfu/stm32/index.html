@@ -3,8 +3,8 @@
   <head>
     <link rel="stylesheet" type="text/css" href="../sakura.css" />
     <title>更新</title>
-    <link rel="shortcut icon" href="../../favicon.ico"/>
-    <link rel="bookmark"  	  href="../../favicon.ico"/>
+    <link rel="shortcut icon" href="../../src/favicon.ico"/>
+    <link rel="bookmark"  	  href="../../src/favicon.ico"/>
     <script src="dfu.js"></script>
     <script src="dfuse.js"></script>
     <script src="FileSaver.js"></script>
@@ -26,17 +26,17 @@
     </style>
   </head>
   <body>
-    <a href="https://www.soc.xin/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://182.61.61.133/link/resources/SoC.png" alt="Searching on GitHub"></a>
+    <a href="https://www.soc.xin/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../../src/soc.png"></a>
     <p>
       <span id="status"></span>
     </p>
     <p>
-      <label for="vid">设备编码:</label>
+      <label for="vid">设备类型:</label>
       <input list="vendor_ids" type="text" name="vid" id="vid" maxlength="6" size="8" pattern="0x[A-Fa-f0-9]{1,4}"/>
       <datalist id="vendor_ids">
         <option value="0x1209">DFU</option>
         <option value="0x0D28">DAPLink</option>
-        <option value="0x1EAF">Maple/stm32duino</option>
+        <option value="0x1EAF">arduino</option>
       </datalist>
     </p>
     <p>
