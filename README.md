@@ -2,9 +2,9 @@
 
 [![sites](http://182.61.61.133/link/resources/head.png)](http://www.SoC.xin)
 
-| 在线工具 | Github | 测试 | 测试 | 测试 | 测试 | 测试 | 测试 |
+| 在线工具 | STM32 | GD32 | MM32 | HC32 | CH32 | Synwit | CS32 |
 | ----------- | ----- | ---- | ---- | ---- | ---- | ---- | ---- |
-|   stlink | √     |  X   |  X   |  X   |  X   |  X   |  X   |
-|   web DAP | √     |  X   |  X   |  X   |  X   |  X   |  X   |
-|   web DFU | √     |  X   |  X   |  X   |  X   |  X   |  X   |
-|   timestamp | √     |  X   |  X   |  X   |  X   |  X   |  X   |
+| [stlink](http://www.SoC.xin/stlink) | √     |  X   |  X   |  X   |  X   |  X   |  X   |
+| [DAP](http://www.SoC.xin/dap)  | √     |  X   |  X   |  X   |  X   |  X   |  X   |
+| [DFU](http://www.SoC.xin/dfu)  | √     |  X   |  X   |  X   |  X   |  X   |  X   |
+| [unixtime](http://www.SoC.xin/timestamp) | √     |  X   |  X   |  X   |  X   |  X   |  X   |
