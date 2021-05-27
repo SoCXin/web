@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="sakura.css" />
+    <link rel="stylesheet" type="text/css" href="../sakura.css" />
     <title>DFU</title>
     <script src="dfu.js"></script>
     <script src="dfuse.js"></script>
@@ -24,7 +24,7 @@
     </style>
   </head>
   <body>
-    <a href="https://github.com/SoCXin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+    <a href="https://github.com/SoCXin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Searching on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
     <p>
       <span id="status"></span>
     </p>
@@ -32,9 +32,9 @@
       <label for="vid">Vendor ID (hex):</label>
       <input list="vendor_ids" type="text" name="vid" id="vid" maxlength="6" size="8" pattern="0x[A-Fa-f0-9]{1,4}"/>
       <datalist id="vendor_ids">
-        <option value="0x1209">dapboot DFU bootloader</option>
-        <option value="0x0D28">mbed DAPLink</option>
-        <option value="0x1EAF">LeafLabs Maple/stm32duino bootloader</option>
+        <option value="0x1209">DFU</option>
+        <option value="0x0D28">DAPLink</option>
+        <option value="0x1EAF">Maple/stm32duino</option>
       </datalist>
     </p>
     <p>
@@ -85,21 +85,5 @@
         </fieldset>
       </form>
     </fieldset>
-    <h1>About</h1>
-    <p>
-      This is a proof-of-concept demo of host <a href="http://wiki.openmoko.org/wiki/USB_DFU">USB DFU</a> drivers in Javascript utilizing the <a href="https://wicg.github.io/webusb/">WebUSB</a> draft standard to implement USB firmware updates from the browser.
-    </p>
-    <h1>Prerequisites</h1>
-    <p>In order to run this demo, you will need:</p>
-    <ul>
-      <li>
-        <p>An up-to-date version of Chrome, at least version 61 or newer</p>
-      </li>
-      <li>
-        <p>A USB DFU class device</p>
-        <p>For a WebUSB friendly USB DFU bootloader that can be flashed onto <a href="http://wiki.stm32duino.com/index.php?title=Blue_Pill">inexpensive STM32F103 boards</a>, check out the <a href="https://github.com/devanlai/dapboot">dapboot</a> project.</p>
-        <p>Some recent STM32 parts have on-chip USB DfuSe bootloaders that are supported by this site.</p>
-      </li>
-    <ul>
   </body>
 </html>
