@@ -2,13 +2,11 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="sakura.css" />
-    <title>mbed</title>
+    <title>编译</title>
     <link rel="shortcut icon" href="../favicon.ico"/>
     <link rel="bookmark"  	  href="../favicon.ico"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="mbed-compile-api.js"></script>
-    <script src="./dfu.js"></script>
-    <script src="./FileSaver.js"></script>
     <script src="mbed-download.js"></script>
     <style>
       p.warning {
@@ -48,7 +46,7 @@
           Login with your developer.mbed.org credentials. The <a href="https://developer.mbed.org/handbook/Compile-API">mbed remote compile API</a> only supports HTTP(S) basic auth...
         </p>
         <p>
-          <label for="username" class="rightAligned">mbed Username: </label>
+          <label for="username" class="rightAligned">Username: </label>
           <input type="text" name="username" id="username"></input>
         </p>
         <p>
@@ -96,49 +94,6 @@
       <fieldset>
         <legend>Build Output</legend>
         <div id="mbedLog" class="buildLog"></div>
-      </fieldset>
-    </fieldset>
-    <fieldset>
-      <legend>WebUSB</legend>
-      <p>Enter the USB Vendor ID to filter connected WebUSB devices.
-      </p>
-      <p>
-        <label for="vid">Vendor ID (hex):</label>
-        <input list="vendor_ids" type="text" name="vid" id="vid" value="0x1209" maxlength="6" size="8" pattern="0x[A-Fa-f0-9]{1,4}"/>
-        <datalist id="vendor_ids">
-          <option value="0x1209">dapboot DFU bootloader</option>
-          <option value="0x0D28">mbed DAPLink</option>
-        </datalist>
-      </p>
-      <p>
-        <span id="status"></span>
-      </p>
-      <p>
-        <button id="connect">Connect</button>
-      </p>
-      <p>
-        <div id="usbInfo" style="white-space: pre"></div>
-        <div id="dfuInfo" style="white-space: pre"></div>
-      </p>
-      <fieldset>
-        <legend>Runtime mode</legend>
-        <p>
-          If the device has a <a href="http://www.usb.org/developers/docs/devclass_docs/DFU_1.1.pdf">USB DFU</a> bootloader installed, use the detach button to switch from runtime mode to DFU mode.
-        </p>
-        <button id="detach" disabled="true">Detach DFU</button>
-      </fieldset>
-      <fieldset>
-        <label for="transferSize">Transfer Size:</label>
-        <input type="number" name="transferSize" id="transferSize" value="1024"/>
-        <legend>DFU mode</legend>
-        <fieldset>
-          <legend>Firmware Download (write to USB device)</legend>
-          <p>
-            <button id="download" disabled="true">Download</button>
-            <span id="binaryInfo"></span>
-          </p>
-          <div class="log" id="downloadLog"></div>
-        </fieldset>
       </fieldset>
     </fieldset>
   </body>
