@@ -183,7 +183,7 @@ var dfu = {};
                 }
             }
         }
-        
+
         throw `Failed to read string descriptor ${index}: ${result.status}`;
     };
 
@@ -512,7 +512,7 @@ var dfu = {};
         let blocks = [];
         let bytes_read = 0;
 
-        this.logInfo("Copying data from DFU device to browser");
+        this.logInfo("Copying data from device to browser");
         // Initialize progress to 0
         this.logProgress(0);
 
@@ -552,7 +552,7 @@ var dfu = {};
                 setTimeout(resolve, duration_ms);
             });
         }
-        
+
         while (!state_predicate(dfu_status.state) && dfu_status.state != dfu.dfuERROR) {
             await async_sleep(dfu_status.pollTimeout);
             dfu_status = await this.getStatus();
@@ -570,7 +570,7 @@ var dfu = {};
         let expected_size = data.byteLength;
         let transaction = 0;
 
-        this.logInfo("Copying data from browser to DFU device");
+        this.logInfo("Copying data from browser to device");
 
         // Initialize progress to 0
         this.logProgress(bytes_sent, expected_size);
@@ -655,5 +655,5 @@ var dfu = {};
 
         return;
     };
-    
+
 })();

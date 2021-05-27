@@ -218,8 +218,8 @@ var dfuse = {};
             throw "No memory map available";
         }
 
-        this.logInfo("Erasing DFU device memory");
-        
+        this.logInfo("Erasing device memory");
+
         let bytes_sent = 0;
         let expected_size = data.byteLength;
 
@@ -232,7 +232,7 @@ var dfuse = {};
         }
         await this.erase(startAddress, expected_size);
 
-        this.logInfo("Copying data from browser to DFU device");
+        this.logInfo("Copying data from browser to device");
 
         let address = startAddress;
         while (bytes_sent < expected_size) {
