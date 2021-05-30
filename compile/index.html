@@ -40,10 +40,10 @@
   <body>
     <a href="https://www.soc.xin/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../src/soc.png"></a>
     <fieldset>
-      <legend>mbed</legend>
+      <legend>Compiler</legend>
       <form>
         <p>
-          The <a href="https://developer.mbed.org/handbook/Compile-API">mbed remote compile API</a> only supports HTTP(S) basic auth...
+          About <a href="https://developer.mbed.org/handbook/Compile-API">mbed remote compile API</a> on <a href="https://developer.mbed.org/code/">developer.mbed.org</a>
         </p>
         <p>
           <label for="username" class="rightAligned">Username: </label>
@@ -56,20 +56,20 @@
         </p>
       </form>
       <fieldset>
-        <legend>Remote Compiler API</legend>
+        <legend>Remote</legend>
         <p>
-          <a href="https://developer.mbed.org/compiler/">mbed compiler workspace</a> or a fully qualified URL to a published repository on <a href="https://developer.mbed.org/code/">developer.mbed.org</a>
+          <a href="https://developer.mbed.org/compiler/">mbed compiler workspace</a>
         </p>
         <form id="buildForm">
           <p>
             <input type="radio" name="buildType" value="program" checked="true">
-            <label for="programName" class="leftAligned">Program name: </label>
+            <label for="programName" class="leftAligned">Project: </label>
             <input type="text" name="programName" id="programName" value="mbed_blinky" size="60"/>
           </input>
           </p>
           <p>
             <input type="radio" name="buildType" value="repo">
-            <label for="repoURL" class="leftAligned">Repository URL: </label>
+            <label for="repoURL" class="leftAligned">URL: </label>
             <input type="url" name="repoURL" id="repoURL" value="https://developer.mbed.org/users/devanlai/code/STM32F103C8T6_WebUSBDFU/" size="60"/>
           </input>
           </p>
@@ -98,11 +98,14 @@
     </fieldset>
     <fieldset>
       <p>
+        <label for="vid">Vendor ID (hex):</label>
         <input list="vendor_ids" type="text" name="vid" id="vid" value="0x1209" maxlength="6" size="8" pattern="0x[A-Fa-f0-9]{1,4}"/>
+        <datalist id="vendor_ids">
+          <option value="0x1209">DFUBoot</option>
+          <option value="0x0D28">DAPLink</option>
+        </datalist>
         <button id="connect">Connect</button>
         <button id="detach" disabled="true">Detach</button>
-      </p>
-      <p>
         <input type="number" name="transferSize" id="transferSize" value="1024"/>
         <button id="download" disabled="true">Download</button>
       </p>
