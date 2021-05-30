@@ -98,12 +98,6 @@
     </fieldset>
     <fieldset>
       <legend>WebUSB</legend>
-      <p>Enter the USB Vendor ID to filter connected WebUSB devices.
-        <ul>
-          <li>Boards with a <a href="https://github.com/devanlai/DAPLink/tree/nucleo_webusb">DAPLink</a> debug interface have a vendor ID of 0x0D28</li>
-          <li>Boards with the <a href="https://github.com/devanlai/dapboot/tree/highboot">dapboot</a> bootloader have a vendor ID of 0x1209 in DFU mode</li>
-        </ul>
-      </p>
       <p>
         <label for="vid">Vendor ID (hex):</label>
         <input list="vendor_ids" type="text" name="vid" id="vid" value="0x1209" maxlength="6" size="8" pattern="0x[A-Fa-f0-9]{1,4}"/>
@@ -124,9 +118,6 @@
       </p>
       <fieldset>
         <legend>Runtime mode</legend>
-        <p>
-          If the device has a <a href="http://www.usb.org/developers/docs/devclass_docs/DFU_1.1.pdf">USB DFU</a> bootloader installed, use the detach button to switch from runtime mode to DFU mode.
-        </p>
         <button id="detach" disabled="true">Detach DFU</button>
       </fieldset>
       <fieldset>
