@@ -97,14 +97,9 @@
       </fieldset>
     </fieldset>
     <fieldset>
-      <legend>WebUSB</legend>
+      <!-- <legend>WebUSB</legend> -->
       <p>
-        <label for="vid">Vendor ID (hex):</label>
         <input list="vendor_ids" type="text" name="vid" id="vid" value="0x1209" maxlength="6" size="8" pattern="0x[A-Fa-f0-9]{1,4}"/>
-        <datalist id="vendor_ids">
-          <option value="0x1209">dapboot DFU bootloader</option>
-          <option value="0x0D28">mbed DAPLink</option>
-        </datalist>
       </p>
       <p>
         <span id="status"></span>
@@ -112,20 +107,16 @@
       <p>
         <button id="connect">Connect</button>
       </p>
-      <p>
-        <div id="usbInfo" style="white-space: pre"></div>
-        <div id="dfuInfo" style="white-space: pre"></div>
-      </p>
       <fieldset>
-        <legend>Runtime mode</legend>
+        <!-- <legend>Runtime mode</legend> -->
         <button id="detach" disabled="true">Detach DFU</button>
       </fieldset>
       <fieldset>
-        <label for="transferSize">Transfer Size:</label>
+        <!-- <label for="transferSize">Transfer Size:</label> -->
         <input type="number" name="transferSize" id="transferSize" value="1024"/>
-        <legend>DFU mode</legend>
+        <!-- <legend>DFU mode</legend> -->
         <fieldset>
-          <legend>Firmware Download (write to USB device)</legend>
+          <!-- <legend>Firmware Download (write to USB device)</legend> -->
           <p>
             <button id="download" disabled="true">Download</button>
             <span id="binaryInfo"></span>
