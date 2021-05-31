@@ -40,11 +40,8 @@
   <body>
     <a href="https://www.soc.xin/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../src/soc.png"></a>
     <fieldset>
-      <legend>Compiler</legend>
+      <legend><a href="https://developer.mbed.org/code/">developer.mbed.org</a></legend>
       <form>
-        <p>
-          About <a href="https://developer.mbed.org/handbook/Compile-API">mbed remote compile API</a> on <a href="https://developer.mbed.org/code/">developer.mbed.org</a>
-        </p>
         <p>
           <label for="username" class="rightAligned">Username: </label>
           <input type="text" name="username" id="username"></input>
@@ -56,14 +53,14 @@
         </p>
       </form>
       <fieldset>
-        <legend>Remote</legend>
+        <legend><a href="https://developer.mbed.org/compiler/">mbed workspace</a></legend>
         <p>
-          <a href="https://developer.mbed.org/compiler/">mbed compiler workspace</a>
+
         </p>
         <form id="buildForm">
           <p>
             <input type="radio" name="buildType" value="program" checked="true">
-            <label for="programName" class="leftAligned">Project: </label>
+            <label for="programName" class="leftAligned">name: </label>
             <input type="text" name="programName" id="programName" value="mbed_blinky" size="60"/>
           </input>
           </p>
@@ -74,7 +71,7 @@
           </input>
           </p>
           <p>
-            <label for="targetPlatform">Target Platform: </label>
+            <label for="targetPlatform">Platform: </label>
             <input type="text" list="platforms" name="targetPlatform" id="targetPlatform" value="ST-Nucleo-F103RB"/>
             <datalist id="platforms">
               <option value="ST-Nucleo-F103RB">STMicro NUCLEO-F103RB</option>
@@ -92,7 +89,7 @@
         </form>
       </fieldset>
       <fieldset>
-        <legend>Build Output</legend>
+        <legend>Build</legend>
         <div id="mbedLog" class="buildLog"></div>
       </fieldset>
     </fieldset>
