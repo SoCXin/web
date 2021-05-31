@@ -4,7 +4,7 @@
 
 | 在线工具 | STM32 | GD32 | MM32 | HC32 | CH32 | Synwit | CS32 |
 | ----------- | ----- | ---- | ---- | ---- | ---- | ---- | ---- |
-| [stlink](http://www.SoC.xin/stlink) | √     |  X   |  X   |  X   |  X   |  X   |  X   |
+| [link](http://www.SoC.xin/link) | √     |  X   |  X   |  X   |  X   |  X   |  X   |
 | [DAP](http://www.SoC.xin/dap)  | √     |  X   |  X   |  X   |  X   |  X   |  X   |
 | [DFU](http://www.SoC.xin/dfu/stm32)  | √     |  X   |  X   |  X   |  X   |  X   |  X   |
 | [unixtime](http://www.SoC.xin/timestamp) | √     |  X   |  X   |  X   |  X   |  X   |  X   |
