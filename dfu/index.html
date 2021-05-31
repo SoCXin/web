@@ -29,7 +29,7 @@
     <a href="https://www.soc.xin/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../../src/soc.png"></a>
 
     <fieldset>
-      <legend>USBDFU</legend>
+      <legend>Device Firmware Upgrade</legend>
       <p>
         <!-- <label for="vid">设备类型</label> -->
         <input list="vendor_ids" type="text" name="vid" id="vid" maxlength="6" size="8" pattern="0x[A-Fa-f0-9]{1,4}"/>
@@ -61,17 +61,7 @@
         <div id="usbInfo" style="white-space: pre"></div>
         <div id="dfuInfo" style="white-space: pre"></div>
       </p>
-    <!-- </fieldset>
-    <fieldset> -->
       <form id="configForm">
-        <!-- <label for="transferSize">Transfer Size:</label> -->
-        <!-- <input type="number" name="transferSize" id="transferSize" value="1024"/> -->
-        <!-- <div id="dfuseFields" hidden="true">
-          <label for="dfuseStartAddress">DfuSe Start Address:</label>
-          <input type="text" name="dfuseStartAddress" id="dfuseStartAddress" title="Initial memory address to read/write from (hex)" size="10" pattern="0x[A-Fa-f0-9]+"/>
-          <label for="dfuseUploadSize">DfuSe Upload Size:</label>
-          <input type="number" name="dfuseUploadSize" id="dfuseUploadSize" min="1"/>
-        </div> -->
         <fieldset>
           <legend>USB Device</legend>
           <p>
