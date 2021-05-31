@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="../sakura.css" />
-    <title>更新</title>
+    <link rel="stylesheet" type="text/css" href="sakura.css" />
+    <title>DFU</title>
     <link rel="shortcut icon" href="../../src/favicon.ico"/>
     <link rel="bookmark"  	  href="../../src/favicon.ico"/>
     <script src="dfu.js"></script>
@@ -38,7 +38,8 @@
           <option value="0x0D28">DAPLink</option>
           <option value="0x1EAF">Arduino</option>
         </datalist>
-        <button id="connect">设备连接</button>
+        <button id="connect">Connect</button>
+        <button id="detach" disabled="true">Detach</button>
         <input type="number" name="transferSize" id="transferSize" value="1024"/>
         <div id="dfuseFields" hidden="true">
           <label for="dfuseStartAddress">DfuSe Start Address:</label>
