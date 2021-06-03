@@ -40,7 +40,7 @@
   <body>
     <a href="https://www.soc.xin/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../src/soc.png"></a>
     <fieldset>
-      <legend><a href="https://developer.mbed.org/code/">developer.mbed.org</a></legend>
+      <legend><a href="https://developer.mbed.org/code/">mbed developer</a></legend>
       <form>
         <p>
           <label for="username" class="rightAligned">Username: </label>
@@ -72,10 +72,11 @@
           </p>
           <p>
             <label for="targetPlatform">Platform: </label>
-            <input type="text" list="platforms" name="targetPlatform" id="targetPlatform" value="ST-Nucleo-F103RB"/>
+            <input type="text" list="platforms" name="targetPlatform" id="targetPlatform"/>
             <datalist id="platforms">
-              <option value="ST-Nucleo-F103RB">STMicro NUCLEO-F103RB</option>
-              <option value="ST-Nucleo-F303K8">STMicro NUCLEO-F303K8</option>
+              <option value="ST-Nucleo-F103RB">NUCLEO-F103RB</option>
+              <option value="ST-Nucleo-F207ZG">NUCLEO-F207ZG</option>
+              <option value="ST-Nucleo-F303K8">NUCLEO-F303K8</option>
               <option value="Seeed-Arch-Max">Seeed Arch Max</option>
               <option value="FRDM-KL05Z">Kinetis FRDM-KL05Z</option>
               <option value="KL25Z">Kinetis FRDM-KL25Z</option>
@@ -88,13 +89,13 @@
           </p>
         </form>
       </fieldset>
-      <fieldset>
-        <legend>Build</legend>
+      <!-- <fieldset> -->
+        <!-- <legend>Build</legend> -->
         <div id="mbedLog" class="buildLog"></div>
-      </fieldset>
+      <!-- </fieldset> -->
     </fieldset>
     <fieldset>
-      <legend>bootloader</legend>
+      <legend>Firmware update</legend>
       <p>
         <!-- <label for="vid">设备类型</label> -->
         <input list="vendor_ids" type="text" name="vid" id="vid" value="0x1209" maxlength="6" size="8" pattern="0x[A-Fa-f0-9]{1,4}"/>
