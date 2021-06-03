@@ -52,29 +52,42 @@
   </head>
   <body>
     <a href="https://www.soc.xin/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../src/soc.png"></a>
+    <fieldset>
+    <legend><a href="https://www.st.com/zh/development-tools/st-link-v2.html">STLink for STM32</a></legend>
     <p>
       <button id="connect">Connect</button>
       <button id="runHalt" disabled>Halt</button>
       <button id="step" disabled>Step</button>
       <button id="reset" disabled>Reset</button>
     </p>
-
-    <p>
+    <fieldset>
+      <legend><a href="https://www.st.com/zh/development-tools/st-link-v2.html">固件烧录</a></legend>
+      <!-- <details id="flashDisplay">
+        <summary>固件烧录</summary> -->
+        <label>
+          起始地址:
+          <input type="text" id="flashWriteAddress" title="Flash address to write to (hex)" size="10" pattern="0x[A-Fa-f0-9]+" required/>
+        </label>
+        <label>
+          烧录文件:
+          <input type="file" id="flashBinaryFile" required/>
+        </label>
+        <button id="flash" disabled>Flash</button>
+      <!-- </details> -->
+    </fieldset>
+    <fieldset>
+      <legend><a href="https://www.st.com/zh/development-tools/st-link-v2.html">逐步调试</a></legend>
       <details id="probeInfo">
-        <summary>Debugger - Disconnected</summary>
+        <summary> Disconnected</summary>
         Product Name: <span id="productName"></span><br/>
         Manufacturer: <span id="mfgName"></span><br/>
         Serial Number: <span id="serialNumber"></span><br/>
       </details>
-    </p>
-
     <p>
       <details id="targetInfo">
         <summary>Target <span id="targetType">-</span> <span id="targetStatus">Unknown</span></summary>
-
       </details>
     </p>
-
     <p>
       <details id="registerDisplay">
         <summary>Registers: <button id="readRegisters" disabled>Read now</button>
@@ -132,20 +145,6 @@
       </details>
     </p>
     <p>
-      <details id="flashDisplay">
-        <summary>Flash</summary>
-        <label>
-          Flash address (hex):
-          <input type="text" id="flashWriteAddress" title="Flash address to write to (hex)" size="10" pattern="0x[A-Fa-f0-9]+" required/>
-        </label>
-        <label>
-          Firmware binary:
-          <input type="file" id="flashBinaryFile" required/>
-        </label>
-        <button id="flash" disabled>Flash</button>
-      </details>
-    </p>
-    <p>
       <details id="pollingDisplay">
         <summary>Polling - Idle</summary>
         <form id="pollingForm">
@@ -167,6 +166,8 @@
           </label>
         </form>
       </details>
+    </p>
+    <p>
       <details id="semihostingDisplay">
         <summary>Semihosting - off</summary>
         <input type="checkbox" id="semihostingEnabled">Enable semihosting</input>
@@ -174,29 +175,30 @@
         <textarea id="semihostingOutput" readonly></textarea>
       </details>
     </p>
-    <p>
-      <details id="logWrapper">
-        <details id="logLevel">
-          <summary>Logging Level - Normal</summary>
-          <form id="logLevelForm">
-            <label class="radio">
-              <input type="radio" name="logLevel" value="0" />Quiet - show warnings and errors only
-            </label>
-            <label class="radio">
-              <input type="radio" name="logLevel" value="1" checked />Normal - show pertinent information
-            </label>
-            <label class="radio">
-              <input type="radio" name="logLevel" value="2" />Verbose - show additional information
-            </label>
-            <label class="radio">
-              <input type="radio" name="logLevel" value="3" />Debug - show low-level troubleshooting information
-            </label>
-          </form>
-        </details>
-        <summary>Log</summary>
-        <div id="log" class="log"></div>
+  </fieldset>
+  <fieldset>
+    <legend><a href="https://www.st.com/zh/development-tools/st-link-v2.html">info & log</a></legend>
+    <!-- <details id="logWrapper"> -->
+      <details id="logLevel">
+        <summary>Level - Normal</summary>
+        <form id="logLevelForm">
+          <label class="radio">
+            <input type="radio" name="logLevel" value="0" />Quiet - show warnings and errors only
+          </label>
+          <label class="radio">
+            <input type="radio" name="logLevel" value="1" checked />Normal - show pertinent information
+          </label>
+          <label class="radio">
+            <input type="radio" name="logLevel" value="2" />Verbose - show additional information
+          </label>
+          <label class="radio">
+            <input type="radio" name="logLevel" value="3" />Debug - show low-level troubleshooting information
+          </label>
+        </form>
       </details>
-    </p>
+      <!-- <summary>Log</summary> -->
+      <div id="log" class="log"></div>
+    <!-- </details> -->
     <dialog id="mcuDialog">
       <form id="mcuForm" method="dialog">
         <table>
@@ -214,5 +216,7 @@
         <button type="submit">Select MCU variant</button>
       </form>
     </dialog>
+  </fieldset>
+  </fieldset>
   </body>
 </html>

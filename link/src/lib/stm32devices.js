@@ -2,7 +2,7 @@
 export default [
     {
         'part_no': 0xc20,
-        'core': 'CortexM0',
+        'core': 'Cortex-M0',
         'idcode_reg': 0x40015800,
         'devices': [
             {
@@ -73,7 +73,7 @@ export default [
     },
     {
         'part_no': 0xc60,
-        'core': 'CortexM0+',
+        'core': 'Cortex-M0+',
         'idcode_reg': 0x40015800,
         'devices': [
             {
@@ -141,7 +141,7 @@ export default [
     },
     {
         'part_no': 0xc23,
-        'core': 'CortexM3',
+        'core': 'Cortex-M3',
         'idcode_reg': 0xE0042000,
         'devices': [
             {
@@ -398,7 +398,7 @@ export default [
     },
     {
         'part_no': 0xc24,
-        'core': 'CortexM4',
+        'core': 'Cortex-M4',
         'idcode_reg': 0xE0042000,
         'devices': [
             {
@@ -578,7 +578,7 @@ export default [
     },
     {
         'part_no': 0xc27,
-        'core': 'CortexM7',
+        'core': 'Cortex-M7',
         'idcode_reg': 0xE0042000,
         'devices': [
             {
