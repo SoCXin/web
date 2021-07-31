@@ -1,10 +1,6 @@
-# [SoC](https://github.com/SoCXin)
+# [Home](https://github.com/SoCXin/home)
 
-[![sites](http://182.61.61.133/link/resources/head.png)](http://www.SoC.xin)
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-| 在线工具 | STM32 | GD32 | MM32 | HC32 | CH32 | Synwit | CS32 |
-| ----------- | ----- | ---- | ---- | ---- | ---- | ---- | ---- |
-| [link](http://www.SoC.xin/link) | √     |  X   |  X   |  X   |  X   |  X   |  X   |
-| [mbed](http://www.SoC.xin/mbed)  | √     |  X   |  X   |  X   |  X   |  X   |  X   |
-| [DFU](http://www.SoC.xin/dfu)  | √     |  X   |  X   |  X   |  X   |  X   |  X   |
-| [unixtime](http://www.SoC.xin/timestamp) | √     |  X   |  X   |  X   |  X   |  X   |  X   |
+
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
