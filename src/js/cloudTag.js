@@ -8,7 +8,7 @@
         var tagEle = "querySelectorAll" in document ? document.querySelectorAll("."+opts.tag) : getClass(opts.tag),
             paper = $(this)[0];
             RADIUS =opts.ballSize,
-            fallLength = 300,
+            fallLength = 400,
             tags=[],
             angleX = Math.PI/fallLength,
             angleY = Math.PI/fallLength,
@@ -67,10 +67,10 @@
             paper.addEventListener("mousemove" , function(event){
                 var x = event.clientX - EX - CX;
                 var y = event.clientY - EY - CY;
-                // angleY = -x* (Math.sqrt(Math.pow(x , 2) + Math.pow(y , 2)) > RADIUS/4 ? 0.0002 : 0.0001);
-                // angleX = -y* (Math.sqrt(Math.pow(x , 2) + Math.pow(y , 2)) > RADIUS/4 ? 0.0002 : 0.0001);
-                angleY = x*0.0001;
-                angleX = y*0.0001;
+                angleY = -x* (Math.sqrt(Math.pow(x , 2) + Math.pow(y , 2)) > RADIUS/4 ? 0.0002 : 0.0001);
+                angleX = -y* (Math.sqrt(Math.pow(x , 2) + Math.pow(y , 2)) > RADIUS/4 ? 0.0002 : 0.0001);
+                // angleY = x*0.0001;
+                // angleX = y*0.0001;
             });
         }
         else {
