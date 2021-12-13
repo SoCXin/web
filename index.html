@@ -7,9 +7,20 @@
 <link rel="bookmark"  	  href="src/favicon.ico"/>
 <style> h4{text-align: center;color: rgb(179, 37, 96);} </style>
 
-<link rel="stylesheet" href="src/css/clock.css" media="screen" type="text/css" />
+<!-- <link rel="stylesheet" href="src/css/clock.css" media="screen" type="text/css" /> -->
 <link rel="stylesheet" href="src/css/3keys.css" media="screen" type="text/css">
 <link rel="stylesheet" type="text/css" href="src/css/input_blink.css">
+<script async="" src="time/unix/ta.js"></script><script src="time/unix/hm.js"></script><script src="time/unix/te.js" crossorigin="anonymous"></script>
+<script>
+	var _hmt = _hmt || [];
+	(function () {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?0fba23df1ee7ec49af558fb29456f532";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+<script src="time/unix/431ee51970b48d89c1b9b68608546091.js"></script>
 <style type="text/css">
     .tagBall{width:800px;height:400px;margin:50px auto;position:relative;}
     .tag{display:block;position:absolute;left:0px;top:0px;color:#000;text-decoration:none;font-size:15px;font-weight:bold;}
@@ -26,11 +37,22 @@
 </head>
 
 <body>
+<!-- <div id="wrap"> -->
+	<!-- <div id="bdy">
+	<div class="w"> -->
+<!-- <link rel="stylesheet" href="time/unix/308e0ab24020a4eb85d635a9de38a5f8.css">
+<div class="inner"><span class="form_left">UNIX TIME：</span><a id="js_timestamp_now" href="https://www.soc.xin/time">1600254009</a></div>
+<script src="time/unix/saved_resource"></script> -->
+
 <a href="https://github.com/SoCXin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Searching on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+<link rel="stylesheet" href="time/unix/308e0ab24020a4eb85d635a9de38a5f8.css">
+<span class="form_left">UNIX TIME:</span><a id="js_timestamp_now" href="https://www.soc.xin/time">1600254009</a></div></p>
+<script src="time/unix/saved_resource"></script>
 <input type="text" placeholder="探索芯世界">
 <script type="text/javascript" src="src/js/input_blink.js"></script>
-<div style="text-align:center;clear:both;">
-</div>
+<div style="text-align:center;clear:both;"></div>
+
+
 <div class="tagBall">
 	<a class="tag" target="_blank" href="https://docs.soc.xin/STM32F103">STM32F103</a>
 	<a class="tag" target="_blank" href="https://docs.soc.xin/STM32F207">STM32F207</a>
@@ -75,7 +97,17 @@
 	<a class="tag" target="_blank" href="https://docs.soc.xin/K510">K510</a>
 </div>
 
+
 <div class="position">
+	<!--Next button -->
+	<div class="svg-wrapper">
+		<svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+			<rect id="shape" height="40" width="150" />
+			<div id="text">
+			<a href="https://docs.soc.xin"><span class="spot"></span>开发文档</a>
+			</div>
+		</svg>
+    </div>
 	<!--Next button -->
 	<div class="svg-wrapper">
 		<svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
@@ -99,15 +131,6 @@
 			<rect id="shape" height="40" width="150" />
 			<div id="text">
 			<a href="https://www.soc.xin/dfu"><span class="spot"></span>固件升级</a>
-			</div>
-		</svg>
-    </div>
-	<!--Next button -->
-	<div class="svg-wrapper">
-		<svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-			<rect id="shape" height="40" width="150" />
-			<div id="text">
-			<a href="https://www.soc.xin/time/"><span class="spot"></span>配置发行</a>
 			</div>
 		</svg>
     </div>
