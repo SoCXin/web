@@ -1,6 +1,4 @@
-# [Home](https://github.com/SoCXin/home)
-
-[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
+# [web](https://github.com/SoCXin/web)
 
 
-### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
+在线编译可以参考 https://lckfb.com/
