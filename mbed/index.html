@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="sakura.css" />
+    <title>mbed</title>
+    <link rel="shortcut icon" href="../src/favicon.ico"/>
+    <link rel="bookmark"  	  href="../src/favicon.ico"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="mbed-compile-api.js"></script>
+    <script src="mbed-download.js"></script>
+    <style>
+      p.warning {
+        color: red;
+      }
+      p.error {
+        color: red;
+        font-weight: bold;
+      }
+      div.buildLog {
+        min-height: 3em;
+        max-height: 100em;
+        overflow: scroll;
+        font-family: monospace;
+      }
+      label.rightAligned {
+        display: inline-block;
+        width: 20ex;
+        text-align: right;
+      }
+      label.leftAligned {
+        display: inline-block;
+        width: 16ex;
+        text-align: left;
+      }
+      input:invalid {
+        color:red;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://www.soc.xin/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../src/soc.png"></a>
+    <fieldset>
+      <legend><a href="https://developer.mbed.org/code/">mbed developer</a></legend>
+      <form>
+        <p>
+          <label for="username" class="rightAligned">Username: </label>
+          <input type="text" name="username" id="username"></input>
+        </p>
+        <p>
+          <label for="password" class="rightAligned">Password: </label>
+          <input type="password" name="password" id="password"></input>
+          <button type="button" id="authenticate">Set Credentials</button>
+        </p>
+      </form>
+      <fieldset>
+        <legend><a href="https://developer.mbed.org/compiler/">mbed workspace</a></legend>
+        <p>
+
+        </p>
+        <form id="buildForm">
+          <p>
+            <input type="radio" name="buildType" value="program" checked="true">
+            <label for="programName" class="leftAligned">name: </label>
+            <input type="text" name="programName" id="programName" value="mbed_blinky" size="60"/>
+          </input>
+          </p>
+          <p>
+            <input type="radio" name="buildType" value="repo">
+            <label for="repoURL" class="leftAligned">URL: </label>
+            <input type="url" name="repoURL" id="repoURL" value="https://developer.mbed.org/users/devanlai/code/STM32F103C8T6_WebUSBDFU/" size="60"/>
+          </input>
+          </p>
+          <p>
+            <label for="targetPlatform">Platform: </label>
+            <input type="text" list="platforms" name="targetPlatform" id="targetPlatform"/>
+            <datalist id="platforms">
+              <option value="ST-Nucleo-F103RB">NUCLEO-F103RB</option>
+              <option value="ST-Nucleo-F207ZG">NUCLEO-F207ZG</option>
+              <option value="ST-Nucleo-F303K8">NUCLEO-F303K8</option>
+              <option value="Seeed-Arch-Max">Seeed Arch Max</option>
+              <option value="FRDM-KL05Z">Kinetis FRDM-KL05Z</option>
+              <option value="KL25Z">Kinetis FRDM-KL25Z</option>
+            </datalist>
+          </p>
+          <p>
+            <button type="button" name="build" id="build" disabled>Build</button>
+            <button type="button" name="save" id="save" disabled>Save</button>
+            <button type="button" name="buildAndProgram" id="buildAndProgram" disabled>Build and Program</button>
+          </p>
+        </form>
+      </fieldset>
+      <!-- <fieldset> -->
+        <!-- <legend>Build</legend> -->
+        <div id="mbedLog" class="buildLog"></div>
+      <!-- </fieldset> -->
+    </fieldset>
+    <fieldset>
+      <legend>Firmware update</legend>
+      <p>
+        <!-- <label for="vid">设备类型</label> -->
+        <input list="vendor_ids" type="text" name="vid" id="vid" value="0x1209" maxlength="6" size="8" pattern="0x[A-Fa-f0-9]{1,4}"/>
+        <datalist id="vendor_ids">
+          <option value="0x1209">DFUBoot</option>
+          <option value="0x0D28">DAPLink</option>
+          <option value="0x1EAF">Arduino</option>
+        </datalist>
+        <button id="connect">Connect</button>
+        <button id="detach" disabled="true">Detach</button>
+        <input type="number" name="transferSize" id="transferSize" value="1024"/>
+        <div id="dfuseFields" hidden="true">
+          <label for="dfuseStartAddress">DfuSe Start Address:</label>
+          <input type="text" name="dfuseStartAddress" id="dfuseStartAddress" title="Initial memory address to read/write from (hex)" size="10" pattern="0x[A-Fa-f0-9]+"/>
+          <label for="dfuseUploadSize">DfuSe Upload Size:</label>
+          <input type="number" name="dfuseUploadSize" id="dfuseUploadSize" min="1"/>
+        </div>
+      </p>
+      <p>
+        <span id="status"></span>
+      </p>
+      <dialog id="interfaceDialog">
+        Your device has multiple DFU interfaces. Select one from the list below:
+        <form id="interfaceForm" method="dialog">
+          <button id="selectInterface" type="submit">Select interface</button>
+        </form>
+      </dialog>
+      <p>
+        <div id="usbInfo" style="white-space: pre"></div>
+        <div id="dfuInfo" style="white-space: pre"></div>
+      </p>
+      <form id="configForm">
+        <fieldset>
+          <legend>USB Device</legend>
+          <p>
+            <input type="file" id="firmwareFile" name="file" disabled="true"/>
+          </p>
+          <p>
+            <button id="download" disabled="true">Firmware Download</button>
+            <button id="upload" disabled="true">Firmware Upload</button>
+          </p>
+          <div class="log" id="downloadLog"></div>
+          <div class="log" id="uploadLog"></div>
+        <!-- </fieldset>
+        <fieldset> -->
+          <!-- <legend>Firmware Upload (from USB device)</legend> -->
+        </fieldset>
+      </form>
+    </fieldset>
+  </body>
+</html>

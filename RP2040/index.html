@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RP2040 &mdash; MCU</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="canonical" href="https://www.SoC.xin/index.html" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+ 
+<link rel="stylesheet" href="_static/css/extra.css" type="text/css" />
+<script src="_static/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="#" class="icon icon-home"> Xindex
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">RP2040</a><ul>
+<li><a class="reference internal" href="#id2">关键特性</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<ins data-rvad-zoneid="7" data-rvad-id="f837d8c96893e793fdbb230cffb628fc"></ins>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Xindex</a>
+      </nav>
+
+      <div class="wy-nav-content">
+<ins data-rvad-zoneid="1" data-rvad-id="f837d8c96893e793fdbb230cffb628fc"></ins>
+
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">RP2040</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/SoCXin/docs/blob/RP2040/index.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="rp2040">
+<h1>RP2040<a class="headerlink" href="#rp2040" title="Permalink to this heading">¶</a></h1>
+<p><a class="reference external" href="https://www.raspberrypi.com/products/raspberry-pi-pico">RP2040</a> is a low-cost, high-performance microcontroller device with a large on-chip memory, symmetric dual-core processor complex, and rich peripheral.</p>
+<p>Key features: Dual Cortex M0+ processor cores, up to 133 MHz 264 kB of embedded SRAM in 6 banks 30 multifunction GPIO 6 dedicated IO for SPI Flash (supporting XIP) Dedicated hardware for commonly used peripherals Programmable IO for extended peripheral support 4 channel ADC with internal temperature sensor, 0.5 MSa/s, 12-bit conversion USB 1.1 Host/Device</p>
+<p>For more detailed information please visit <a class="reference external" href="https://www.raspberrypi.org/documentation/rp2040/getting-started/?utm_source=platformio.org&amp;utm_medium=docs">vendor site</a>.</p>
+<section id="id2">
+<h2>关键特性<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>133MHz Cortex-M0+ Dual Core</p></li>
+<li><p>264KB RAM + 128KB/256KB Flash + 16MB QSPI Flash</p></li>
+<li><p>2 × UART, 2 × SPI , 2 × I2C</p></li>
+<li><p>16 × PWM</p></li>
+<li><p>USB1.1 OTG with UF2</p></li>
+<li><p>QFN56 (7*7mm), 30 GPIO, 其中的4个可以用于模拟输入</p></li>
+<li><p>8 × PIO可以支持多种IO标准</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+
+    <p>&#169; Copyright 2022 - 2023 www.SoC.xin.</p>
+<ins data-rvad-zoneid="8" data-rvad-id="f837d8c96893e793fdbb230cffb628fc"></ins>
+
+  </div>
+
+  
+ 
+<script>
+  var navBarHTML = '\
+<div>\
+  <div class="container container-fluid">\
+    <div class="navbar-header">\
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navBarCollapse" aria-expanded="false">\
+        <span class="sr-only">Toggle navigation</span>\
+        <span class="icon-bar"></span>\
+        <span class="icon-bar"></span>\
+        <span class="icon-bar"></span>\
+      </button>\
+      <a class="navbar-brand" href="https://www.SoC.xin" title="SoC"></a>\
+    </div>\
+    <nav role="navigation" class="collapse navbar-collapse" id="navBarCollapse">\
+      <div>\
+        <ul class="nav navbar-nav">\
+          <li class="dropdown">\
+            <a role="button" data-target="#" href="https://stops.top" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs fa-lg"></i>STOPs<span class="caret"></span>\
+            </a>\
+            <ul class="dropdown-menu" role="menu">\
+              <li role="menuitem"><a href="https://stops.top"><i class="fa fa-cogs"></i>官网主页</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://www.github.com/stops-top"><i class="fa fa-github"></i>开源社区</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://doc.stops.top"><i class="fa fa-book"></i>产品文档</a></li>\
+            </ul>\
+          </li>\
+          <li class="dropdown">\
+            <a role="button" data-target="#" href="https://www.SoC.xin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-microchip fa-lg"></i>Xindex<span class="caret"></span>\
+            </a>\
+            <ul class="dropdown-menu" role="menu">\
+              <li role="menuitem"><a href="https://www.SoC.xin/"><i class="fa fa-microchip"></i>芯片选型</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://www.github.com/socxin"><i class="fa fa-github"></i>开源社区</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://doc.SoC.xin"><i class="fa fa-book"></i>芯闻文档</a></li>\
+            </ul>\
+          </li>\
+          <li class="dropdown">\
+            <a role="button" data-target="#" href="https://www.zeergen.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cube fa-lg"></i>ZeerGen<span class="caret"></span>\
+            </a>\
+            <ul class="dropdown-menu" role="menu">\
+              <li role="menuitem"><a href="https://www.zeergen.com"><i class="fa fa-home"></i>官网主页</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://www.github.com/zeergen"><i class="fa fa-github"></i>开源社区</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://doc.zeergen.com"><i class="fa fa-book"></i>说明文档</a></li>\
+            </ul>\
+          </li>\
+          <li class="dropdown">\
+            <a role="button" data-target="#" href="https://www.qitas.cn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-lg"></i>Qitas<span class="caret"></span>\
+            </a>\
+            <ul class="dropdown-menu" role="menu">\
+              <li role="menuitem"><a href="https://www.qitas.cn"><i class="fa fa-mars"></i>个人主页</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://www.github.com/qitas"><i class="fa fa-github"></i>开源主页</a></li>\
+              <li role="separator" class="divider"></li>\
+              <li role="menuitem"><a href="https://docs.qitas.cn"><i class="fa fa-file"></i>知识分享</a></li>\
+            </ul>\
+          </li>\
+        </ul>\
+        <ul class="nav navbar-nav navbar-right">\
+          <li class="active"><a href="https://www.soc.xin/RP2040"><i class="fa fa-book fa-lg"></i>文档</a></li>\
+          <li class="nav-soc-r"><a href="https://doc.os-q.com/pio/platforms/rp2040.html"><i class="fa fa-quora fa-lg"></i>应用</a></li>\
+          <li class="nav-soc-g"><a href="https://xindex.taobao.com/"><i class="fa fa-shopping-cart fa-lg"></i>商店</a></li>\
+          <li class="nav-soc-b"><a href="https://www.github.com/SoCXin/RP2040"><i class="fa fa-github fa-lg"></i>仓库</a></li>\
+        </ul>\
+      </div>\
+    </nav>\
+  </div>\
+</div>';
+
+  (function() {
+    if (window.location.href.indexOf('http://') === 0) {
+      location.href = 'https:' + window.location.href.substring(5);
+    }
+
+    var topBanner = $('.top-banner');
+    var navBar = document.createElement('header');
+    navBar.className = 'navbar navbar-inverse';
+    navBar.innerHTML = navBarHTML;
+    if (topBanner.length) {
+      $(navBar).insertAfter(topBanner)
+    } else {
+      document.body.insertBefore(navBar, document.body.firstChild);
+    }
+
+    if ($(window).width() <= 768) {
+      return;
+    }
+
+    var topOffset = 50;
+    if (topBanner.length) {
+      topOffset += $('.navbar').offset().top;
+    }
+    $('.wy-nav-side').css('top', topOffset + 'px');
+    $(window).scroll(function() {
+      $('.wy-nav-side').css('top', $(window).scrollTop() > topOffset ? 0 : topOffset + 'px');
+    });
+  })();
+</script>
+<!-- <ins data-rvad-zoneid="11" data-rvad-id="f837d8c96893e793fdbb230cffb628fc"></ins>
+<script async src="https://ad.platformio.org/delivery/revasyncjs.dll"></script> -->
+
+
+</footer>
+        </div>
+
+      </div>
+    </section>
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book">RP2040</span>
+    v0.2
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+    <dl>
+      <dt> Created By Qtias</dt>
+      <img src="./_static/images/weixin.jpg">
+        <!-- <dd><a href="https://github.com/SoCXin/docs/blob/RP2040/index.rst"> View</a></dd>
+        <dd><a href="https://github.com/SoCXin/docs/edit/RP2040/index.rst"> Edit</a></dd> -->
+    </dl>
+  </div>
+</div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1768265-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-1768265-7', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>

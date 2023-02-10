@@ -1,0 +1,79 @@
+body {
+  background: #252527;
+}
+.owText {
+  text-align: center;
+  -webkit-text-stroke: 1px white;
+  position: relative;
+  	top:100px;
+	margin-top: 20px;
+  text-transform: none;
+  color: #252527;
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+  font-weight: 100;
+  text-shadow: 
+	  -1px -1px 0 #4a4a4e,
+	  -1px -1px 0 #4a4a4e, 
+	  /*main 3d shadow*/
+	  -1px 0px 0 #343437,
+	  -2px 1px 0 #343437,
+	  -3px 2px 0 #313134,
+	  -4px 3px 0 #2f2f31,
+	  -5px 4px 0 #2c2c2f,
+	  -6px 5px 0 #2a2a2c,
+	  -7px 6px 0 #27272a,
+	  -8px 7px 0 #252527,
+	  -9px 8px 0 #232324,
+	  -10px 9px 0 #202022,
+	  -11px 10px 0 #1e1e1f,
+	  -12px 11px 0 #1b1b1d,
+	  -13px 12px 0 #19191a,
+	  -14px 13px 0 #161617,
+	  -15px 14px 0 #141415,
+	  -16px 15px 0 #111112, 
+	  /*top right*/
+	  0 -1px 1px #ffffff,
+	  0 -2px 0px #ffffff, 
+	  /*bottom left corner*/
+	  -5px 4px 0px #ffffff,
+	  -6px 5px 0px #ffffff,
+	  -1px 1px 0px #ffffff,
+	  -8px 7px 0px #ffffff,
+	  -2px -1px 0 #ffffff,
+	  -3px 0px 0 #ffffff, 
+	  /*top left corner*/ 
+	  -9px 5px 0 #ffffff,
+	  -8px 4px 0 #ffffff, 
+	  -7px 3px 0 #ffffff, 
+	  -6px 2px 0 #ffffff, 
+	  -5px 1px 0 #ffffff,
+	  -4px 10px 0 #ffffff,
+	  -3px 9px 0 #ffffff,
+	  -2px 8px 0 #ffffff,
+	  -1px 7px 0 #ffffff,
+	  -1px 6px 0 #ffffff,
+	  -9px 5px 0 #ffffff, 
+	  -8px 4px 0 #ffffff, 
+	  -7px 3px 0 #ffffff, 
+	  -6px 2px 0 #ffffff, 
+	  -5px 1px 0 #ffffff, 
+	  -4px 0px 0 #ffffff, 
+	  /*lower right / (upper right side for capital T like H etc letters. */ 
+	  -1px 2px 0px #ffffff, 
+	  -1px 2px 0px #ffffff, 
+	  -1px 3px 0px #ffffff, 
+	  -1px 3px 0px #ffffff, 
+	  -1px 3px 0px #ffffff, 
+	  -1px 2px 0px #ffffff, 
+	  -1px 3px 0px #ffffff, 
+	  -1px 3px 0px #ffffff, 
+	  -1px 3px 0px #ffffff, 
+	  -1px 2px 0px #ffffff, 
+	  -1px 2px 0px #ffffff, 
+	  -1px 3px 0px #ffffff, 
+	  -1px 3px 0px #ffffff, 
+	  -1px 2px 0px #ffffff, 
+	  -1px 2px 0px #ffffff, 
+	  -1px 2px 0px #ffffff;
+}
