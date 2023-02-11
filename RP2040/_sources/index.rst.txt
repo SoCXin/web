@@ -2,22 +2,19 @@
 RP2040
 ==================
 
+**好芯提醒**
+
 `RP2040 <https://www.raspberrypi.com/products/raspberry-pi-pico>`_ is a low-cost, high-performance microcontroller device with a large on-chip memory, symmetric dual-core processor complex, and rich peripheral.
 
 Key features: Dual Cortex M0+ processor cores, up to 133 MHz 264 kB of embedded SRAM in 6 banks 30 multifunction GPIO 6 dedicated IO for SPI Flash (supporting XIP) Dedicated hardware for commonly used peripherals Programmable IO for extended peripheral support 4 channel ADC with internal temperature sensor, 0.5 MSa/s, 12-bit conversion USB 1.1 Host/Device
 
 For more detailed information please visit `vendor site <https://www.raspberrypi.org/documentation/rp2040/getting-started/?utm_source=platformio.org&utm_medium=docs>`_.
 
-.. image:: ../../docs/RP2040.png
-    :target: https://www.raspberrypi.org/documentation/microcontrollers/rp2040.html
+.. toctree::
+    :caption: 资源配置
+    :maxdepth: 1
 
-关键特性
-----------------
+    规格参数 <spec>
 
-* 133MHz Cortex-M0+ Dual Core
-* 264KB RAM + 128KB/256KB Flash + 16MB QSPI Flash
-* 2 × UART, 2 × SPI , 2 × I2C
-* 16 × PWM
-* USB1.1 OTG with UF2
-* QFN56 (7*7mm), 30 GPIO, 其中的4个可以用于模拟输入
-* 8 × PIO可以支持多种IO标准
+
+
