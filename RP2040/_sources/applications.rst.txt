@@ -1,0 +1,33 @@
+.. _applications:
+
+应用方案
+===============
+
+
+.. _rp2040_tflite:
+
+TensorFlowLite Micro
+~~~~~~~~~~~~~~~~~~~~~~
+
+``TensorFlow``
+
+`pico-tflmicro <https://github.com/raspberrypi/pico-tflmicro>`_
+
+pico-debug
+~~~~~~~~~~~~~~~~~~~~~~
+``CMSIS-DAP``
+
+pico-debug runs on one core in a RP2040 and provides a USB CMSIS-DAP interface to debug the other core
+
+`pico-debug repo <https://github.com/majbthrd/pico-debug>`_
+
+
+logic-analyzer
+~~~~~~~~~~~~~~~~~~~~~~
+
+`logic-analyzer <https://github.com/gamblor21/rp2040-logic-analyzer>`_
+
+grblHAL
+~~~~~~~~~~~~~~~~~~~~~~
+
+

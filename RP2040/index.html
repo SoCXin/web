@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RP2040 &mdash; MCU</title>
@@ -15,9 +15,6 @@
   <![endif]-->
   
         <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
         <script src="_static/sphinx_highlight.js"></script>
         <script src="_static/clipboard.min.js"></script>
@@ -37,11 +34,15 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="#" class="icon icon-home"> Xindex
+
+          
+          
+          <a href="#">
+            
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -51,6 +52,15 @@
               <p class="caption" role="heading"><span class="caption-text">资源配置</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="spec.html">规格参数</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparison.html">对比分析</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">应用方案</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="applications.html">应用方案</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">参考设计</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="references.html">硬件设计</a></li>
 </ul>
 
 <ins data-rvad-zoneid="7" data-rvad-id="f837d8c96893e793fdbb230cffb628fc"></ins>
@@ -70,10 +80,10 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="#" class="icon icon-home"></a></li>
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
       <li class="breadcrumb-item active">RP2040</li>
       <li class="wy-breadcrumbs-aside">
-              <a href="https://github.com/SoCXin/docs/blob/RP2040/index.rst" class="fa fa-github"> Edit on GitHub</a>
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -83,14 +93,25 @@
              
   <section id="rp2040">
 <h1>RP2040<a class="headerlink" href="#rp2040" title="Permalink to this heading">¶</a></h1>
-<p><strong>好芯提醒</strong></p>
-<p><a class="reference external" href="https://www.raspberrypi.com/products/raspberry-pi-pico">RP2040</a> is a low-cost, high-performance microcontroller device with a large on-chip memory, symmetric dual-core processor complex, and rich peripheral.</p>
-<p>Key features: Dual Cortex M0+ processor cores, up to 133 MHz 264 kB of embedded SRAM in 6 banks 30 multifunction GPIO 6 dedicated IO for SPI Flash (supporting XIP) Dedicated hardware for commonly used peripherals Programmable IO for extended peripheral support 4 channel ADC with internal temperature sensor, 0.5 MSa/s, 12-bit conversion USB 1.1 Host/Device</p>
+<p><strong>好芯提示</strong> ： <a class="reference external" href="https://www.raspberrypi.com/products/raspberry-pi-pico">RP2040</a> 将性价比和生态优势完美呈现，是一款标杆性MCU产品。</p>
 <p>For more detailed information please visit <a class="reference external" href="https://www.raspberrypi.org/documentation/rp2040/getting-started/?utm_source=platformio.org&amp;utm_medium=docs">vendor site</a>.</p>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">资源配置</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="spec.html">规格参数</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparison.html">对比分析</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">应用方案</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="applications.html">应用方案</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">参考设计</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="references.html">硬件设计</a></li>
 </ul>
 </div>
 </section>
@@ -235,8 +256,8 @@
     <dl>
       <dt>加入群聊 Created By Qtias</dt>
       <img src="./_static/images/contact_me_qr.png">
-        <!-- <dd><a href="https://github.com/SoCXin/docs/blob/RP2040/index.rst"> View</a></dd>
-        <dd><a href="https://github.com/SoCXin/docs/edit/RP2040/index.rst"> Edit</a></dd> -->
+        <!-- <dd><a href="https://github.com/SoCXin/docs/blob/RP2040/docsindex.rst"> View</a></dd>
+        <dd><a href="https://github.com/SoCXin/docs/edit/RP2040/docsindex.rst"> Edit</a></dd> -->
     </dl>
   </div>
 </div><script>

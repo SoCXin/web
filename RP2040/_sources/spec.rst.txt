@@ -3,14 +3,8 @@
 RP2040
 ===============
 
-`Raspberry Pi <https://www.raspberrypi.org/>`_ : ``Cortex-M0`` ``Dual Core`` ``133MHz`` ``USB OTG`` ``QFN56`` ``$0.7`` ``MicroPython``
+`RaspberryPi <https://www.raspberrypi.com/>`_ : ``Cortex-M0`` ``Dual Core`` ``133MHz`` ``USB OTG`` ``QFN56`` ``$0.7`` ``MicroPython``
 
-.. contents::
-    :local:
-    :depth: 1
-
-Xin简介
------------
 
 .. image:: ../../docs/RP2040.png
     :target: https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html
@@ -18,11 +12,11 @@ Xin简介
 `datasheet <https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf>`_
 
 规格参数
-~~~~~~~~~~~
+-----------
 
 
 基本参数
-^^^^^^^^^^^
+~~~~~~~~~~~
 
 * 发布时间：2021年1月
 * 参考价格： `￥5.3 <https://item.szlcsc.com/2392.html>`_
@@ -35,7 +29,7 @@ Xin简介
 * Flash容量：128/256 KB (16MB QSPI)
 
 特征参数
-^^^^^^^^^^^
+~~~~~~~~~~~
 
 * 133MHz Cortex-M0+ Dual Core
 * USB 1.1 OTG with UF2
@@ -43,23 +37,6 @@ Xin简介
 * 2× UART, 2 × SPI , 2 × I2C
 * 30 x GPIO (4 AIN)
 * 16 PWM channels
-
-
-芯片架构
-~~~~~~~~~~~
-
-功耗参数
-^^^^^^^^^^^
-
-* 电压范围：1.71 to 3.6 V
-* 功耗范围：
-
-封装规格
-^^^^^^^^^^^
-
-.. image:: ../../docs/QFN56.png
-    :target: https://www.raspberrypi.com/products/rp2040/
-
 
 .. _rp2040_pio:
 
@@ -83,105 +60,41 @@ PIO可以支持多种IO标准包括:
 .. note::
     PIO状态机是与GPIO完全不同的实现，在芯片接口上开放了更高的自由度，在一定程度上实现了软件定义硬件。
 
-Xin选择
------------
 
-.. note::
-    RP2040从性价比和生态资源上都具有后发优势，继STM32F103C8、ESP8266之后成为开源硬件项目的基准平台。
-
-* MicroPython
-* Cortex Dual Core
-* PIO状态机
-* USB 1.1 OTG UF2
-* $0.7
-
-.. hint::
-    ADC配置过弱，和STM32新产品相比无法凸显出作为MCU定位的核心价值；和STM32产品相比，定位低端性能过剩，定位高端则接口过少，缺少成熟商用化工具和IDE支持；
-
-品牌对比
+功耗参数
 ~~~~~~~~~~~
 
-就双核MCU配置而言，市场比较罕见，ST双核都是定位较高端的，ESP32双核SoC侧重通信连接是一个强力的对手。
+* 电压范围：1.71 to 3.6 V
+* 功耗范围：
 
-系列对比
+封装规格
 ~~~~~~~~~~~
 
-RP2040目前没有更多系列
-
-版本对比
-~~~~~~~~~~~
-
-包含两个子系列，分别为支持无晶振USB FS device的RP2040xxU系列，不支持USB的 RP2040xxN(1.8V-3.6V)/RP2040x4NR(1.8V-5.5V)。预期在Arduino和Micropython生态资源上拥有无与伦比的优势。
-
-
-
-Xin应用
------------
-
-
-开发板
-~~~~~~~~~~~
-
-Pico W
-^^^^^^^^^^^^
-``CYW43439`` ``$6``
-
-`pico-w-datasheet <https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf>`_
+.. image:: ../../docs/QFN56.png
+    :target: https://www.raspberrypi.com/products/rp2040/
 
 
 开发框架
-~~~~~~~~~~~
-
-C++
-^^^^^^^^^^^^^
-
-Arduino
-^^^^^^^^^^^^^
-
-MicroPython
-^^^^^^^^^^^^^
-
-`Editor <https://github.com/robert-hh/Micropython-Editor>`_
-
-应用方案
-~~~~~~~~~~~
-
-.. _rp2040_tflite:
-
-TensorFlow Lite Micro
-^^^^^^^^^^^^^^^^^^^^^^^^
-``TensorFlow``
-
-`pico-tflmicro <https://github.com/raspberrypi/pico-tflmicro>`_
-
-pico-debug
-^^^^^^^^^^^^^^^^^^
-``CMSIS-DAP``
-
-pico-debug runs on one core in a RP2040 and provides a USB CMSIS-DAP interface to debug the other core
-
-`pico-debug repo <https://github.com/majbthrd/pico-debug>`_
-
-
-项目案例
-~~~~~~~~~~~
+-----------
 
 .. contents::
     :local:
     :depth: 1
 
-logic-analyzer
-^^^^^^^^^^^^^^^^^^
+C++
+~~~~~~~~~~~
 
-`logic-analyzer <https://github.com/gamblor21/rp2040-logic-analyzer>`_
+Arduino
+~~~~~~~~~~~
 
-grblHAL
-^^^^^^^^^^^^^^^^^^
+MicroPython
+~~~~~~~~~~~~
+
+`Editor <https://github.com/robert-hh/Micropython-Editor>`_
 
 
 
-
-Xin总结
+注意事项
 --------------
 
 .. contents::
