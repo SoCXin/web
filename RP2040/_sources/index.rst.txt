@@ -8,6 +8,8 @@ Key features: Dual Cortex M0+ processor cores, up to 133 MHz 264 kB of embedded 
 
 For more detailed information please visit `vendor site <https://www.raspberrypi.org/documentation/rp2040/getting-started/?utm_source=platformio.org&utm_medium=docs>`_.
 
+.. image:: ../../docs/RP2040.png
+    :target: https://www.raspberrypi.org/documentation/microcontrollers/rp2040.html
 
 关键特性
 ----------------
