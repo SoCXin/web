@@ -1,10 +1,7 @@
-.. _spec:
+.. _specs:
 
-RP2040
+芯片规格
 ===============
-
-`RaspberryPi <https://www.raspberrypi.com/>`_ : ``Cortex-M0`` ``Dual Core`` ``133MHz`` ``USB OTG`` ``QFN56`` ``$0.7`` ``MicroPython``
-
 
 .. image:: ../../docs/RP2040.png
     :target: https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html
@@ -64,7 +61,7 @@ PIO可以支持多种IO标准包括:
 功耗参数
 ~~~~~~~~~~~
 
-* 电压范围：1.71 to 3.6 V
+* 电压范围：1.8 to 3.6 V
 * 功耗范围：
 
 封装规格
@@ -87,8 +84,13 @@ PIO可以支持多种IO标准包括:
 C++
 ~~~~~~~~~~~
 
+`RP2040-SDK <https://github.com/SoCXin/RP2040-SDK>`_
+
 Arduino
 ~~~~~~~~~~~
+
+`ArduinoCore-mbed <https://github.com/arduino/ArduinoCore-mbed>`_
+
 
 MicroPython
 ~~~~~~~~~~~~

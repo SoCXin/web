@@ -2,15 +2,15 @@
 RP2040
 ==================
 
-**好芯提示** ： `RP2040 <https://www.raspberrypi.com/products/raspberry-pi-pico>`_ 将性价比和生态优势完美呈现，是一款标杆性MCU产品。
+`RaspberryPi <https://www.raspberrypi.com/>`_ : ``Cortex-M0`` ``Dual Core`` ``133MHz`` ``USB1.1 OTG`` ``QFN56`` ``MicroPython``
 
-For more detailed information please visit `vendor site <https://www.raspberrypi.org/documentation/rp2040/getting-started/?utm_source=platformio.org&utm_medium=docs>`_.
+**好芯提示** ： `RP2040 <https://www.raspberrypi.com/products/raspberry-pi-pico>`_ 是一款高性价比通用型MCU，外设资源配置简单实用，开发资源开源且迭代快，是一款现象级产品。
 
 .. toctree::
     :caption: 资源配置
     :maxdepth: 1
 
-    规格参数 <spec>
+    芯片规格 <specs>
     对比分析 <comparison>
 
 .. toctree::

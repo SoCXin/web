@@ -4,12 +4,12 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RP2040 &mdash; MCU</title>
+  <title>芯片规格 &mdash; MCU</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
     <link rel="shortcut icon" href="_static/favicon.ico"/>
-    <link rel="canonical" href="https://www.SoC.xin/spec.html" />
+    <link rel="canonical" href="https://www.SoC.xin/specs.html" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -51,26 +51,26 @@
 
               <p class="caption" role="heading"><span class="caption-text">资源配置</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">规格参数</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id1">规格参数</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id2">基本参数</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">特征参数</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">芯片规格</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">规格参数</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">基本参数</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">特征参数</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#pio">PIO模块</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#id5">功耗参数</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id6">封装规格</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">功耗参数</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">封装规格</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#id7">开发框架</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id8">开发框架</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#c">C++</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#arduino">Arduino</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#micropython">MicroPython</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#id8">注意事项</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id10">能力构建</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id11">要点提示</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">注意事项</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id11">能力构建</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">要点提示</a></li>
 </ul>
 </li>
 </ul>
@@ -104,9 +104,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a></li>
-      <li class="breadcrumb-item active">RP2040</li>
+      <li class="breadcrumb-item active">芯片规格</li>
       <li class="wy-breadcrumbs-aside">
-              <a href="https://github.com/SoCXin/docs/blob/RP2040/source/spec.rst" class="fa fa-github"> Edit on GitHub</a>
+              <a href="https://github.com/SoCXin/docs/blob/RP2040/source/specs.rst" class="fa fa-github"> Edit on GitHub</a>
       </li>
   </ul>
   <hr/>
@@ -114,15 +114,14 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="rp2040">
-<span id="spec"></span><h1>RP2040<a class="headerlink" href="#rp2040" title="Permalink to this heading">¶</a></h1>
-<p><a class="reference external" href="https://www.raspberrypi.com/">RaspberryPi</a> : <code class="docutils literal notranslate"><span class="pre">Cortex-M0</span></code> <code class="docutils literal notranslate"><span class="pre">Dual</span> <span class="pre">Core</span></code> <code class="docutils literal notranslate"><span class="pre">133MHz</span></code> <code class="docutils literal notranslate"><span class="pre">USB</span> <span class="pre">OTG</span></code> <code class="docutils literal notranslate"><span class="pre">QFN56</span></code> <code class="docutils literal notranslate"><span class="pre">$0.7</span></code> <code class="docutils literal notranslate"><span class="pre">MicroPython</span></code></p>
+  <section id="specs">
+<span id="id1"></span><h1>芯片规格<a class="headerlink" href="#specs" title="Permalink to this heading">¶</a></h1>
 <a class="reference external image-reference" href="https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html"><img alt="_images/RP2040.png" src="_images/RP2040.png" /></a>
 <p><a class="reference external" href="https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf">datasheet</a></p>
-<section id="id1">
-<h2>规格参数<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
 <section id="id2">
-<h3>基本参数<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h3>
+<h2>规格参数<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
+<section id="id3">
+<h3>基本参数<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>发布时间：2021年1月</p></li>
 <li><p>参考价格： <a class="reference external" href="https://item.szlcsc.com/2392.html">￥4.3</a></p></li>
@@ -135,8 +134,8 @@
 <li><p>Flash容量：128/256 KB (16MB QSPI)</p></li>
 </ul>
 </section>
-<section id="id4">
-<h3>特征参数<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h3>
+<section id="id5">
+<h3>特征参数<a class="headerlink" href="#id5" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>133MHz Cortex-M0+ Dual Core</p></li>
 <li><p>USB 1.1 OTG with UF2</p></li>
@@ -165,57 +164,59 @@
 </div>
 </section>
 </section>
-<section id="id5">
-<h3>功耗参数<a class="headerlink" href="#id5" title="Permalink to this heading">¶</a></h3>
+<section id="id6">
+<h3>功耗参数<a class="headerlink" href="#id6" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><p>电压范围：1.71 to 3.6 V</p></li>
+<li><p>电压范围：1.8 to 3.6 V</p></li>
 <li><p>功耗范围：</p></li>
 </ul>
 </section>
-<section id="id6">
-<h3>封装规格<a class="headerlink" href="#id6" title="Permalink to this heading">¶</a></h3>
+<section id="id7">
+<h3>封装规格<a class="headerlink" href="#id7" title="Permalink to this heading">¶</a></h3>
 <a class="reference external image-reference" href="https://www.raspberrypi.com/products/rp2040/"><img alt="_images/QFN56.png" src="_images/QFN56.png" /></a>
 </section>
 </section>
-<section id="id7">
-<h2>开发框架<a class="headerlink" href="#id7" title="Permalink to this heading">¶</a></h2>
+<section id="id8">
+<h2>开发框架<a class="headerlink" href="#id8" title="Permalink to this heading">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>RP2040从性价比和生态资源上都具有后发优势，继STM32F103C8、ESP8266之后成为嵌入式开源硬件的对比基准。</p>
 </div>
 <div class="contents local topic" id="contents">
 <ul class="simple">
-<li><p><a class="reference internal" href="#c" id="id12">C++</a></p></li>
-<li><p><a class="reference internal" href="#arduino" id="id13">Arduino</a></p></li>
-<li><p><a class="reference internal" href="#micropython" id="id14">MicroPython</a></p></li>
+<li><p><a class="reference internal" href="#c" id="id13">C++</a></p></li>
+<li><p><a class="reference internal" href="#arduino" id="id14">Arduino</a></p></li>
+<li><p><a class="reference internal" href="#micropython" id="id15">MicroPython</a></p></li>
 </ul>
 </div>
 <section id="c">
-<h3><a class="toc-backref" href="#id12">C++</a><a class="headerlink" href="#c" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id13">C++</a><a class="headerlink" href="#c" title="Permalink to this heading">¶</a></h3>
+<p><a class="reference external" href="https://github.com/SoCXin/RP2040-SDK">RP2040-SDK</a></p>
 </section>
 <section id="arduino">
-<h3><a class="toc-backref" href="#id13">Arduino</a><a class="headerlink" href="#arduino" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id14">Arduino</a><a class="headerlink" href="#arduino" title="Permalink to this heading">¶</a></h3>
+<p><a class="reference external" href="https://github.com/arduino/ArduinoCore-mbed">ArduinoCore-mbed</a></p>
 </section>
 <section id="micropython">
-<h3><a class="toc-backref" href="#id14">MicroPython</a><a class="headerlink" href="#micropython" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id15">MicroPython</a><a class="headerlink" href="#micropython" title="Permalink to this heading">¶</a></h3>
 <p><a class="reference external" href="https://github.com/robert-hh/Micropython-Editor">Micropython Editor</a></p>
 </section>
 </section>
-<section id="id8">
-<h2>注意事项<a class="headerlink" href="#id8" title="Permalink to this heading">¶</a></h2>
-<div class="contents local topic" id="id9">
+<section id="id9">
+<h2>注意事项<a class="headerlink" href="#id9" title="Permalink to this heading">¶</a></h2>
+<div class="contents local topic" id="id10">
 <ul class="simple">
-<li><p><a class="reference internal" href="#id10" id="id15">能力构建</a></p></li>
-<li><p><a class="reference internal" href="#id11" id="id16">要点提示</a></p></li>
+<li><p><a class="reference internal" href="#id11" id="id16">能力构建</a></p></li>
+<li><p><a class="reference internal" href="#id12" id="id17">要点提示</a></p></li>
 </ul>
 </div>
-<section id="id10">
-<h3><a class="toc-backref" href="#id15">能力构建</a><a class="headerlink" href="#id10" title="Permalink to this heading">¶</a></h3>
+<section id="id11">
+<h3><a class="toc-backref" href="#id16">能力构建</a><a class="headerlink" href="#id11" title="Permalink to this heading">¶</a></h3>
 <p>RP2040 提供所有常用接口：硬件 UART、SPI 和 I2C 控制器、USB 1.1 和四通道 ADC。而可编程 I/O (PIO) 子系统使 RP2040 脱颖而出，支持包括 SDIO、DPI、I2S，甚至 DVI-D 在内的软件实现协议。</p>
 <p>其中，一个完全连接的交换机将 ARM 内核和 DMA 引擎连接到六个独立的 RAM 组，使得用户可以充分利用系统的性能。</p>
 </section>
-<section id="id11">
-<h3><a class="toc-backref" href="#id16">要点提示</a><a class="headerlink" href="#id11" title="Permalink to this heading">¶</a></h3>
+<section id="id12">
+<h3><a class="toc-backref" href="#id17">要点提示</a><a class="headerlink" href="#id12" title="Permalink to this heading">¶</a></h3>
 <p>用户可以使用一个内核运行应用程序代码，另一个内核监督硬件；也可以使用 FreeRTOS 或 MicroPython 在两个内核上运行应用程序代码。</p>
 </section>
 </section>
@@ -257,53 +258,53 @@
       <div>\
         <ul class="nav navbar-nav">\
           <li class="dropdown">\
-            <a role="button" data-target="#" href="https://stops.top" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>内核<span class="caret"></span>\
+            <a role="button" data-target="#" href="https://www.soc.xin/RP2040" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>内核<span class="caret"></span>\
             </a>\
             <ul class="dropdown-menu" role="menu">\
-              <li role="menuitem"><a href="https://stops.top"><i class="fa fa-cogs"></i>Cortex-M0</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>Cortex-M0</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://www.github.com/stops-top"><i class="fa fa-microchip"></i>133MHz</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>133MHz</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://doc.stops.top"><i class="fa fa-microchip"></i>157CoreMark</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>157CoreMark</a></li>\
             </ul>\
           </li>\
           <li class="dropdown">\
-            <a role="button" data-target="#" href="https://www.SoC.xin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>存储<span class="caret"></span>\
+            <a role="button" data-target="#" href="https://www.soc.xin/RP2040" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>存储<span class="caret"></span>\
             </a>\
             <ul class="dropdown-menu" role="menu">\
-              <li role="menuitem"><a href="https://www.SoC.xin/"><i class="fa fa-microchip"></i>SRAM</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>264KB SRAM</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://www.github.com/socxin"><i class="fa fa-github"></i>Flash</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>256KB Flash</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://doc.SoC.xin"><i class="fa fa-book"></i>存储接口</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>16MB QSPI Flash</a></li>\
             </ul>\
           </li>\
           <li class="dropdown">\
-            <a role="button" data-target="#" href="https://www.zeergen.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>外设<span class="caret"></span>\
+            <a role="button" data-target="#" href="https://www.soc.xin/RP2040" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>外设<span class="caret"></span>\
             </a>\
             <ul class="dropdown-menu" role="menu">\
-              <li role="menuitem"><a href="https://www.zeergen.com"><i class="fa fa-home"></i>GPIO</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>30 GPIO</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://www.github.com/zeergen"><i class="fa fa-microchip"></i>AD/DA</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>12bit ADC(4ch/0.5M)</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://doc.zeergen.com"><i class="fa fa-book"></i>通信接口</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>USB/2U/2P/2C</a></li>\
             </ul>\
           </li>\
           <li class="dropdown">\
-            <a role="button" data-target="#" href="https://www.qitas.cn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>规格<span class="caret"></span>\
+            <a role="button" data-target="#" href="https://www.soc.xin/RP2040" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>规格<span class="caret"></span>\
             </a>\
             <ul class="dropdown-menu" role="menu">\
-              <li role="menuitem"><a href="https://www.qitas.cn"><i class="fa fa-microchip"></i>封装</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>QFN56(7x7)</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://www.github.com/qitas"><i class="fa fa-microchip"></i>电源</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>1.8-3.6V</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://docs.qitas.cn"><i class="fa fa-file"></i>标准</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>-40~85°C</a></li>\
             </ul>\
           </li>\
         </ul>\
         <ul class="nav navbar-nav navbar-right">\
           <li class="active"><a href="https://www.soc.xin/RP2040"><i class="fa fa-book fa-lg"></i>文档</a></li>\
-          <li class="nav-soc-r"><a href="https://doc.os-q.com/pio/platforms/rp2040.html"><i class="fa fa-quora fa-lg"></i>应用</a></li>\
+          <li class="nav-soc-r"><a href="https://www.os-q.com/pio/platforms/rp2040.html"><i class="fa fa-quora fa-lg"></i>应用</a></li>\
           <li class="nav-soc-g"><a href="https://xindex.taobao.com/"><i class="fa fa-shopping-cart fa-lg"></i>商店</a></li>\
           <li class="nav-soc-b"><a href="https://www.github.com/SoCXin/RP2040"><i class="fa fa-github fa-lg"></i>仓库</a></li>\
         </ul>\
@@ -362,8 +363,8 @@
     <dl>
       <dt>加入群聊 Created By Qtias</dt>
       <img src="./_static/images/contact_me_qr.png">
-        <!-- <dd><a href="https://github.com/SoCXin/docs/blob/RP2040/source/spec.rst"> View</a></dd>
-        <dd><a href="https://github.com/SoCXin/docs/edit/RP2040/source/spec.rst"> Edit</a></dd> -->
+        <!-- <dd><a href="https://github.com/SoCXin/docs/blob/RP2040/source/specs.rst"> View</a></dd>
+        <dd><a href="https://github.com/SoCXin/docs/edit/RP2040/source/specs.rst"> Edit</a></dd> -->
     </dl>
   </div>
 </div><script>
