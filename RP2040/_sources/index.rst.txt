@@ -26,3 +26,6 @@ For more detailed information please visit `vendor site <https://www.raspberrypi
 
     硬件设计 <references>
 
+
+.. hint::
+    RP2040立创商城报价 `￥4.3 <https://item.szlcsc.com/2392.html>`_，和STM32F030C8T6 `￥4.2 <https://item.szlcsc.com/24662.html>`_ 接近，另外这个价格段的MCU有力竞争对手还包括￥4.5的 `MH32F103A <https://www.soc.xin/MH32F103A>`_

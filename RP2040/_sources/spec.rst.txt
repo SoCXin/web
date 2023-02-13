@@ -19,7 +19,7 @@ RP2040
 ~~~~~~~~~~~
 
 * 发布时间：2021年1月
-* 参考价格： `￥5.3 <https://item.szlcsc.com/2392.html>`_
+* 参考价格： `￥4.3 <https://item.szlcsc.com/2392.html>`_
 * 制程工艺：40nm (2mm²)
 * 供货周期：
 * 处理性能：157 CoreMark (125MHz)
@@ -77,6 +77,9 @@ PIO可以支持多种IO标准包括:
 开发框架
 -----------
 
+.. note::
+    RP2040从性价比和生态资源上都具有后发优势，继STM32F103C8、ESP8266之后成为嵌入式开源硬件的对比基准。
+
 .. contents::
     :local:
     :depth: 1
@@ -90,7 +93,7 @@ Arduino
 MicroPython
 ~~~~~~~~~~~~
 
-`Editor <https://github.com/robert-hh/Micropython-Editor>`_
+`Micropython Editor <https://github.com/robert-hh/Micropython-Editor>`_
 
 
 

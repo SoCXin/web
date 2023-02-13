@@ -3,6 +3,7 @@
 应用方案
 ===============
 
+树莓派官方 `github <https://github.com/raspberrypi>`_
 
 .. _rp2040_tflite:
 
@@ -19,7 +20,7 @@ pico-debug
 
 pico-debug runs on one core in a RP2040 and provides a USB CMSIS-DAP interface to debug the other core
 
-`pico-debug repo <https://github.com/majbthrd/pico-debug>`_
+`CMSIS-DAP self-debug <https://github.com/majbthrd/pico-debug>`_
 
 
 logic-analyzer
@@ -30,4 +31,4 @@ logic-analyzer
 grblHAL
 ~~~~~~~~~~~~~~~~~~~~~~
 
-
+`grblHAL driver for RP2040 <https://github.com/grblHAL/RP2040>`_
