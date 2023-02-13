@@ -1,0 +1,29 @@
+.. _startup:
+
+入门指南
+===========
+
+Pico开发板
+-----------
+
+`pico-datasheet <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>`_
+
+编译环境
+-----------
+
+rust
+~~~~~~~~~~~
+
+.. code-block:: bash
+
+    rustup target install thumbv6m-none-eabi
+    cargo install flip-link
+    # This is our suggested default 'runner'
+    cargo install probe-run
+    # If you want to use elf2uf2-rs instead of probe-run, instead do...
+    cargo install elf2uf2-rs --locked
+
+`rp2040-rust-template <https://github.com/rp-rs/rp2040-project-template>`_
+
+固件下载
+-----------
