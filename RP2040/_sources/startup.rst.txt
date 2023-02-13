@@ -14,6 +14,8 @@ Pico开发板
 rust
 ~~~~~~~~~~~
 
+`rp2040-rust-template <https://github.com/SoCXin/RP2040/tree/master/templates/rust>`_
+
 .. code-block:: bash
 
     rustup target install thumbv6m-none-eabi
@@ -23,7 +25,6 @@ rust
     # If you want to use elf2uf2-rs instead of probe-run, instead do...
     cargo install elf2uf2-rs --locked
 
-`rp2040-rust-template <https://github.com/rp-rs/rp2040-project-template>`_
 
 固件下载
 -----------

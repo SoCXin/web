@@ -6,6 +6,9 @@ RP2040
 
 **好芯提示** ： `RP2040 <https://www.raspberrypi.com/products/raspberry-pi-pico>`_ 是一款高性价比通用型MCU，外设资源配置简单实用，开发资源开源且迭代快，是一款现象级产品。
 
+.. image:: ../../docs/xin.png
+    :target: https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html
+
 .. toctree::
     :caption: 资源配置
     :maxdepth: 1
