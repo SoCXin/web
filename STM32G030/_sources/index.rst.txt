@@ -1,0 +1,27 @@
+
+STM32G030
+==================
+
+`ST <https://www.st.com/en/microcontrollers-microprocessors.html>`_ : ``Cortex-M0`` ``64MHz`` ``I2S`` ``BaseLine`` ``RTC`` ``12-bit ADC 2.5Msps``
+
+.. toctree::
+    :caption: 资源配置
+    :maxdepth: 1
+
+    芯片规格 <specs>
+    产品对比 <comparison>
+
+.. toctree::
+    :caption: 快速入门
+    :maxdepth: 1
+
+    入门指南 <startup>
+    开发工具 <toolchain>
+
+.. toctree::
+    :caption: 参考方案
+    :maxdepth: 1
+
+    应用方案 <applications>
+    硬件设计 <references>
+

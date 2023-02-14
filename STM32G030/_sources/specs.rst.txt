@@ -1,0 +1,42 @@
+.. _specs:
+
+芯片规格
+===============
+
+.. image:: ../../docs/STM32G030.png
+    :target: https://www.st.com/zh/microcontrollers-microprocessors/stm32g0x0-value-line.html
+
+
+规格参数
+-----------
+
+
+基本参数
+~~~~~~~~~~~
+
+* 发布时间：
+* 官方价格： `￥4.14 <https://item.szlcsc.com/549607.html>`_
+* 制程工艺：90 nm
+* 供货周期：
+* 处理性能：142 CoreMark (59 DMIPS)
+* 封装规格：LQFP48/LQFP32/TSSOP20/SON8
+* 运行环境：-40°C to +85°C
+* RAM容量：8 KB
+* Flash容量：32/64 KB
+
+特征参数
+~~~~~~~~~~~
+
+* 64MHz Cortex-M0+
+* 16ch 12-bit ADC(2.5 MSPS)
+* 5ch x DMA
+* 1KB OTP
+* I2S
+
+
+功耗参数
+~~~~~~~~~~~
+
+* 供电电压: 2.0 to 3.6 V
+* 运行功耗: 100μA/MHz
+
