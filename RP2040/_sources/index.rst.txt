@@ -32,4 +32,4 @@ RP2040
 
 
 .. hint::
-    RP2040立创商城报价 `￥4.3 <https://item.szlcsc.com/2392.html>`_，和STM32G030C8T6 `￥4.2 <https://item.szlcsc.com/24662.html>`_ 接近，另外这个价格段的MCU有力竞争对手还包括￥4.5的 `MH32F103A <https://www.soc.xin/MH32F103A>`_
+    RP2040立创报价 `￥4.3 <https://item.szlcsc.com/2392.html>`_，介于 `STM32G030C8T6(￥4.14) <https://item.szlcsc.com/549607.html>`_ 和 `STM32G070RBT6(￥5.07) <https://item.szlcsc.com/549618.html>`_ 之间，另外这个价格段的MCU有力竞争对手还包括 `MH32F103A(￥4.5) <https://www.soc.xin/MH32F103A>`_

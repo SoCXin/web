@@ -3,13 +3,24 @@
 入门指南
 ===========
 
+默认使用官方Pico开发板
+
 Pico开发板
 -----------
 
 `pico-datasheet <https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf>`_
 
+`pico-started <https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf>`_
+
+
 编译环境
 -----------
+
+.. code-block:: bash
+
+    sudo apt-get update
+    sudo apt-get install -y gcc-arm-none-eabi cmake libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib git
+
 
 rust
 ~~~~~~~~~~~
@@ -26,5 +37,5 @@ rust
     cargo install elf2uf2-rs --locked
 
 
-固件下载
------------
+
+.. include:: ../../templates/templates.rst
