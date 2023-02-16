@@ -29,7 +29,7 @@ Cortex-M0和Cortex-M3都使用的是3级流水线结构，Cortex-M0+使用的是
 * Cortex-M0+处理器具有2级流水线(取指 + 预解析，解析 + 执行)
 
 .. hint::
-    `Cortex-M0 <https://github.com/SoCXin/Cortex-M0>`_ 是免授权费用的商用核心架构，但目前RISC-V架构正在取代Cortex-M0
+    `Cortex-M0 <https://github.com/SoCXin/Cortex-M0>`_ 是免授权费用的商用核心架构，但目前 `RISC-V <https://github.com/SoCXin/RISC-V>`_ 架构正在取代Cortex-M0
 
 
 .. contents::
