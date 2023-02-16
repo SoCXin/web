@@ -3,7 +3,7 @@ Cortex-M0
 ==================
 ``Armv6-M`` ``2.39 CoreMark/MHz`` ``0.95 DMIPS/MHz``
 
-**好芯提示** ： `Cortex-M0 <https://github.com/SoCXin/Cortex-M0>`_ 内核架构资源整理
+**好芯提示** ： `Cortex-M0 <https://github.com/SoCXin/Cortex-M0>`_ 是免授权费用的商用核心架构
 
 2009年发布，是一款具有开创性的产品，第一个将32位处理器在同8位和16位处理器差不多大小的硅片实现的，在保持可用性的同时还具有极佳的能耗效率，最低配只有12000个逻辑门。
 
@@ -29,6 +29,10 @@ Cortex-M0和Cortex-M3都使用的是3级流水线结构，Cortex-M0+使用的是
 
 * Corte-M0处理器具有3级流水线(取指、解析、执行)
 * Cortex-M0+处理器具有2级流水线(取指 + 预解析，解析 + 执行)
+
+.. hint::
+    目前RISC-V架构正在取代Cortex-M0
+
 
 .. contents::
     :local:
