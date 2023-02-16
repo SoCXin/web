@@ -1,0 +1,26 @@
+
+PY32F002
+==================
+``Cortex-M0`` ``24 MHz`` ``3KB SRAM``
+
+
+.. list-table::
+    :header-rows:  1
+
+    * - 型号
+      - Fmax
+      - CoreMark
+      - 功耗
+      - 价格
+    * - `RP2040 <https://www.soc.xin/RP2040>`_
+      - 133 MHz
+      - 638
+      - 80μA/MHz
+      - `￥4.3 <https://item.szlcsc.com/2392.html>`_
+    * - `STM32G030 <https://www.soc.xin/STM32G030>`_
+      - 64 MHz
+      - 142
+      - 100μA/MHz
+      - `￥4.1 <https://item.szlcsc.com/549607.html>`_
+
+
