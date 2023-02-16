@@ -1,0 +1,35 @@
+
+wch
+==================
+``RISC-V`` ``Qingke`` ``8051`` ``USB-HS(PHY)`` ``USB-SS(PHY)`` ``USB-PD`` ``Ethernet`` ``10Mbps(PHY)`` ``1Gbps(MAC)`` ``HSPI`` ``SerDes`` ``UART`` ``BLE``
+
+
+`南京沁恒微电子 <http://www.wch.cn/>`_ 成立于2004年，是一家专注于连接技术和MCU内核研究的射频与高速数模混合集成电路设计公司，提供以太网、蓝牙无线网络、USB和PCI类等接口芯片及集成上述接口的MCU+单片机。
+
+该厂商的转换芯片如CH340普及率非常高，凭借在有线连接上的积累，推出的可编程器件都具备非常丰富的连接资源如USB/UART/Ethernet，产品品类非常丰富，同时也具备很高的性价比。
+
+`WCHISPTool <http://www.wch.cn/downloads/WCHISPTool_Setup_exe.html>`_
+
+
+.. list-table::
+    :header-rows:  1
+
+    * - `WCH <http://www.wch.cn/>`_
+      - Fmax(MHz)
+      - CoreMark
+      - Power/MHz
+      - Package
+      - Price
+    * - `CH32V203 <https://www.soc.xin/CH32V203>`_
+      - 144
+      -
+      - 45uA
+      - LQFP48
+      - `￥2.99 <https://item.szlcsc.com/3483852.html>`_
+    * - `CH32V208 <https://www.soc.xin/CH32V208>`_
+      - 144
+      -
+      -
+      - QFN68
+      - `￥7.21 <https://item.szlcsc.com/5860926.html>`_
+
