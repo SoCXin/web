@@ -1,7 +1,7 @@
 
 Cortex-M0
 ==================
-``Armv6-M`` ``1.62 CoreMark/MHz`` ``0.95 DMIPS/MHz``
+``Armv6-M`` ``2.39 CoreMark/MHz`` ``0.95 DMIPS/MHz``
 
 **好芯提示** ： `Cortex-M0 <https://github.com/SoCXin/Cortex-M0>`_ 内核架构资源整理
 
@@ -12,16 +12,16 @@ Cortex-M0
 .. list-table::
     :header-rows:  1
 
-    * - 工艺
+    * - `Process <https://doc.soc.xin/fabs.html>`_
       - DMIPS/MHz
       - CoreMark/MHz
       - Power/MHz
-      - Die Size
-    * - TSMC 40nm
+      - Area Size
+    * - `TSMC 40nm <https://www.tsmc.com/schinese>`_
       - 0.95
       - 2.39
       - 3.8µW
-      - 0.0066(mm2)
+      - 0.0066mm2
 
 Cortex-M处理器支持的指令集名为Thumb，而M0和M0+处理器则只支持其中的一个子集(56条指令)，这些指令多数为16位宽，只有6个指令是32位的。
 
