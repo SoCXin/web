@@ -1,49 +1,62 @@
 
-PY32F002
+PY32F002A
 ==================
 ``Cortex-M0`` ``24 MHz`` ``3KB SRAM``
 
 `普冉半导体PuyaSemi <https://www.puyasemi.com>`_ 是低功耗SPI NOR Flash存储器芯片和高可靠性IC EEPROM存储器芯片的供应商。
 
-PY32F0xx系列已适配 `PlatformIO <https://docs.platformio.org/en/latest/what-is-platformio.html>`_ 跨平台编译工具 `Platform-Puya <https://github.com/OS-Q/platform-puya>`_ ，非常适用于低成本RTU电机控制器方案 `Modbus RTU Slave <https://github.com/OS-Q/template-rtu>`_
+PY32F0xx系列已适配 `PlatformIO <https://docs.platformio.org/en/latest/what-is-platformio.html>`_ 跨平台编译工具，提供 `Platform-Puya <https://github.com/OS-Q/platform-puya>`_ 和官方开发框架 `Framework-Puya <https://github.com/OS-Q/framework-puya>`_ ，非常适用于低成本RTU电机控制器方案 `Modbus RTU Slave <https://github.com/OS-Q/template-rtu>`_
 
 
 .. list-table::
     :header-rows:  1
 
-    * - 型号
+    * - `Xindex <https://github.com/SoCXin>`_
       - Fmax(MHz)
       - CoreMark
+      - SRAM/Flash
       - 功耗/MHz
-      - 封装
-      - 价格
+      - 封装型号
+      - 零售价格
     * - `N32G430 <https://github.com/SoCXin/N32G430>`_
-      - 133
-      - 638
-      - 80μA
+      - 128
+      -
+      - 16KB/64KB
+      -
       - LQFP48
-      - `￥4.3 <https://item.szlcsc.com/2392.html>`_
+      - `￥4.5 <https://item.szlcsc.com/3571707.html>`_
+    * - `MH32F103A <https://www.soc.xin/MH32F103A/>`_
+      - 216
+      -
+      - 64KB/256KB
+      -
+      - LQFP48
+      - `￥4.50 <https://item.taobao.com/item.htm?spm=a230r.1.14.18.4e6268cfE8qItg&id=677658615003&ns=1&abbucket=3#detail>`_
     * - `RP2040 <https://www.soc.xin/RP2040>`_
       - 133
       - 638
-      - 80μA
+      - 264KB/256KB
+      -
       - QFN56
       - `￥4.3 <https://item.szlcsc.com/2392.html>`_
     * - STM32F030
       - 48
       -
+      - 4KB/16KB
       -
       - TSSOP20
       - `￥2.69 <https://item.szlcsc.com/33873.html>`_
     * - `STM32G030 <https://www.soc.xin/STM32G030>`_
       - 64
       - 142
+      - 8KB/32KB
       - 100μA
       - TSSOP20
       - `￥2.56 <https://item.szlcsc.com/769428.html>`_
     * - `PY32F002 <https://www.soc.xin/PY32F002>`_
-      - 24 MHz
+      - 24
       -
+      - 3KB/20KB
       -
       - TSSOP20
       - `￥0.75 <https://item.szlcsc.com/5732435.html>`_
