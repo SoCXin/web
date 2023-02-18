@@ -3,24 +3,51 @@ PY32F002
 ==================
 ``Cortex-M0`` ``24 MHz`` ``3KB SRAM``
 
+`普冉半导体PuyaSemi <https://www.puyasemi.com>`_ 是低功耗SPI NOR Flash存储器芯片和高可靠性IC EEPROM存储器芯片的供应商。
+
+PY32F0xx系列已适配 `PlatformIO <https://docs.platformio.org/en/latest/what-is-platformio.html>`_ 跨平台编译工具 `Platform-Puya <https://github.com/OS-Q/platform-puya>`_ ，非常适用于低成本RTU电机控制器方案 `Modbus RTU Slave <https://github.com/OS-Q/template-rtu>`_
+
 
 .. list-table::
     :header-rows:  1
 
     * - 型号
-      - Fmax
+      - Fmax(MHz)
       - CoreMark
-      - 功耗
+      - 功耗/MHz
+      - 封装
       - 价格
-    * - `RP2040 <https://www.soc.xin/RP2040>`_
-      - 133 MHz
+    * - `N32G430 <https://github.com/SoCXin/N32G430>`_
+      - 133
       - 638
-      - 80μA/MHz
+      - 80μA
+      - LQFP48
       - `￥4.3 <https://item.szlcsc.com/2392.html>`_
+    * - `RP2040 <https://www.soc.xin/RP2040>`_
+      - 133
+      - 638
+      - 80μA
+      - QFN56
+      - `￥4.3 <https://item.szlcsc.com/2392.html>`_
+    * - STM32F030
+      - 48
+      -
+      -
+      - TSSOP20
+      - `￥2.69 <https://item.szlcsc.com/33873.html>`_
     * - `STM32G030 <https://www.soc.xin/STM32G030>`_
-      - 64 MHz
+      - 64
       - 142
-      - 100μA/MHz
-      - `￥4.1 <https://item.szlcsc.com/549607.html>`_
+      - 100μA
+      - TSSOP20
+      - `￥2.56 <https://item.szlcsc.com/769428.html>`_
+    * - `PY32F002 <https://www.soc.xin/PY32F002>`_
+      - 24 MHz
+      -
+      -
+      - TSSOP20
+      - `￥0.75 <https://item.szlcsc.com/5732435.html>`_
+
+
 
 

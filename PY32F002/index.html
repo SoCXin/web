@@ -83,34 +83,61 @@
   <section id="py32f002">
 <h1>PY32F002<a class="headerlink" href="#py32f002" title="Permalink to this heading">¶</a></h1>
 <p><code class="docutils literal notranslate"><span class="pre">Cortex-M0</span></code> <code class="docutils literal notranslate"><span class="pre">24</span> <span class="pre">MHz</span></code> <code class="docutils literal notranslate"><span class="pre">3KB</span> <span class="pre">SRAM</span></code></p>
+<p><a class="reference external" href="https://www.puyasemi.com">普冉半导体PuyaSemi</a> 是低功耗SPI NOR Flash存储器芯片和高可靠性IC EEPROM存储器芯片的供应商。</p>
+<p>PY32F0xx系列已适配 <a class="reference external" href="https://docs.platformio.org/en/latest/what-is-platformio.html">PlatformIO</a> 跨平台编译工具 <a class="reference external" href="https://github.com/OS-Q/platform-puya">Platform-Puya</a> ，非常适用于低成本RTU电机控制器方案 <a class="reference external" href="https://github.com/OS-Q/template-rtu">Modbus RTU Slave</a></p>
 <table class="docutils align-default">
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><p>型号</p></th>
-<th class="head"><p>Fmax</p></th>
+<th class="head"><p>Fmax(MHz)</p></th>
 <th class="head"><p>CoreMark</p></th>
-<th class="head"><p>功耗</p></th>
+<th class="head"><p>功耗/MHz</p></th>
+<th class="head"><p>封装</p></th>
 <th class="head"><p>价格</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference external" href="https://www.soc.xin/RP2040">RP2040</a></p></td>
-<td><p>133 MHz</p></td>
+<tr class="row-even"><td><p><a class="reference external" href="https://github.com/SoCXin/N32G430">N32G430</a></p></td>
+<td><p>133</p></td>
 <td><p>638</p></td>
-<td><p>80μA/MHz</p></td>
+<td><p>80μA</p></td>
+<td><p>LQFP48</p></td>
 <td><p><a class="reference external" href="https://item.szlcsc.com/2392.html">￥4.3</a></p></td>
 </tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.soc.xin/RP2040">RP2040</a></p></td>
+<td><p>133</p></td>
+<td><p>638</p></td>
+<td><p>80μA</p></td>
+<td><p>QFN56</p></td>
+<td><p><a class="reference external" href="https://item.szlcsc.com/2392.html">￥4.3</a></p></td>
+</tr>
+<tr class="row-even"><td><p>STM32F030</p></td>
+<td><p>48</p></td>
+<td></td>
+<td></td>
+<td><p>TSSOP20</p></td>
+<td><p><a class="reference external" href="https://item.szlcsc.com/33873.html">￥2.69</a></p></td>
+</tr>
 <tr class="row-odd"><td><p><a class="reference external" href="https://www.soc.xin/STM32G030">STM32G030</a></p></td>
-<td><p>64 MHz</p></td>
+<td><p>64</p></td>
 <td><p>142</p></td>
-<td><p>100μA/MHz</p></td>
-<td><p><a class="reference external" href="https://item.szlcsc.com/549607.html">￥4.1</a></p></td>
+<td><p>100μA</p></td>
+<td><p>TSSOP20</p></td>
+<td><p><a class="reference external" href="https://item.szlcsc.com/769428.html">￥2.56</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.soc.xin/PY32F002">PY32F002</a></p></td>
+<td><p>24 MHz</p></td>
+<td></td>
+<td></td>
+<td><p>TSSOP20</p></td>
+<td><p><a class="reference external" href="https://item.szlcsc.com/5732435.html">￥0.75</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -149,18 +176,18 @@
       <div>\
         <ul class="nav navbar-nav">\
           <li class="dropdown">\
-            <a role="button" data-target="#" href="https://www.soc.xin/PY32F002" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>内核<span class="caret"></span>\
+            <a role="button" data-target="#" href="https://www.soc.xin/PY32F002" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>Cortex-M0<span class="caret"></span>\
             </a>\
             <ul class="dropdown-menu" role="menu">\
-              <li role="menuitem"><a href="https://www.soc.xin/PY32F002"><i class="fa fa-microchip"></i>PY32F002</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/RP2040"><i class="fa fa-microchip"></i>RP2040</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://www.soc.xin/PY32F002"><i class="fa fa-microchip"></i>	2.39 CoreMark/MHz</a></li>\
+              <li role="menuitem"><a href="https://www.soc.xin/STM32G030"><i class="fa fa-microchip"></i>STM32G030</a></li>\
               <li role="separator" class="divider"></li>\
-              <li role="menuitem"><a href="https://www.soc.xin/PY32F002"><i class="fa fa-microchip"></i>3.8 µW/MHz</a></li>\
+              <li role="menuitem"><a href="https://github.com/SoCXin/HCM3043"><i class="fa fa-microchip"></i>HCM3043</a></li>\
             </ul>\
           </li>\
           <li class="dropdown">\
-            <a role="button" data-target="#" href="https://www.soc.xin/PY32F002" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>存储<span class="caret"></span>\
+            <a role="button" data-target="#" href="https://www.soc.xin/PY32F002" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>SOP-8<span class="caret"></span>\
             </a>\
             <ul class="dropdown-menu" role="menu">\
               <li role="menuitem"><a href="https://www.soc.xin/PY32F002"><i class="fa fa-microchip"></i>264KB SRAM</a></li>\
@@ -171,7 +198,7 @@
             </ul>\
           </li>\
           <li class="dropdown">\
-            <a role="button" data-target="#" href="https://www.soc.xin/PY32F002" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>外设<span class="caret"></span>\
+            <a role="button" data-target="#" href="https://www.soc.xin/PY32F002" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>QFN16<span class="caret"></span>\
             </a>\
             <ul class="dropdown-menu" role="menu">\
               <li role="menuitem"><a href="https://www.soc.xin/PY32F002"><i class="fa fa-microchip"></i>30 GPIO(4 AIN)</a></li>\
@@ -182,7 +209,7 @@
             </ul>\
           </li>\
           <li class="dropdown">\
-            <a role="button" data-target="#" href="https://www.soc.xin/PY32F002" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>规格<span class="caret"></span>\
+            <a role="button" data-target="#" href="https://www.soc.xin/PY32F002" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i>TSSOP20<span class="caret"></span>\
             </a>\
             <ul class="dropdown-menu" role="menu">\
               <li role="menuitem"><a href="https://www.soc.xin/PY32F002"><i class="fa fa-microchip"></i>QFN56(7x7)</a></li>\
@@ -247,7 +274,7 @@
 
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
   <span class="rst-current-version" data-toggle="rst-current-version">
-    <span class="fa fa-book">PY32F0xx</span> v0.1
+    <span class="fa fa-book">PY32F0xx Documentation</span> v0.1
     <span class="fa fa-caret-down"></span>
   </span>
   <div class="rst-other-versions">
