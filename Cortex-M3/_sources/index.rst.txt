@@ -1,0 +1,15 @@
+
+Cortex-M3
+==================
+``ARMv7-M`` ``2.39 CoreMark/MHz`` ``0.95 DMIPS/MHz``
+
+Cortex－M3处理器采用ARMv7-M架构，它包括所有的16位Thumb指令集和基本的32位Thumb-2指令集架构，Cortex-M3处理器不能执行ARM指令集。
+
+Thumb-2在Thumb指令集架构（ISA）上进行了大量的改进，它与Thumb相比，具有更高的代码密度并提供16/32位指令的更高性能。
+
+Cortex-M3采用哈佛结构，并选择了适合于微控制器应用的三级流水线，但增加了分支预测功能。
+
+
+.. hint::
+    `Cortex-M3 <https://github.com/SoCXin/Cortex-M3>`_ 是免授权费用的商用核心架构，但目前 `RISC-V <https://github.com/SoCXin/RISC-V>`_ 架构正在取代Cortex-M0
+
