@@ -1,15 +1,34 @@
 
 Cortex-M3
 ==================
-``ARMv7-M`` ``2.39 CoreMark/MHz`` ``0.95 DMIPS/MHz``
+``ARMv7-M`` ``2.19 CoreMark/MHz`` ``1.25 DMIPS/MHz``
 
-Cortex－M3处理器采用ARMv7-M架构，它包括所有的16位Thumb指令集和基本的32位Thumb-2指令集架构，Cortex-M3处理器不能执行ARM指令集。
+采用哈佛结构的Cortex－M3处理器采用ARMv7-M架构，它包括所有的16位Thumb指令集和基本的32位Thumb-2指令集架构，Cortex-M3处理器不能执行ARM指令集。三级流水线，但增加了分支预测功能。
 
 Thumb-2在Thumb指令集架构（ISA）上进行了大量的改进，它与Thumb相比，具有更高的代码密度并提供16/32位指令的更高性能。
 
-Cortex-M3采用哈佛结构，并选择了适合于微控制器应用的三级流水线，但增加了分支预测功能。
+
+.. hint::
+    `Cortex-M3 <https://github.com/SoCXin/Cortex-M3>`_ 是免授权商用核心架构，但 `RISC-V <https://github.com/SoCXin/RISC-V>`_ 架构正在取代其地位。
+
+
+与Cortex-M3相比，Cortex-M4的升级包括：
+
+* 可选的MPU单元
+* M4支持SIMD指令集
+* 具有32位乘法累加器MAC
+* 具有一个专用浮点运算单元FPU
+* 更高级的电源管理模式，从而带来更好的功率效能
+* 带来更快的图像处理速度，浮点运算能力M4大约是M3的1.4倍
+
+Cortex-M4提供了更丰富的指令集，M4比M3多了浮点运算指令、单周期的MAC指令、SIMD指令和更多的饱和指令。
 
 
 .. hint::
-    `Cortex-M3 <https://github.com/SoCXin/Cortex-M3>`_ 是免授权费用的商用核心架构，但目前 `RISC-V <https://github.com/SoCXin/RISC-V>`_ 架构正在取代Cortex-M0
+    目前MCU常用内核有ARM的Cortex-M0、M3、M4、M7以及RISC-V内核等，这些内核的延迟时间是不一样的。所谓中断延迟（响应）时间，即从中断触发条件产生到中断函数执行的时间。
 
+
+CMSIS
+-----------
+
+ARM Cortex 微控制器软件接口标准 (CMSIS)是 Cortex-M 处理器系列的与供应商无关的硬件抽象层。 使用 CMSIS，可以为接口外设、实时操作系统和中间件实现一致且简单的软件接口，从而简化软件的重用、缩短新微控制器开发人员的学习过程，并缩短新产品的上市时间。
